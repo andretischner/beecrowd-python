@@ -32,5 +32,4 @@ WHERE customers.state = 'RS'
 '''
 ### RESPOSTA
 
-
 [print(linha) for linha in cursor.execute(resposta).fetchall()]

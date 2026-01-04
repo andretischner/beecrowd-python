@@ -17,7 +17,7 @@ Repositório com minhas soluções dos problemas do [Beecrowd](https://judge.bee
 | Iniciante | 1 | 334 |
 | Matemática | 0 | 269 |
 | Paradigmas | 0 | 215 |
-| SQL | 0 | 50 |
+| SQL | 1 | 50 |
 | Strings | 1 | 150 |
 
 ## 📁 Estrutura do Repositório
@@ -2489,12 +2489,12 @@ Exemplo: `1000.py` para o problema 1000
 
 </details>
 
-### 9️⃣ SQL (0/50)
+### 9️⃣ SQL (1/50)
 
 <details>
 <summary>📋 Ver todos os 50 problemas (Clique para expandir)</summary>
 
-- [0] [2602](https://judge.beecrowd.com/pt/problems/view/2602) - Select Básico
+- [x] [2602](https://judge.beecrowd.com/pt/problems/view/2602) - Select Básico
 - [ ] [2603](https://judge.beecrowd.com/pt/problems/view/2603) - Endereço dos Clientes
 - [ ] [2604](https://judge.beecrowd.com/pt/problems/view/2604) - Menores que 10 ou Maiores que 100
 - [ ] [2605](https://judge.beecrowd.com/pt/problems/view/2605) - Representantes Executivos
