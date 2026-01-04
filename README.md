@@ -4,21 +4,21 @@ Repositório com minhas soluções dos problemas do [Beecrowd](https://judge.bee
 
 ## 📊 Progresso Geral
 
-![Problemas Resolvidos](https://img.shields.io/badge/Resolvidos-0-blue)
+![Problemas Resolvidos](https://img.shields.io/badge/Resolvidos-4-blue)
 ![Linguagem](https://img.shields.io/badge/Linguagem-Python-green)
 ![Total de Problemas](https://img.shields.io/badge/Total-2411-orange)
 
 | Categoria | Resolvidos | Total |
 |-----------|------------|-------|
-| Ad-Hoc | 0 | 853 |
+| Ad-Hoc | 1 | 853 |
 | Estruturas e Bibliotecas | 0 | 180 |
 | Geometria Computacional | 0 | 83 |
 | Grafos | 0 | 277 |
-| Iniciante | 0 | 334 |
+| Iniciante | 1 | 334 |
 | Matemática | 0 | 269 |
 | Paradigmas | 0 | 215 |
 | SQL | 0 | 50 |
-| Strings | 0 | 150 |
+| Strings | 1 | 150 |
 
 ## 📁 Estrutura do Repositório
 
@@ -64,12 +64,12 @@ Exemplo: `1000.py` para o problema 1000
 > **Links:** Clique no número do problema para acessá-lo no Beecrowd
 
 
-### 1️⃣ Iniciante (0/334)
+### 1️⃣ Iniciante (1/334)
 
 <details>
 <summary>📋 Ver todos os 334 problemas (Clique para expandir)</summary>
 
-- [ ] [1000](https://judge.beecrowd.com/pt/problems/view/1000) - Hello World!
+- [x] [1000](https://judge.beecrowd.com/pt/problems/view/1000) - Hello World!
 - [ ] [1001](https://judge.beecrowd.com/pt/problems/view/1001) - Extremamente Básico
 - [ ] [1002](https://judge.beecrowd.com/pt/problems/view/1002) - Área do Círculo
 - [ ] [1003](https://judge.beecrowd.com/pt/problems/view/1003) - Soma Simples
@@ -406,12 +406,12 @@ Exemplo: `1000.py` para o problema 1000
 
 </details>
 
-### 2️⃣ Ad-Hoc (0/853)
+### 2️⃣ Ad-Hoc (1/853)
 
 <details>
 <summary>📋 Ver todos os 853 problemas (Clique para expandir)</summary>
 
-- [ ] [1026](https://judge.beecrowd.com/pt/problems/view/1026) - Carrega ou não Carrega?
+- [x] [1026](https://judge.beecrowd.com/pt/problems/view/1026) - Carrega ou não Carrega?
 - [ ] [1030](https://judge.beecrowd.com/pt/problems/view/1030) - A Lenda de Flavious Josephus
 - [ ] [1031](https://judge.beecrowd.com/pt/problems/view/1031) - Crise de Energia
 - [ ] [1032](https://judge.beecrowd.com/pt/problems/view/1032) - O Primo de Josephus
@@ -1267,12 +1267,12 @@ Exemplo: `1000.py` para o problema 1000
 
 </details>
 
-### 3️⃣ Strings (0/150)
+### 3️⃣ Strings (1/150)
 
 <details>
 <summary>📋 Ver todos os 150 problemas (Clique para expandir)</summary>
 
-- [ ] [1024](https://judge.beecrowd.com/pt/problems/view/1024) - Criptografia
+- [x] [1024](https://judge.beecrowd.com/pt/problems/view/1024) - Criptografia
 - [ ] [1120](https://judge.beecrowd.com/pt/problems/view/1120) - Revisão de Contrato
 - [ ] [1141](https://judge.beecrowd.com/pt/problems/view/1141) - Cultivando Strings
 - [ ] [1168](https://judge.beecrowd.com/pt/problems/view/1168) - LED
