@@ -1,4 +1,3 @@
-# Inicializando pasta
 import sys
 
 for linha in sys.stdin:
