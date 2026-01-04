@@ -1,0 +1,2558 @@
+# 🐝 Beecrowd Python
+
+Repositório com minhas soluções dos problemas do [Beecrowd](https://judge.beecrowd.com/) (antigo URI Online Judge) em Python.
+
+## 📊 Progresso Geral
+
+![Problemas Resolvidos](https://img.shields.io/badge/Resolvidos-0-blue)
+![Linguagem](https://img.shields.io/badge/Linguagem-Python-green)
+![Total de Problemas](https://img.shields.io/badge/Total-2411-orange)
+
+| Categoria | Resolvidos | Total |
+|-----------|------------|-------|
+| Ad-Hoc | 0 | 853 |
+| Estruturas e Bibliotecas | 0 | 180 |
+| Geometria Computacional | 0 | 83 |
+| Grafos | 0 | 277 |
+| Iniciante | 0 | 334 |
+| Matemática | 0 | 269 |
+| Paradigmas | 0 | 215 |
+| SQL | 0 | 50 |
+| Strings | 0 | 150 |
+
+## 📁 Estrutura do Repositório
+
+```
+beecrowd-python/
+├── 1_iniciante/
+│   ├── 1000.py
+│   ├── 1001.py
+│   └── ...
+├── 2_ad_hoc/
+├── 3_strings/
+├── 4_estruturas/
+├── 5_matematica/
+├── 6_paradigmas/
+├── 7_grafos/
+├── 8_geometria/
+└── 9_sql/
+```
+
+## 🚀 Como usar
+
+1. Clone o repositório:
+```bash
+git clone https://github.com/andretischner/beecrowd-python.git
+```
+
+2. Navegue até a pasta do problema desejado
+
+3. Execute a solução:
+```bash
+python 1000.py
+```
+
+## 📝 Padrão de Nomenclatura
+
+Os arquivos seguem o padrão: `XXXX.py` onde XXXX é o número do problema.
+
+Exemplo: `1000.py` para o problema 1000
+
+## ✅ Lista de Problemas
+
+> **Dica:** Marque como `[x]` quando resolver um problema!
+> **Links:** Clique no número do problema para acessá-lo no Beecrowd
+
+
+### 1️⃣ Iniciante (0/334)
+
+<details>
+<summary>📋 Ver todos os 334 problemas (Clique para expandir)</summary>
+
+- [ ] [1000](https://judge.beecrowd.com/pt/problems/view/1000) - Hello World!
+- [ ] [1001](https://judge.beecrowd.com/pt/problems/view/1001) - Extremamente Básico
+- [ ] [1002](https://judge.beecrowd.com/pt/problems/view/1002) - Área do Círculo
+- [ ] [1003](https://judge.beecrowd.com/pt/problems/view/1003) - Soma Simples
+- [ ] [1004](https://judge.beecrowd.com/pt/problems/view/1004) - Produto Simples
+- [ ] [1005](https://judge.beecrowd.com/pt/problems/view/1005) - Média 1
+- [ ] [1006](https://judge.beecrowd.com/pt/problems/view/1006) - Média 2
+- [ ] [1007](https://judge.beecrowd.com/pt/problems/view/1007) - Diferença
+- [ ] [1008](https://judge.beecrowd.com/pt/problems/view/1008) - Salário
+- [ ] [1009](https://judge.beecrowd.com/pt/problems/view/1009) - Salário com Bônus
+- [ ] [1010](https://judge.beecrowd.com/pt/problems/view/1010) - Cálculo Simples
+- [ ] [1011](https://judge.beecrowd.com/pt/problems/view/1011) - Esfera
+- [ ] [1012](https://judge.beecrowd.com/pt/problems/view/1012) - Área
+- [ ] [1013](https://judge.beecrowd.com/pt/problems/view/1013) - O Maior
+- [ ] [1014](https://judge.beecrowd.com/pt/problems/view/1014) - Consumo
+- [ ] [1015](https://judge.beecrowd.com/pt/problems/view/1015) - Distância Entre Dois Pontos
+- [ ] [1016](https://judge.beecrowd.com/pt/problems/view/1016) - Distância
+- [ ] [1017](https://judge.beecrowd.com/pt/problems/view/1017) - Gasto de Combustível
+- [ ] [1018](https://judge.beecrowd.com/pt/problems/view/1018) - Cédulas
+- [ ] [1019](https://judge.beecrowd.com/pt/problems/view/1019) - Conversão de Tempo
+- [ ] [1020](https://judge.beecrowd.com/pt/problems/view/1020) - Idade em Dias
+- [ ] [1021](https://judge.beecrowd.com/pt/problems/view/1021) - Notas e Moedas
+- [ ] [1035](https://judge.beecrowd.com/pt/problems/view/1035) - Teste de Seleção 1
+- [ ] [1036](https://judge.beecrowd.com/pt/problems/view/1036) - Fórmula de Bhaskara
+- [ ] [1037](https://judge.beecrowd.com/pt/problems/view/1037) - Intervalo
+- [ ] [1038](https://judge.beecrowd.com/pt/problems/view/1038) - Lanche
+- [ ] [1040](https://judge.beecrowd.com/pt/problems/view/1040) - Média 3
+- [ ] [1041](https://judge.beecrowd.com/pt/problems/view/1041) - Coordenadas de um Ponto
+- [ ] [1042](https://judge.beecrowd.com/pt/problems/view/1042) - Sort Simples
+- [ ] [1043](https://judge.beecrowd.com/pt/problems/view/1043) - Triângulo
+- [ ] [1044](https://judge.beecrowd.com/pt/problems/view/1044) - Múltiplos
+- [ ] [1045](https://judge.beecrowd.com/pt/problems/view/1045) - Tipos de Triângulos
+- [ ] [1046](https://judge.beecrowd.com/pt/problems/view/1046) - Tempo de Jogo
+- [ ] [1047](https://judge.beecrowd.com/pt/problems/view/1047) - Tempo de Jogo com Minutos
+- [ ] [1048](https://judge.beecrowd.com/pt/problems/view/1048) - Aumento de Salário
+- [ ] [1049](https://judge.beecrowd.com/pt/problems/view/1049) - Animal
+- [ ] [1050](https://judge.beecrowd.com/pt/problems/view/1050) - DDD
+- [ ] [1051](https://judge.beecrowd.com/pt/problems/view/1051) - Imposto de Renda
+- [ ] [1052](https://judge.beecrowd.com/pt/problems/view/1052) - Mês
+- [ ] [1059](https://judge.beecrowd.com/pt/problems/view/1059) - Números Pares
+- [ ] [1060](https://judge.beecrowd.com/pt/problems/view/1060) - Números Positivos
+- [ ] [1061](https://judge.beecrowd.com/pt/problems/view/1061) - Tempo de um Evento
+- [ ] [1064](https://judge.beecrowd.com/pt/problems/view/1064) - Positivos e Média
+- [ ] [1065](https://judge.beecrowd.com/pt/problems/view/1065) - Pares entre Cinco Números
+- [ ] [1066](https://judge.beecrowd.com/pt/problems/view/1066) - Pares, Ímpares, Positivos e Negativos
+- [ ] [1067](https://judge.beecrowd.com/pt/problems/view/1067) - Números Ímpares
+- [ ] [1070](https://judge.beecrowd.com/pt/problems/view/1070) - Seis Números Ímpares
+- [ ] [1071](https://judge.beecrowd.com/pt/problems/view/1071) - Soma de Impares Consecutivos I
+- [ ] [1072](https://judge.beecrowd.com/pt/problems/view/1072) - Intervalo 2
+- [ ] [1073](https://judge.beecrowd.com/pt/problems/view/1073) - Quadrado de Pares
+- [ ] [1074](https://judge.beecrowd.com/pt/problems/view/1074) - Par ou Ímpar
+- [ ] [1075](https://judge.beecrowd.com/pt/problems/view/1075) - Resto 2
+- [ ] [1078](https://judge.beecrowd.com/pt/problems/view/1078) - Tabuada
+- [ ] [1079](https://judge.beecrowd.com/pt/problems/view/1079) - Médias Ponderadas
+- [ ] [1080](https://judge.beecrowd.com/pt/problems/view/1080) - Maior e Posição
+- [ ] [1094](https://judge.beecrowd.com/pt/problems/view/1094) - Experiências
+- [ ] [1095](https://judge.beecrowd.com/pt/problems/view/1095) - Sequencia IJ 1
+- [ ] [1096](https://judge.beecrowd.com/pt/problems/view/1096) - Sequencia IJ 2
+- [ ] [1097](https://judge.beecrowd.com/pt/problems/view/1097) - Sequencia IJ 3
+- [ ] [1098](https://judge.beecrowd.com/pt/problems/view/1098) - Sequencia IJ 4
+- [ ] [1099](https://judge.beecrowd.com/pt/problems/view/1099) - Soma de Ímpares Consecutivos II
+- [ ] [1101](https://judge.beecrowd.com/pt/problems/view/1101) - Sequência de Números e Soma
+- [ ] [1113](https://judge.beecrowd.com/pt/problems/view/1113) - Crescente e Decrescente
+- [ ] [1114](https://judge.beecrowd.com/pt/problems/view/1114) - Senha Fixa
+- [ ] [1115](https://judge.beecrowd.com/pt/problems/view/1115) - Quadrante
+- [ ] [1116](https://judge.beecrowd.com/pt/problems/view/1116) - Dividindo X por Y
+- [ ] [1117](https://judge.beecrowd.com/pt/problems/view/1117) - Validação de Nota
+- [ ] [1118](https://judge.beecrowd.com/pt/problems/view/1118) - Várias Notas Com Validação
+- [ ] [1131](https://judge.beecrowd.com/pt/problems/view/1131) - Grenais
+- [ ] [1132](https://judge.beecrowd.com/pt/problems/view/1132) - Múltiplos de 13
+- [ ] [1133](https://judge.beecrowd.com/pt/problems/view/1133) - Resto da Divisão
+- [ ] [1134](https://judge.beecrowd.com/pt/problems/view/1134) - Tipo de Combustível
+- [ ] [1142](https://judge.beecrowd.com/pt/problems/view/1142) - PUM
+- [ ] [1143](https://judge.beecrowd.com/pt/problems/view/1143) - Quadrado e ao Cubo
+- [ ] [1144](https://judge.beecrowd.com/pt/problems/view/1144) - Sequência Lógica
+- [ ] [1145](https://judge.beecrowd.com/pt/problems/view/1145) - Sequência Lógica 2
+- [ ] [1146](https://judge.beecrowd.com/pt/problems/view/1146) - Sequências Crescentes
+- [ ] [1149](https://judge.beecrowd.com/pt/problems/view/1149) - Somando Inteiros Consecutivos
+- [ ] [1150](https://judge.beecrowd.com/pt/problems/view/1150) - Ultrapassando Z
+- [ ] [1151](https://judge.beecrowd.com/pt/problems/view/1151) - Fibonacci Fácil
+- [ ] [1153](https://judge.beecrowd.com/pt/problems/view/1153) - Fatorial Simples
+- [ ] [1154](https://judge.beecrowd.com/pt/problems/view/1154) - Idades
+- [ ] [1155](https://judge.beecrowd.com/pt/problems/view/1155) - Sequência S
+- [ ] [1156](https://judge.beecrowd.com/pt/problems/view/1156) - Sequência S II
+- [ ] [1157](https://judge.beecrowd.com/pt/problems/view/1157) - Divisores I
+- [ ] [1158](https://judge.beecrowd.com/pt/problems/view/1158) - Soma de Ímpares Consecutivos III
+- [ ] [1159](https://judge.beecrowd.com/pt/problems/view/1159) - Soma de Pares Consecutivos
+- [ ] [1160](https://judge.beecrowd.com/pt/problems/view/1160) - Crescimento Populacional
+- [ ] [1164](https://judge.beecrowd.com/pt/problems/view/1164) - Número Perfeito
+- [ ] [1165](https://judge.beecrowd.com/pt/problems/view/1165) - Número Primo
+- [ ] [1172](https://judge.beecrowd.com/pt/problems/view/1172) - Substituição em Vetor I
+- [ ] [1173](https://judge.beecrowd.com/pt/problems/view/1173) - Preenchimento de Vetor I
+- [ ] [1174](https://judge.beecrowd.com/pt/problems/view/1174) - Seleçao em Vetor I
+- [ ] [1175](https://judge.beecrowd.com/pt/problems/view/1175) - Troca em Vetor I
+- [ ] [1176](https://judge.beecrowd.com/pt/problems/view/1176) - Fibonacci em Vetor
+- [ ] [1177](https://judge.beecrowd.com/pt/problems/view/1177) - Preenchimento de Vetor II
+- [ ] [1178](https://judge.beecrowd.com/pt/problems/view/1178) - Preenchimento de Vetor III
+- [ ] [1179](https://judge.beecrowd.com/pt/problems/view/1179) - Preenchimento de Vetor IV
+- [ ] [1180](https://judge.beecrowd.com/pt/problems/view/1180) - Menor e Posição
+- [ ] [1181](https://judge.beecrowd.com/pt/problems/view/1181) - Linha na Matriz
+- [ ] [1182](https://judge.beecrowd.com/pt/problems/view/1182) - Coluna na Matriz
+- [ ] [1183](https://judge.beecrowd.com/pt/problems/view/1183) - Acima da Diagonal Principal
+- [ ] [1184](https://judge.beecrowd.com/pt/problems/view/1184) - Abaixo da Diagonal Principal
+- [ ] [1185](https://judge.beecrowd.com/pt/problems/view/1185) - Acima da Diagonal Secundária
+- [ ] [1186](https://judge.beecrowd.com/pt/problems/view/1186) - Abaixo da Diagonal Secundária
+- [ ] [1187](https://judge.beecrowd.com/pt/problems/view/1187) - Área Superior
+- [ ] [1188](https://judge.beecrowd.com/pt/problems/view/1188) - Área Inferior
+- [ ] [1189](https://judge.beecrowd.com/pt/problems/view/1189) - Área Esquerda
+- [ ] [1190](https://judge.beecrowd.com/pt/problems/view/1190) - Área Direita
+- [ ] [1435](https://judge.beecrowd.com/pt/problems/view/1435) - Matriz Quadrada I
+- [ ] [1478](https://judge.beecrowd.com/pt/problems/view/1478) - Matriz Quadrada II
+- [ ] [1534](https://judge.beecrowd.com/pt/problems/view/1534) - Matriz 123
+- [ ] [1541](https://judge.beecrowd.com/pt/problems/view/1541) - Construindo Casas
+- [ ] [1557](https://judge.beecrowd.com/pt/problems/view/1557) - Matriz Quadrada III
+- [ ] [1564](https://judge.beecrowd.com/pt/problems/view/1564) - Vai Ter Copa?
+- [ ] [1589](https://judge.beecrowd.com/pt/problems/view/1589) - Bob Conduite
+- [ ] [1759](https://judge.beecrowd.com/pt/problems/view/1759) - Ho Ho Ho
+- [ ] [1789](https://judge.beecrowd.com/pt/problems/view/1789) - A Corrida de Lesmas
+- [ ] [1827](https://judge.beecrowd.com/pt/problems/view/1827) - Matriz Quadrada IV
+- [ ] [1828](https://judge.beecrowd.com/pt/problems/view/1828) - Bazinga!
+- [ ] [1837](https://judge.beecrowd.com/pt/problems/view/1837) - Prefácio
+- [ ] [1847](https://judge.beecrowd.com/pt/problems/view/1847) - Bem-vindos e Bem-vindas ao Inverno!
+- [ ] [1848](https://judge.beecrowd.com/pt/problems/view/1848) - Corvo Contador
+- [ ] [1858](https://judge.beecrowd.com/pt/problems/view/1858) - A Resposta de Theon
+- [ ] [1864](https://judge.beecrowd.com/pt/problems/view/1864) - Nossos Dias Nunca Voltarão
+- [ ] [1865](https://judge.beecrowd.com/pt/problems/view/1865) - Mjölnir
+- [ ] [1866](https://judge.beecrowd.com/pt/problems/view/1866) - Conta
+- [ ] [1914](https://judge.beecrowd.com/pt/problems/view/1914) - De Quem é a Vez?
+- [ ] [1924](https://judge.beecrowd.com/pt/problems/view/1924) - Vitória e a Indecisão
+- [ ] [1929](https://judge.beecrowd.com/pt/problems/view/1929) - Triângulo
+- [ ] [1930](https://judge.beecrowd.com/pt/problems/view/1930) - Tomadas
+- [ ] [1933](https://judge.beecrowd.com/pt/problems/view/1933) - Tri-du
+- [ ] [1957](https://judge.beecrowd.com/pt/problems/view/1957) - Converter para Hexadecimal
+- [ ] [1958](https://judge.beecrowd.com/pt/problems/view/1958) - Notação Científica
+- [ ] [1959](https://judge.beecrowd.com/pt/problems/view/1959) - Polígonos Regulares Simples
+- [ ] [1960](https://judge.beecrowd.com/pt/problems/view/1960) - Numeração Romana para Números de Página
+- [ ] [1961](https://judge.beecrowd.com/pt/problems/view/1961) - Pula Sapo
+- [ ] [1962](https://judge.beecrowd.com/pt/problems/view/1962) - Há Muito, Muito Tempo Atrás
+- [ ] [1963](https://judge.beecrowd.com/pt/problems/view/1963) - O Filme
+- [ ] [1973](https://judge.beecrowd.com/pt/problems/view/1973) - Jornada nas Estrelas
+- [ ] [1983](https://judge.beecrowd.com/pt/problems/view/1983) - O Escolhido
+- [ ] [1984](https://judge.beecrowd.com/pt/problems/view/1984) - O Enigma do Pronalândia
+- [ ] [1985](https://judge.beecrowd.com/pt/problems/view/1985) - MacPRONALTS
+- [ ] [2003](https://judge.beecrowd.com/pt/problems/view/2003) - Domingo de Manhã
+- [ ] [2006](https://judge.beecrowd.com/pt/problems/view/2006) - Identificando o Chá
+- [ ] [2028](https://judge.beecrowd.com/pt/problems/view/2028) - Sequência de Sequência
+- [ ] [2029](https://judge.beecrowd.com/pt/problems/view/2029) - Reservatório de Mel
+- [ ] [2031](https://judge.beecrowd.com/pt/problems/view/2031) - Pedra, Papel, Ataque Aéreo
+- [ ] [2057](https://judge.beecrowd.com/pt/problems/view/2057) - Fuso Horário
+- [ ] [2059](https://judge.beecrowd.com/pt/problems/view/2059) - Ímpar, Par ou Roubo
+- [ ] [2060](https://judge.beecrowd.com/pt/problems/view/2060) - Desafio de Bino
+- [ ] [2061](https://judge.beecrowd.com/pt/problems/view/2061) - As Abas de Péricles
+- [ ] [2126](https://judge.beecrowd.com/pt/problems/view/2126) - Procurando Subsequências
+- [ ] [2139](https://judge.beecrowd.com/pt/problems/view/2139) - Natal de Pedrinho
+- [ ] [2140](https://judge.beecrowd.com/pt/problems/view/2140) - Duas Notas
+- [ ] [2143](https://judge.beecrowd.com/pt/problems/view/2143) - A Volta do Radar
+- [ ] [2146](https://judge.beecrowd.com/pt/problems/view/2146) - Senha
+- [ ] [2147](https://judge.beecrowd.com/pt/problems/view/2147) - Galopeira
+- [ ] [2152](https://judge.beecrowd.com/pt/problems/view/2152) - Pepe, Já Tirei a Vela!
+- [ ] [2159](https://judge.beecrowd.com/pt/problems/view/2159) - Número Aproximado de Primos
+- [ ] [2160](https://judge.beecrowd.com/pt/problems/view/2160) - Nome no Formulário
+- [ ] [2161](https://judge.beecrowd.com/pt/problems/view/2161) - Raiz Quadrada de 10
+- [ ] [2162](https://judge.beecrowd.com/pt/problems/view/2162) - Picos e Vales
+- [ ] [2163](https://judge.beecrowd.com/pt/problems/view/2163) - O Despertar da Força
+- [ ] [2164](https://judge.beecrowd.com/pt/problems/view/2164) - Fibonacci Rápido
+- [ ] [2165](https://judge.beecrowd.com/pt/problems/view/2165) - Tuitando
+- [ ] [2166](https://judge.beecrowd.com/pt/problems/view/2166) - Raiz Quadrada de 2
+- [ ] [2167](https://judge.beecrowd.com/pt/problems/view/2167) - Falha do Motor
+- [ ] [2168](https://judge.beecrowd.com/pt/problems/view/2168) - Crepúsculo em Portland
+- [ ] [2172](https://judge.beecrowd.com/pt/problems/view/2172) - Evento
+- [ ] [2176](https://judge.beecrowd.com/pt/problems/view/2176) - Paridade
+- [ ] [2203](https://judge.beecrowd.com/pt/problems/view/2203) - Tempestade de Corvos
+- [ ] [2221](https://judge.beecrowd.com/pt/problems/view/2221) - Batalha de Pomekons
+- [ ] [2234](https://judge.beecrowd.com/pt/problems/view/2234) - Cachorros-Quentes
+- [ ] [2235](https://judge.beecrowd.com/pt/problems/view/2235) - Andando no Tempo
+- [ ] [2310](https://judge.beecrowd.com/pt/problems/view/2310) - Voleibol
+- [ ] [2311](https://judge.beecrowd.com/pt/problems/view/2311) - Saltos Ornamentais
+- [ ] [2313](https://judge.beecrowd.com/pt/problems/view/2313) - Qual Triângulo
+- [ ] [2334](https://judge.beecrowd.com/pt/problems/view/2334) - Patinhos
+- [ ] [2344](https://judge.beecrowd.com/pt/problems/view/2344) - Notas da Prova
+- [ ] [2483](https://judge.beecrowd.com/pt/problems/view/2483) - Feliz Nataaal!
+- [ ] [2486](https://judge.beecrowd.com/pt/problems/view/2486) - C Mais ou Menos?
+- [ ] [2493](https://judge.beecrowd.com/pt/problems/view/2493) - Jogo do Operador
+- [ ] [2502](https://judge.beecrowd.com/pt/problems/view/2502) - Decifrando a Carta Criptografada
+- [ ] [2510](https://judge.beecrowd.com/pt/problems/view/2510) - Batmain
+- [ ] [2520](https://judge.beecrowd.com/pt/problems/view/2520) - O Último Analógimôn
+- [ ] [2523](https://judge.beecrowd.com/pt/problems/view/2523) - A Mensagem de Will
+- [ ] [2533](https://judge.beecrowd.com/pt/problems/view/2533) - Estágio
+- [ ] [2534](https://judge.beecrowd.com/pt/problems/view/2534) - Exame Geral
+- [ ] [2540](https://judge.beecrowd.com/pt/problems/view/2540) - Impeachment do Líder
+- [ ] [2542](https://judge.beecrowd.com/pt/problems/view/2542) - Iu-Di-Oh!
+- [ ] [2543](https://judge.beecrowd.com/pt/problems/view/2543) - Jogatina UFPR
+- [ ] [2544](https://judge.beecrowd.com/pt/problems/view/2544) - Kage Bunshin no Jutsu
+- [ ] [2547](https://judge.beecrowd.com/pt/problems/view/2547) - Montanha-Russa
+- [ ] [2551](https://judge.beecrowd.com/pt/problems/view/2551) - Novo Recorde
+- [ ] [2552](https://judge.beecrowd.com/pt/problems/view/2552) - PãodeQuejoSweeper
+- [ ] [2554](https://judge.beecrowd.com/pt/problems/view/2554) - Pizza Antes de BH
+- [ ] [2581](https://judge.beecrowd.com/pt/problems/view/2581) - I am Toorg!
+- [ ] [2582](https://judge.beecrowd.com/pt/problems/view/2582) - System of a Download
+- [ ] [2626](https://judge.beecrowd.com/pt/problems/view/2626) - Turma do JB6
+- [ ] [2630](https://judge.beecrowd.com/pt/problems/view/2630) - Escala de Cinza
+- [ ] [2632](https://judge.beecrowd.com/pt/problems/view/2632) - Magic and Sword
+- [ ] [2635](https://judge.beecrowd.com/pt/problems/view/2635) - Navegador Web
+- [ ] [2653](https://judge.beecrowd.com/pt/problems/view/2653) - Dijkstra
+- [ ] [2663](https://judge.beecrowd.com/pt/problems/view/2663) - Fase
+- [ ] [2670](https://judge.beecrowd.com/pt/problems/view/2670) - Máquina de Café
+- [ ] [2685](https://judge.beecrowd.com/pt/problems/view/2685) - A Mudança
+- [ ] [2686](https://judge.beecrowd.com/pt/problems/view/2686) - A Mudança Continua!!
+- [ ] [2702](https://judge.beecrowd.com/pt/problems/view/2702) - Escolha Difícil
+- [ ] [2708](https://judge.beecrowd.com/pt/problems/view/2708) - Turistas no Parque Huacachina
+- [ ] [2709](https://judge.beecrowd.com/pt/problems/view/2709) - As Moedas de Robbie
+- [ ] [2712](https://judge.beecrowd.com/pt/problems/view/2712) - Rodízio Veicular
+- [ ] [2715](https://judge.beecrowd.com/pt/problems/view/2715) - Dividindo os Trabalhos I
+- [ ] [2717](https://judge.beecrowd.com/pt/problems/view/2717) - Tempo do Duende
+- [ ] [2718](https://judge.beecrowd.com/pt/problems/view/2718) - Luzes de Natal
+- [ ] [2721](https://judge.beecrowd.com/pt/problems/view/2721) - Indecisão das Renas
+- [ ] [2724](https://judge.beecrowd.com/pt/problems/view/2724) - Ajude Patatatitu
+- [ ] [2727](https://judge.beecrowd.com/pt/problems/view/2727) - Código Secreto
+- [ ] [2747](https://judge.beecrowd.com/pt/problems/view/2747) - Saída 1
+- [ ] [2748](https://judge.beecrowd.com/pt/problems/view/2748) - Saída 2
+- [ ] [2749](https://judge.beecrowd.com/pt/problems/view/2749) - Saída 3
+- [ ] [2750](https://judge.beecrowd.com/pt/problems/view/2750) - Saída 4
+- [ ] [2752](https://judge.beecrowd.com/pt/problems/view/2752) - Saída 6
+- [ ] [2753](https://judge.beecrowd.com/pt/problems/view/2753) - Saída 7
+- [ ] [2754](https://judge.beecrowd.com/pt/problems/view/2754) - Saída 8
+- [ ] [2755](https://judge.beecrowd.com/pt/problems/view/2755) - Saída 9
+- [ ] [2756](https://judge.beecrowd.com/pt/problems/view/2756) - Saída 10
+- [ ] [2757](https://judge.beecrowd.com/pt/problems/view/2757) - Entrada e Saída de Números Inteiros
+- [ ] [2758](https://judge.beecrowd.com/pt/problems/view/2758) - Entrada e Saída de Números Reais
+- [ ] [2759](https://judge.beecrowd.com/pt/problems/view/2759) - Entrada e Saída de Carácter
+- [ ] [2760](https://judge.beecrowd.com/pt/problems/view/2760) - Entrada e Saída de String
+- [ ] [2761](https://judge.beecrowd.com/pt/problems/view/2761) - Entrada e Saída de Vários Tipos
+- [ ] [2762](https://judge.beecrowd.com/pt/problems/view/2762) - Entrada e Saída 6
+- [ ] [2763](https://judge.beecrowd.com/pt/problems/view/2763) - Entrada e Saída CPF
+- [ ] [2764](https://judge.beecrowd.com/pt/problems/view/2764) - Entrada e Saída de Data
+- [ ] [2765](https://judge.beecrowd.com/pt/problems/view/2765) - Entrada e Saída com Virgula
+- [ ] [2766](https://judge.beecrowd.com/pt/problems/view/2766) - Entrada e Saída Lendo e Pulando Nomes
+- [ ] [2769](https://judge.beecrowd.com/pt/problems/view/2769) - Linha de Montagem
+- [ ] [2770](https://judge.beecrowd.com/pt/problems/view/2770) - Tamanho da Placa
+- [ ] [2774](https://judge.beecrowd.com/pt/problems/view/2774) - Precisão do Sensor
+- [ ] [2775](https://judge.beecrowd.com/pt/problems/view/2775) - Preparando a Produção
+- [ ] [2779](https://judge.beecrowd.com/pt/problems/view/2779) - Álbum da Copa
+- [ ] [2780](https://judge.beecrowd.com/pt/problems/view/2780) - Basquete de Robôs
+- [ ] [2782](https://judge.beecrowd.com/pt/problems/view/2782) - Escadinha
+- [ ] [2783](https://judge.beecrowd.com/pt/problems/view/2783) - Figurinhas da Copa
+- [ ] [2785](https://judge.beecrowd.com/pt/problems/view/2785) - Pirâmide
+- [ ] [2786](https://judge.beecrowd.com/pt/problems/view/2786) - Piso da Escola
+- [ ] [2787](https://judge.beecrowd.com/pt/problems/view/2787) - Xadrez
+- [ ] [2791](https://judge.beecrowd.com/pt/problems/view/2791) - Feijão
+- [ ] [2802](https://judge.beecrowd.com/pt/problems/view/2802) - Dividindo Círculos
+- [ ] [2807](https://judge.beecrowd.com/pt/problems/view/2807) - Iccanobif
+- [ ] [2808](https://judge.beecrowd.com/pt/problems/view/2808) - Mais Cavalos
+- [ ] [2812](https://judge.beecrowd.com/pt/problems/view/2812) - Laércio
+- [ ] [2813](https://judge.beecrowd.com/pt/problems/view/2813) - Evitando Chuva
+- [ ] [2823](https://judge.beecrowd.com/pt/problems/view/2823) - Eearliest Deadline First
+- [ ] [2826](https://judge.beecrowd.com/pt/problems/view/2826) - Léxico
+- [ ] [2845](https://judge.beecrowd.com/pt/problems/view/2845) - Festa no Polo Norte
+- [ ] [2846](https://judge.beecrowd.com/pt/problems/view/2846) - Fibonot
+- [ ] [2850](https://judge.beecrowd.com/pt/problems/view/2850) - Papagaio Poliglota
+- [ ] [2852](https://judge.beecrowd.com/pt/problems/view/2852) - Troca de Mensagens
+- [ ] [2861](https://judge.beecrowd.com/pt/problems/view/2861) - A Saída
+- [ ] [2862](https://judge.beecrowd.com/pt/problems/view/2862) - Inseto!
+- [ ] [2863](https://judge.beecrowd.com/pt/problems/view/2863) - Umil Bolt
+- [ ] [2867](https://judge.beecrowd.com/pt/problems/view/2867) - Dígitos
+- [ ] [2879](https://judge.beecrowd.com/pt/problems/view/2879) - Desvendando Monty Hall
+- [ ] [2896](https://judge.beecrowd.com/pt/problems/view/2896) - Aproveite a Oferta
+- [ ] [2930](https://judge.beecrowd.com/pt/problems/view/2930) - TCC da Depressão Natalino
+- [ ] [2936](https://judge.beecrowd.com/pt/problems/view/2936) - Quanta Mandioca?
+- [ ] [2949](https://judge.beecrowd.com/pt/problems/view/2949) - A Sociedade do Anel
+- [ ] [2950](https://judge.beecrowd.com/pt/problems/view/2950) - As Duas Torres
+- [ ] [2951](https://judge.beecrowd.com/pt/problems/view/2951) - O Retorno do Rei
+- [ ] [2963](https://judge.beecrowd.com/pt/problems/view/2963) - Bobo da Corte
+- [ ] [2968](https://judge.beecrowd.com/pt/problems/view/2968) - Hora da Corrida
+- [ ] [2982](https://judge.beecrowd.com/pt/problems/view/2982) - A Greve para ou Continua?
+- [ ] [2987](https://judge.beecrowd.com/pt/problems/view/2987) - Balão de Honra
+- [ ] [3037](https://judge.beecrowd.com/pt/problems/view/3037) - Jogando Dardos Por Distância
+- [ ] [3039](https://judge.beecrowd.com/pt/problems/view/3039) - Brinquedos do Papai Noel
+- [ ] [3040](https://judge.beecrowd.com/pt/problems/view/3040) - A Árvore de Natal
+- [ ] [3042](https://judge.beecrowd.com/pt/problems/view/3042) - Desviando de Árvores de Natal
+- [ ] [3046](https://judge.beecrowd.com/pt/problems/view/3046) - Dominó
+- [ ] [3047](https://judge.beecrowd.com/pt/problems/view/3047) - A idade de Dona Mônica
+- [ ] [3053](https://judge.beecrowd.com/pt/problems/view/3053) - Jogo Dos Copos
+- [ ] [3055](https://judge.beecrowd.com/pt/problems/view/3055) - Nota Esquecida
+- [ ] [3065](https://judge.beecrowd.com/pt/problems/view/3065) - Calculando
+- [ ] [3068](https://judge.beecrowd.com/pt/problems/view/3068) - Meteoros
+- [ ] [3076](https://judge.beecrowd.com/pt/problems/view/3076) - Exercício de História
+- [ ] [3084](https://judge.beecrowd.com/pt/problems/view/3084) - Relógio Antigo
+- [ ] [3089](https://judge.beecrowd.com/pt/problems/view/3089) - Presentes de Natal
+- [ ] [3091](https://judge.beecrowd.com/pt/problems/view/3091) - Resto 1.0
+- [ ] [3140](https://judge.beecrowd.com/pt/problems/view/3140) - Copiando e Colando Código
+- [ ] [3142](https://judge.beecrowd.com/pt/problems/view/3142) - Excel Bugado
+- [ ] [3145](https://judge.beecrowd.com/pt/problems/view/3145) - Uma Jornada Inesperada
+- [ ] [3146](https://judge.beecrowd.com/pt/problems/view/3146) - Charadas no Escuro
+- [ ] [3147](https://judge.beecrowd.com/pt/problems/view/3147) - A Batalha dos Cinco Exércitos
+- [ ] [3157](https://judge.beecrowd.com/pt/problems/view/3157) - Viva a Ciência!
+- [ ] [3161](https://judge.beecrowd.com/pt/problems/view/3161) - As Frutas Esquecidas
+- [ ] [3162](https://judge.beecrowd.com/pt/problems/view/3162) - Comunicação Espacial
+- [ ] [3164](https://judge.beecrowd.com/pt/problems/view/3164) - Fiscalizando Empresa
+- [ ] [3170](https://judge.beecrowd.com/pt/problems/view/3170) - Bolinhas de Natal
+- [ ] [3173](https://judge.beecrowd.com/pt/problems/view/3173) - Estrela de Natal
+- [ ] [3174](https://judge.beecrowd.com/pt/problems/view/3174) - Grupo de Trabalho do Noel
+- [ ] [3181](https://judge.beecrowd.com/pt/problems/view/3181) - Jantar
+- [ ] [3204](https://judge.beecrowd.com/pt/problems/view/3204) - Honeycomb Walk
+- [ ] [3208](https://judge.beecrowd.com/pt/problems/view/3208) - O Criptógrafo Envergonhado
+- [ ] [3209](https://judge.beecrowd.com/pt/problems/view/3209) - Tomadas Elétricas
+- [ ] [3214](https://judge.beecrowd.com/pt/problems/view/3214) - Refrigerante
+- [ ] [3217](https://judge.beecrowd.com/pt/problems/view/3217) - Chuva Caindo
+- [ ] [3224](https://judge.beecrowd.com/pt/problems/view/3224) - Aaah!
+- [ ] [3229](https://judge.beecrowd.com/pt/problems/view/3229) - Resenhas de Comida
+- [ ] [3230](https://judge.beecrowd.com/pt/problems/view/3230) - Senhores da Guerra Galácticos
+- [ ] [3231](https://judge.beecrowd.com/pt/problems/view/3231) - Horror List
+- [ ] [3232](https://judge.beecrowd.com/pt/problems/view/3232) - Infiltration
+- [ ] [3233](https://judge.beecrowd.com/pt/problems/view/3233) - Suco
+- [ ] [3234](https://judge.beecrowd.com/pt/problems/view/3234) - Kindergarten
+- [ ] [3235](https://judge.beecrowd.com/pt/problems/view/3235) - Luggage
+- [ ] [3241](https://judge.beecrowd.com/pt/problems/view/3241) - Ajude um Candidato a PhD!
+- [ ] [3249](https://judge.beecrowd.com/pt/problems/view/3249) - Death Knight Hero
+- [ ] [3250](https://judge.beecrowd.com/pt/problems/view/3250) - Problema no Elevador
+- [ ] [3252](https://judge.beecrowd.com/pt/problems/view/3252) - Reus da Floresta
+- [ ] [3253](https://judge.beecrowd.com/pt/problems/view/3253) - Problemas com o Carro
+- [ ] [3255](https://judge.beecrowd.com/pt/problems/view/3255) - A Vez to Primo
+- [ ] [3256](https://judge.beecrowd.com/pt/problems/view/3256) - Divisão Inimiga
+- [ ] [3258](https://judge.beecrowd.com/pt/problems/view/3258) - Fervendo Vegetais
+- [ ] [3267](https://judge.beecrowd.com/pt/problems/view/3267) - Passeio no Penhasco
+- [ ] [3299](https://judge.beecrowd.com/pt/problems/view/3299) - Números Má Sorte Pequenos
+- [ ] [3301](https://judge.beecrowd.com/pt/problems/view/3301) - Sobrinho do Meio
+- [ ] [3302](https://judge.beecrowd.com/pt/problems/view/3302) - Resposta Certa
+- [ ] [3303](https://judge.beecrowd.com/pt/problems/view/3303) - Palavrão
+- [ ] [3306](https://judge.beecrowd.com/pt/problems/view/3306) - Consulta e Alteração
+- [ ] [3342](https://judge.beecrowd.com/pt/problems/view/3342) - Keanu
+- [ ] [3343](https://judge.beecrowd.com/pt/problems/view/3343) - Attack On Gasparini
+- [ ] [3344](https://judge.beecrowd.com/pt/problems/view/3344) - Brute
+- [ ] [3346](https://judge.beecrowd.com/pt/problems/view/3346) - Flutuação do PIB
+- [ ] [3348](https://judge.beecrowd.com/pt/problems/view/3348) - Jogo das Aranhas
+
+</details>
+
+### 2️⃣ Ad-Hoc (0/853)
+
+<details>
+<summary>📋 Ver todos os 853 problemas (Clique para expandir)</summary>
+
+- [ ] [1026](https://judge.beecrowd.com/pt/problems/view/1026) - Carrega ou não Carrega?
+- [ ] [1030](https://judge.beecrowd.com/pt/problems/view/1030) - A Lenda de Flavious Josephus
+- [ ] [1031](https://judge.beecrowd.com/pt/problems/view/1031) - Crise de Energia
+- [ ] [1032](https://judge.beecrowd.com/pt/problems/view/1032) - O Primo de Josephus
+- [ ] [1086](https://judge.beecrowd.com/pt/problems/view/1086) - O Salão do Clube
+- [ ] [1087](https://judge.beecrowd.com/pt/problems/view/1087) - Dama
+- [ ] [1089](https://judge.beecrowd.com/pt/problems/view/1089) - Loop Musical
+- [ ] [1090](https://judge.beecrowd.com/pt/problems/view/1090) - Set
+- [ ] [1091](https://judge.beecrowd.com/pt/problems/view/1091) - Divisão da Nlogônia
+- [ ] [1092](https://judge.beecrowd.com/pt/problems/view/1092) - Maior Subseqüência Crescente
+- [ ] [1103](https://judge.beecrowd.com/pt/problems/view/1103) - Alarme Despertador
+- [ ] [1104](https://judge.beecrowd.com/pt/problems/view/1104) - Troca de Cartas
+- [ ] [1105](https://judge.beecrowd.com/pt/problems/view/1105) - Sub-prime
+- [ ] [1107](https://judge.beecrowd.com/pt/problems/view/1107) - Escultura à Laser
+- [ ] [1109](https://judge.beecrowd.com/pt/problems/view/1109) - Burlando a Maratona
+- [ ] [1121](https://judge.beecrowd.com/pt/problems/view/1121) - Robô Colecionador
+- [ ] [1122](https://judge.beecrowd.com/pt/problems/view/1122) - Livro-Caixa
+- [ ] [1125](https://judge.beecrowd.com/pt/problems/view/1125) - Fórmula 1
+- [ ] [1127](https://judge.beecrowd.com/pt/problems/view/1127) - Plágio Musical
+- [ ] [1129](https://judge.beecrowd.com/pt/problems/view/1129) - Leitura Ótica
+- [ ] [1130](https://judge.beecrowd.com/pt/problems/view/1130) - Jogo da Velha
+- [ ] [1136](https://judge.beecrowd.com/pt/problems/view/1136) - Bingo!
+- [ ] [1139](https://judge.beecrowd.com/pt/problems/view/1139) - Necessidades Elétricas
+- [ ] [1140](https://judge.beecrowd.com/pt/problems/view/1140) - Flores Florescem da França
+- [ ] [1147](https://judge.beecrowd.com/pt/problems/view/1147) - Fuga do Cavalo
+- [ ] [1171](https://judge.beecrowd.com/pt/problems/view/1171) - Frequência de Números
+- [ ] [1192](https://judge.beecrowd.com/pt/problems/view/1192) - O jogo Matemático de Paula
+- [ ] [1196](https://judge.beecrowd.com/pt/problems/view/1196) - WERTYU
+- [ ] [1206](https://judge.beecrowd.com/pt/problems/view/1206) - Desafio de São Petersburgo
+- [ ] [1209](https://judge.beecrowd.com/pt/problems/view/1209) - Festas de São Petersburgo
+- [ ] [1216](https://judge.beecrowd.com/pt/problems/view/1216) - Getline One
+- [ ] [1217](https://judge.beecrowd.com/pt/problems/view/1217) - Getline Two - Frutas
+- [ ] [1218](https://judge.beecrowd.com/pt/problems/view/1218) - Getline Three - Calçados
+- [ ] [1225](https://judge.beecrowd.com/pt/problems/view/1225) - Coral Perfeito
+- [ ] [1228](https://judge.beecrowd.com/pt/problems/view/1228) - Grid de Largada
+- [ ] [1245](https://judge.beecrowd.com/pt/problems/view/1245) - Botas Perdidas
+- [ ] [1246](https://judge.beecrowd.com/pt/problems/view/1246) - Estacionamento
+- [ ] [1250](https://judge.beecrowd.com/pt/problems/view/1250) - KiloMan
+- [ ] [1266](https://judge.beecrowd.com/pt/problems/view/1266) - Tornado!
+- [ ] [1267](https://judge.beecrowd.com/pt/problems/view/1267) - Biblioteca Pascal
+- [ ] [1271](https://judge.beecrowd.com/pt/problems/view/1271) - Onde estão meus Genes
+- [ ] [1285](https://judge.beecrowd.com/pt/problems/view/1285) - Dígitos Diferentes
+- [ ] [1290](https://judge.beecrowd.com/pt/problems/view/1290) - Caixas Muito Especiais
+- [ ] [1300](https://judge.beecrowd.com/pt/problems/view/1300) - Horas e Minutos
+- [ ] [1311](https://judge.beecrowd.com/pt/problems/view/1311) - Companheiros de Exército
+- [ ] [1318](https://judge.beecrowd.com/pt/problems/view/1318) - Bilhetes Falsos
+- [ ] [1320](https://judge.beecrowd.com/pt/problems/view/1320) - Metrô Engenhoso
+- [ ] [1321](https://judge.beecrowd.com/pt/problems/view/1321) - Jollo
+- [ ] [1327](https://judge.beecrowd.com/pt/problems/view/1327) - Drop Out
+- [ ] [1329](https://judge.beecrowd.com/pt/problems/view/1329) - Cara ou Coroa
+- [ ] [1331](https://judge.beecrowd.com/pt/problems/view/1331) - Blocos
+- [ ] [1333](https://judge.beecrowd.com/pt/problems/view/1333) - Os Doces de Candy
+- [ ] [1337](https://judge.beecrowd.com/pt/problems/view/1337) - Poker do Rei
+- [ ] [1339](https://judge.beecrowd.com/pt/problems/view/1339) - O Cubo Mágico do Avô
+- [ ] [1342](https://judge.beecrowd.com/pt/problems/view/1342) - Dado
+- [ ] [1343](https://judge.beecrowd.com/pt/problems/view/1343) - Runner Pawns
+- [ ] [1349](https://judge.beecrowd.com/pt/problems/view/1349) - Efeito Ruído
+- [ ] [1351](https://judge.beecrowd.com/pt/problems/view/1351) - Supermercado
+- [ ] [1357](https://judge.beecrowd.com/pt/problems/view/1357) - Em Braille
+- [ ] [1359](https://judge.beecrowd.com/pt/problems/view/1359) - Taxa de Divisão de Terreno
+- [ ] [1360](https://judge.beecrowd.com/pt/problems/view/1360) - Truque de Mágica
+- [ ] [1361](https://judge.beecrowd.com/pt/problems/view/1361) - Desenhando o Edifício
+- [ ] [1363](https://judge.beecrowd.com/pt/problems/view/1363) - Competição de Placas de Carros
+- [ ] [1366](https://judge.beecrowd.com/pt/problems/view/1366) - Jogo de Varetas
+- [ ] [1368](https://judge.beecrowd.com/pt/problems/view/1368) - Cubos Coloridos
+- [ ] [1369](https://judge.beecrowd.com/pt/problems/view/1369) - Gerente de Espaço
+- [ ] [1374](https://judge.beecrowd.com/pt/problems/view/1374) - Eletricidade
+- [ ] [1375](https://judge.beecrowd.com/pt/problems/view/1375) - Painel de Posições
+- [ ] [1379](https://judge.beecrowd.com/pt/problems/view/1379) - Problema com Mediana e Média
+- [ ] [1383](https://judge.beecrowd.com/pt/problems/view/1383) - Sudoku
+- [ ] [1387](https://judge.beecrowd.com/pt/problems/view/1387) - Og
+- [ ] [1397](https://judge.beecrowd.com/pt/problems/view/1397) - Jogo do Maior
+- [ ] [1403](https://judge.beecrowd.com/pt/problems/view/1403) - Meu Avô é Famoso
+- [ ] [1404](https://judge.beecrowd.com/pt/problems/view/1404) - MegaDamas
+- [ ] [1407](https://judge.beecrowd.com/pt/problems/view/1407) - Loteria de Fim de Semana
+- [ ] [1410](https://judge.beecrowd.com/pt/problems/view/1410) - Ele Está Impedido!
+- [ ] [1414](https://judge.beecrowd.com/pt/problems/view/1414) - Copa do Mundo
+- [ ] [1418](https://judge.beecrowd.com/pt/problems/view/1418) - Outra Crise
+- [ ] [1419](https://judge.beecrowd.com/pt/problems/view/1419) - Bakugan
+- [ ] [1420](https://judge.beecrowd.com/pt/problems/view/1420) - Contando os Segundos
+- [ ] [1421](https://judge.beecrowd.com/pt/problems/view/1421) - Tic-Tac-Toe?
+- [ ] [1426](https://judge.beecrowd.com/pt/problems/view/1426) - Coloque Tijolos na Parede
+- [ ] [1428](https://judge.beecrowd.com/pt/problems/view/1428) - Procurando Nessy
+- [ ] [1431](https://judge.beecrowd.com/pt/problems/view/1431) - Níveis de Klingon
+- [ ] [1437](https://judge.beecrowd.com/pt/problems/view/1437) - Esquerda, Volver!
+- [ ] [1438](https://judge.beecrowd.com/pt/problems/view/1438) - Desempilhando Caixas
+- [ ] [1440](https://judge.beecrowd.com/pt/problems/view/1440) - Praça de Alimentação
+- [ ] [1441](https://judge.beecrowd.com/pt/problems/view/1441) - Sequências de Granizo
+- [ ] [1443](https://judge.beecrowd.com/pt/problems/view/1443) - Engarrafamento
+- [ ] [1459](https://judge.beecrowd.com/pt/problems/view/1459) - Foco
+- [ ] [1460](https://judge.beecrowd.com/pt/problems/view/1460) - Parreiral
+- [ ] [1467](https://judge.beecrowd.com/pt/problems/view/1467) - Zerinho ou Um
+- [ ] [1470](https://judge.beecrowd.com/pt/problems/view/1470) - Máquina Dobradora
+- [ ] [1471](https://judge.beecrowd.com/pt/problems/view/1471) - Mergulho
+- [ ] [1472](https://judge.beecrowd.com/pt/problems/view/1472) - Triângulos
+- [ ] [1480](https://judge.beecrowd.com/pt/problems/view/1480) - O Famoso Campo Minado
+- [ ] [1483](https://judge.beecrowd.com/pt/problems/view/1483) - Jogo do Bicho
+- [ ] [1486](https://judge.beecrowd.com/pt/problems/view/1486) - Circuito Bioquímico Digital
+- [ ] [1495](https://judge.beecrowd.com/pt/problems/view/1495) - Futebol
+- [ ] [1496](https://judge.beecrowd.com/pt/problems/view/1496) - Suba os "Ultras"
+- [ ] [1508](https://judge.beecrowd.com/pt/problems/view/1508) - Raio Laser
+- [ ] [1514](https://judge.beecrowd.com/pt/problems/view/1514) - Competição
+- [ ] [1515](https://judge.beecrowd.com/pt/problems/view/1515) - Hello Galaxy
+- [ ] [1518](https://judge.beecrowd.com/pt/problems/view/1518) - Tartarugas
+- [ ] [1521](https://judge.beecrowd.com/pt/problems/view/1521) - O Culpado
+- [ ] [1528](https://judge.beecrowd.com/pt/problems/view/1528) - Cordas Emaranhadas
+- [ ] [1532](https://judge.beecrowd.com/pt/problems/view/1532) - Arremesso de Bolas
+- [ ] [1533](https://judge.beecrowd.com/pt/problems/view/1533) - Detetive Watson
+- [ ] [1536](https://judge.beecrowd.com/pt/problems/view/1536) - Libertadores
+- [ ] [1540](https://judge.beecrowd.com/pt/problems/view/1540) - Planejando a Energia
+- [ ] [1542](https://judge.beecrowd.com/pt/problems/view/1542) - Lendo Livros
+- [ ] [1546](https://judge.beecrowd.com/pt/problems/view/1546) - Feedback
+- [ ] [1547](https://judge.beecrowd.com/pt/problems/view/1547) - Adivinha
+- [ ] [1553](https://judge.beecrowd.com/pt/problems/view/1553) - Perguntas mais Frequentes
+- [ ] [1558](https://judge.beecrowd.com/pt/problems/view/1558) - Soma de Dois Quadrados
+- [ ] [1559](https://judge.beecrowd.com/pt/problems/view/1559) - 2048
+- [ ] [1561](https://judge.beecrowd.com/pt/problems/view/1561) - Relógio Binário
+- [ ] [1569](https://judge.beecrowd.com/pt/problems/view/1569) - Sobe e Desce
+- [ ] [1573](https://judge.beecrowd.com/pt/problems/view/1573) - Fábrica de Chocolate
+- [ ] [1574](https://judge.beecrowd.com/pt/problems/view/1574) - Instruções do Robô
+- [ ] [1575](https://judge.beecrowd.com/pt/problems/view/1575) - Perseguindo Don Giovanni
+- [ ] [1576](https://judge.beecrowd.com/pt/problems/view/1576) - O Problema da Linha do Horizonte
+- [ ] [1578](https://judge.beecrowd.com/pt/problems/view/1578) - Matriz de Quadrados
+- [ ] [1588](https://judge.beecrowd.com/pt/problems/view/1588) - Ajude a Federação
+- [ ] [1591](https://judge.beecrowd.com/pt/problems/view/1591) - Dia da Vovó
+- [ ] [1593](https://judge.beecrowd.com/pt/problems/view/1593) - Função Binária
+- [ ] [1609](https://judge.beecrowd.com/pt/problems/view/1609) - Contando Carneirinhos
+- [ ] [1612](https://judge.beecrowd.com/pt/problems/view/1612) - Formiguinha
+- [ ] [1615](https://judge.beecrowd.com/pt/problems/view/1615) - Insatisfação nas Eleições
+- [ ] [1618](https://judge.beecrowd.com/pt/problems/view/1618) - Colisão
+- [ ] [1619](https://judge.beecrowd.com/pt/problems/view/1619) - Diferença entre Datas
+- [ ] [1622](https://judge.beecrowd.com/pt/problems/view/1622) - Lâmpadas
+- [ ] [1627](https://judge.beecrowd.com/pt/problems/view/1627) - Último Dano
+- [ ] [1638](https://judge.beecrowd.com/pt/problems/view/1638) - Tamanho da Porção de Comida
+- [ ] [1639](https://judge.beecrowd.com/pt/problems/view/1639) - Gerando Números Aleatórios
+- [ ] [1652](https://judge.beecrowd.com/pt/problems/view/1652) - Deli Deli
+- [ ] [1657](https://judge.beecrowd.com/pt/problems/view/1657) - Corretor Automático de Erros de Soletração
+- [ ] [1663](https://judge.beecrowd.com/pt/problems/view/1663) - Permutações Ambíguas
+- [ ] [1670](https://judge.beecrowd.com/pt/problems/view/1670) - Lógica Booleana
+- [ ] [1676](https://judge.beecrowd.com/pt/problems/view/1676) - Precisa-se de Ajuda
+- [ ] [1678](https://judge.beecrowd.com/pt/problems/view/1678) - Gerenciamento de Partição Fixa em Competição
+- [ ] [1680](https://judge.beecrowd.com/pt/problems/view/1680) - Borda
+- [ ] [1684](https://judge.beecrowd.com/pt/problems/view/1684) - Maratona Doce
+- [ ] [1691](https://judge.beecrowd.com/pt/problems/view/1691) - Super Circunferência
+- [ ] [1699](https://judge.beecrowd.com/pt/problems/view/1699) - Jogo Entediante
+- [ ] [1708](https://judge.beecrowd.com/pt/problems/view/1708) - Volta
+- [ ] [1710](https://judge.beecrowd.com/pt/problems/view/1710) - Confederação
+- [ ] [1712](https://judge.beecrowd.com/pt/problems/view/1712) - Ecologia
+- [ ] [1714](https://judge.beecrowd.com/pt/problems/view/1714) - Letras
+- [ ] [1715](https://judge.beecrowd.com/pt/problems/view/1715) - Handebol
+- [ ] [1716](https://judge.beecrowd.com/pt/problems/view/1716) - RSA
+- [ ] [1717](https://judge.beecrowd.com/pt/problems/view/1717) - Corte
+- [ ] [1718](https://judge.beecrowd.com/pt/problems/view/1718) - Pizza do Vô Pepe
+- [ ] [1719](https://judge.beecrowd.com/pt/problems/view/1719) - Computadores Simples
+- [ ] [1728](https://judge.beecrowd.com/pt/problems/view/1728) - Difícil de Acreditar, Mas é Verdade!
+- [ ] [1731](https://judge.beecrowd.com/pt/problems/view/1731) - Frutas Avançadas
+- [ ] [1732](https://judge.beecrowd.com/pt/problems/view/1732) - Abelha Maja
+- [ ] [1739](https://judge.beecrowd.com/pt/problems/view/1739) - Sequência de Threebonacci
+- [ ] [1741](https://judge.beecrowd.com/pt/problems/view/1741) - Notação Reversa de João
+- [ ] [1743](https://judge.beecrowd.com/pt/problems/view/1743) - Máquina de Verificação Automatizada
+- [ ] [1750](https://judge.beecrowd.com/pt/problems/view/1750) - Ajude o Cupido
+- [ ] [1753](https://judge.beecrowd.com/pt/problems/view/1753) - Cavaleiros Da Tàvola Redonda
+- [ ] [1755](https://judge.beecrowd.com/pt/problems/view/1755) - O Troco
+- [ ] [1758](https://judge.beecrowd.com/pt/problems/view/1758) - Pontos Extras
+- [ ] [1765](https://judge.beecrowd.com/pt/problems/view/1765) - Trapézios de Natal
+- [ ] [1769](https://judge.beecrowd.com/pt/problems/view/1769) - CPF 1
+- [ ] [1770](https://judge.beecrowd.com/pt/problems/view/1770) - Shuffle
+- [ ] [1771](https://judge.beecrowd.com/pt/problems/view/1771) - Cartelas de Bingo Aleatórias
+- [ ] [1772](https://judge.beecrowd.com/pt/problems/view/1772) - Embaralhamento de Bits
+- [ ] [1779](https://judge.beecrowd.com/pt/problems/view/1779) - Estimando a Média
+- [ ] [1780](https://judge.beecrowd.com/pt/problems/view/1780) - Formação de Robôs
+- [ ] [1786](https://judge.beecrowd.com/pt/problems/view/1786) - CPF 2
+- [ ] [1787](https://judge.beecrowd.com/pt/problems/view/1787) - URI
+- [ ] [1791](https://judge.beecrowd.com/pt/problems/view/1791) - Descobrindo uma Matriz
+- [ ] [1793](https://judge.beecrowd.com/pt/problems/view/1793) - Escada Rolante
+- [ ] [1794](https://judge.beecrowd.com/pt/problems/view/1794) - Lavanderia
+- [ ] [1796](https://judge.beecrowd.com/pt/problems/view/1796) - Economia Brasileira
+- [ ] [1800](https://judge.beecrowd.com/pt/problems/view/1800) - Onde Estão Minhas Chaves
+- [ ] [1802](https://judge.beecrowd.com/pt/problems/view/1802) - Catálogo de Livros
+- [ ] [1808](https://judge.beecrowd.com/pt/problems/view/1808) - O Retorno do Rei
+- [ ] [1809](https://judge.beecrowd.com/pt/problems/view/1809) - Agentes Secretos
+- [ ] [1811](https://judge.beecrowd.com/pt/problems/view/1811) - O Óscar Vai Para...
+- [ ] [1814](https://judge.beecrowd.com/pt/problems/view/1814) - DNA Storage?
+- [ ] [1816](https://judge.beecrowd.com/pt/problems/view/1816) - Vikings em Praga?
+- [ ] [1817](https://judge.beecrowd.com/pt/problems/view/1817) - Arqueólogos de Tsing Ling
+- [ ] [1820](https://judge.beecrowd.com/pt/problems/view/1820) - Grupos da Universidade de Sing Pil
+- [ ] [1824](https://judge.beecrowd.com/pt/problems/view/1824) - Sapos de Tsé-Tsé
+- [ ] [1832](https://judge.beecrowd.com/pt/problems/view/1832) - EBCDIC
+- [ ] [1836](https://judge.beecrowd.com/pt/problems/view/1836) - Pokémon!
+- [ ] [1840](https://judge.beecrowd.com/pt/problems/view/1840) - O Prisioneiro de Azkaban
+- [ ] [1845](https://judge.beecrowd.com/pt/problems/view/1845) - Efílogo
+- [ ] [1849](https://judge.beecrowd.com/pt/problems/view/1849) - Dracarys!
+- [ ] [1867](https://judge.beecrowd.com/pt/problems/view/1867) - Maior Número de Um Algarismo
+- [ ] [1870](https://judge.beecrowd.com/pt/problems/view/1870) - Ventiladores e Balões
+- [ ] [1876](https://judge.beecrowd.com/pt/problems/view/1876) - Rabiola
+- [ ] [1877](https://judge.beecrowd.com/pt/problems/view/1877) - O Castelo de Neve de Sansa
+- [ ] [1879](https://judge.beecrowd.com/pt/problems/view/1879) - Bridge
+- [ ] [1880](https://judge.beecrowd.com/pt/problems/view/1880) - Renzo e a Decoração Capicuânica
+- [ ] [1881](https://judge.beecrowd.com/pt/problems/view/1881) - Competição de Robótica
+- [ ] [1884](https://judge.beecrowd.com/pt/problems/view/1884) - Lutando Contra os Rajasi
+- [ ] [1885](https://judge.beecrowd.com/pt/problems/view/1885) - Loteria Tailandesa
+- [ ] [1886](https://judge.beecrowd.com/pt/problems/view/1886) - Resguardando os Templos
+- [ ] [1887](https://judge.beecrowd.com/pt/problems/view/1887) - As Vias Férreas Kunming-Cingapura
+- [ ] [1888](https://judge.beecrowd.com/pt/problems/view/1888) - Os chedis de Kamphaeng Phet
+- [ ] [1889](https://judge.beecrowd.com/pt/problems/view/1889) - Treinando com as Larvas de Phuket
+- [ ] [1890](https://judge.beecrowd.com/pt/problems/view/1890) - Emplacando os Tuk-tuks
+- [ ] [1891](https://judge.beecrowd.com/pt/problems/view/1891) - Removendo Moedas no Kem Kradãn
+- [ ] [1893](https://judge.beecrowd.com/pt/problems/view/1893) - Fases da Lua
+- [ ] [1895](https://judge.beecrowd.com/pt/problems/view/1895) - Jogo do Limite
+- [ ] [1896](https://judge.beecrowd.com/pt/problems/view/1896) - É Hora do Duelo!
+- [ ] [1899](https://judge.beecrowd.com/pt/problems/view/1899) - Acerte o Alvo!
+- [ ] [1901](https://judge.beecrowd.com/pt/problems/view/1901) - Borboletas
+- [ ] [1916](https://judge.beecrowd.com/pt/problems/view/1916) - Banco de Horas de Jaiminho
+- [ ] [1917](https://judge.beecrowd.com/pt/problems/view/1917) - Ajude o Chapolin Colorado!
+- [ ] [1918](https://judge.beecrowd.com/pt/problems/view/1918) - Viagem para Acapulco
+- [ ] [1919](https://judge.beecrowd.com/pt/problems/view/1919) - Ajude Nhonho
+- [ ] [1920](https://judge.beecrowd.com/pt/problems/view/1920) - Fonte dos Desejos
+- [ ] [1934](https://judge.beecrowd.com/pt/problems/view/1934) - Quebra-cabeça
+- [ ] [1935](https://judge.beecrowd.com/pt/problems/view/1935) - Espiral
+- [ ] [1936](https://judge.beecrowd.com/pt/problems/view/1936) - Fatorial
+- [ ] [1937](https://judge.beecrowd.com/pt/problems/view/1937) - Guardiões Curiosos
+- [ ] [1939](https://judge.beecrowd.com/pt/problems/view/1939) - Ominobox
+- [ ] [1940](https://judge.beecrowd.com/pt/problems/view/1940) - Jogo da Estratégia
+- [ ] [1942](https://judge.beecrowd.com/pt/problems/view/1942) - Loteria
+- [ ] [1943](https://judge.beecrowd.com/pt/problems/view/1943) - Top N
+- [ ] [1945](https://judge.beecrowd.com/pt/problems/view/1945) - Simulador
+- [ ] [1953](https://judge.beecrowd.com/pt/problems/view/1953) - Roberto e a Sala Desenfreada
+- [ ] [1964](https://judge.beecrowd.com/pt/problems/view/1964) - A Ira de Khan
+- [ ] [1965](https://judge.beecrowd.com/pt/problems/view/1965) - A Procura por Spock
+- [ ] [1966](https://judge.beecrowd.com/pt/problems/view/1966) - A Volta para Casa
+- [ ] [1980](https://judge.beecrowd.com/pt/problems/view/1980) - Embaralhando
+- [ ] [1986](https://judge.beecrowd.com/pt/problems/view/1986) - Perdido em Marte
+- [ ] [1987](https://judge.beecrowd.com/pt/problems/view/1987) - Divisibilidade Por 3
+- [ ] [1997](https://judge.beecrowd.com/pt/problems/view/1997) - Branco e Preto
+- [ ] [1998](https://judge.beecrowd.com/pt/problems/view/1998) - Awari 2.0
+- [ ] [2004](https://judge.beecrowd.com/pt/problems/view/2004) - Enisvaldo Com Fome
+- [ ] [2005](https://judge.beecrowd.com/pt/problems/view/2005) - Fracil Bolado
+- [ ] [2008](https://judge.beecrowd.com/pt/problems/view/2008) - Expondo a Corrupção
+- [ ] [2009](https://judge.beecrowd.com/pt/problems/view/2009) - Apenas um Pouco Classificadas
+- [ ] [2010](https://judge.beecrowd.com/pt/problems/view/2010) - Mantenha Isso Energizado
+- [ ] [2011](https://judge.beecrowd.com/pt/problems/view/2011) - Impostos Galácticos
+- [ ] [2012](https://judge.beecrowd.com/pt/problems/view/2012) - Altura do Mapa
+- [ ] [2013](https://judge.beecrowd.com/pt/problems/view/2013) - No Máximo Duas Vezes
+- [ ] [2014](https://judge.beecrowd.com/pt/problems/view/2014) - Grupos Sanguineos
+- [ ] [2015](https://judge.beecrowd.com/pt/problems/view/2015) - Fatia do Bolo
+- [ ] [2016](https://judge.beecrowd.com/pt/problems/view/2016) - D como em Daedalus
+- [ ] [2019](https://judge.beecrowd.com/pt/problems/view/2019) - Cici, Cini e Cino
+- [ ] [2021](https://judge.beecrowd.com/pt/problems/view/2021) - Luzes de Natal
+- [ ] [2030](https://judge.beecrowd.com/pt/problems/view/2030) - Pit Stop
+- [ ] [2037](https://judge.beecrowd.com/pt/problems/view/2037) - A Lista
+- [ ] [2041](https://judge.beecrowd.com/pt/problems/view/2041) - Sequência de Gödelito
+- [ ] [2051](https://judge.beecrowd.com/pt/problems/view/2051) - Mapas de Karnaugh I
+- [ ] [2054](https://judge.beecrowd.com/pt/problems/view/2054) - Last Year at Marienbad
+- [ ] [2058](https://judge.beecrowd.com/pt/problems/view/2058) - Triângulos e Polígonos Regulares
+- [ ] [2070](https://judge.beecrowd.com/pt/problems/view/2070) - Contando Sequências Boladas
+- [ ] [2078](https://judge.beecrowd.com/pt/problems/view/2078) - Paz Verde! Hipocrisia Mundial!
+- [ ] [2090](https://judge.beecrowd.com/pt/problems/view/2090) - Fui ao Mercado e Comprei...
+- [ ] [2102](https://judge.beecrowd.com/pt/problems/view/2102) - Contando em Chinês
+- [ ] [2116](https://judge.beecrowd.com/pt/problems/view/2116) - Diversão dos Alunos
+- [ ] [2123](https://judge.beecrowd.com/pt/problems/view/2123) - A Lei Vai a Cavalo!
+- [ ] [2125](https://judge.beecrowd.com/pt/problems/view/2125) - Construtores de Totens
+- [ ] [2134](https://judge.beecrowd.com/pt/problems/view/2134) - Quem Vai Ser Reprovado?
+- [ ] [2138](https://judge.beecrowd.com/pt/problems/view/2138) - Dígito Mais Frequente
+- [ ] [2141](https://judge.beecrowd.com/pt/problems/view/2141) - P4 Simplificado
+- [ ] [2142](https://judge.beecrowd.com/pt/problems/view/2142) - Pegue o Pombo!
+- [ ] [2144](https://judge.beecrowd.com/pt/problems/view/2144) - Bodybuilder
+- [ ] [2151](https://judge.beecrowd.com/pt/problems/view/2151) - Soco do Rulk
+- [ ] [2156](https://judge.beecrowd.com/pt/problems/view/2156) - As Aventuras de Pak-man
+- [ ] [2171](https://judge.beecrowd.com/pt/problems/view/2171) - Dividindo com Fink
+- [ ] [2175](https://judge.beecrowd.com/pt/problems/view/2175) - Qual o Mais Rápido?
+- [ ] [2178](https://judge.beecrowd.com/pt/problems/view/2178) - Lagoa Azul
+- [ ] [2179](https://judge.beecrowd.com/pt/problems/view/2179) - Batuke
+- [ ] [2187](https://judge.beecrowd.com/pt/problems/view/2187) - Bits Trocados
+- [ ] [2188](https://judge.beecrowd.com/pt/problems/view/2188) - Macaco-prego
+- [ ] [2189](https://judge.beecrowd.com/pt/problems/view/2189) - Quermesse
+- [ ] [2191](https://judge.beecrowd.com/pt/problems/view/2191) - Saldo de Gols
+- [ ] [2192](https://judge.beecrowd.com/pt/problems/view/2192) - To Add or to Multiply
+- [ ] [2194](https://judge.beecrowd.com/pt/problems/view/2194) - Ancient Messages
+- [ ] [2195](https://judge.beecrowd.com/pt/problems/view/2195) - Chips Challenge
+- [ ] [2196](https://judge.beecrowd.com/pt/problems/view/2196) - Coffee Central
+- [ ] [2197](https://judge.beecrowd.com/pt/problems/view/2197) - Machine Works
+- [ ] [2199](https://judge.beecrowd.com/pt/problems/view/2199) - Mining Your Own Business
+- [ ] [2200](https://judge.beecrowd.com/pt/problems/view/2200) - Mummy Madness
+- [ ] [2201](https://judge.beecrowd.com/pt/problems/view/2201) - Pyramids
+- [ ] [2202](https://judge.beecrowd.com/pt/problems/view/2202) - Trash Removal
+- [ ] [2205](https://judge.beecrowd.com/pt/problems/view/2205) - Asteroid Rangers
+- [ ] [2207](https://judge.beecrowd.com/pt/problems/view/2207) - Bus Tour
+- [ ] [2208](https://judge.beecrowd.com/pt/problems/view/2208) - Fibonacci Words
+- [ ] [2209](https://judge.beecrowd.com/pt/problems/view/2209) - Infiltration
+- [ ] [2210](https://judge.beecrowd.com/pt/problems/view/2210) - Keys
+- [ ] [2211](https://judge.beecrowd.com/pt/problems/view/2211) - Minimum Cost Flow
+- [ ] [2212](https://judge.beecrowd.com/pt/problems/view/2212) - Room Service
+- [ ] [2213](https://judge.beecrowd.com/pt/problems/view/2213) - A Safe Bet
+- [ ] [2214](https://judge.beecrowd.com/pt/problems/view/2214) - Shortest Flight Path
+- [ ] [2215](https://judge.beecrowd.com/pt/problems/view/2215) - Stacking Plates
+- [ ] [2216](https://judge.beecrowd.com/pt/problems/view/2216) - Takeover Wars
+- [ ] [2217](https://judge.beecrowd.com/pt/problems/view/2217) - Nove
+- [ ] [2219](https://judge.beecrowd.com/pt/problems/view/2219) - Passando Pelos PokeStops
+- [ ] [2227](https://judge.beecrowd.com/pt/problems/view/2227) - Aeroporto
+- [ ] [2228](https://judge.beecrowd.com/pt/problems/view/2228) - Caça ao Tesouro
+- [ ] [2229](https://judge.beecrowd.com/pt/problems/view/2229) - Dobradura
+- [ ] [2230](https://judge.beecrowd.com/pt/problems/view/2230) - Pedágio
+- [ ] [2231](https://judge.beecrowd.com/pt/problems/view/2231) - Temperatura Lunar
+- [ ] [2233](https://judge.beecrowd.com/pt/problems/view/2233) - Etiquetas Coloridas
+- [ ] [2237](https://judge.beecrowd.com/pt/problems/view/2237) - Containers
+- [ ] [2244](https://judge.beecrowd.com/pt/problems/view/2244) - Jogos Olímpicos
+- [ ] [2247](https://judge.beecrowd.com/pt/problems/view/2247) - Cofrinhos da Vó Vitória
+- [ ] [2248](https://judge.beecrowd.com/pt/problems/view/2248) - Estágio
+- [ ] [2249](https://judge.beecrowd.com/pt/problems/view/2249) - Número de Erdos
+- [ ] [2250](https://judge.beecrowd.com/pt/problems/view/2250) - Tetris
+- [ ] [2251](https://judge.beecrowd.com/pt/problems/view/2251) - Torres de Hanói
+- [ ] [2252](https://judge.beecrowd.com/pt/problems/view/2252) - Descobrindo Senha
+- [ ] [2254](https://judge.beecrowd.com/pt/problems/view/2254) - Bem-me-quer, Malmequer Japonês
+- [ ] [2255](https://judge.beecrowd.com/pt/problems/view/2255) - Self-Assembly
+- [ ] [2257](https://judge.beecrowd.com/pt/problems/view/2257) - Surely You Congest
+- [ ] [2258](https://judge.beecrowd.com/pt/problems/view/2258) - Factors
+- [ ] [2259](https://judge.beecrowd.com/pt/problems/view/2259) - Harvard
+- [ ] [2260](https://judge.beecrowd.com/pt/problems/view/2260) - Low Power
+- [ ] [2261](https://judge.beecrowd.com/pt/problems/view/2261) - Map Tiles
+- [ ] [2262](https://judge.beecrowd.com/pt/problems/view/2262) - Matryoshka
+- [ ] [2263](https://judge.beecrowd.com/pt/problems/view/2263) - Pirate Chest
+- [ ] [2265](https://judge.beecrowd.com/pt/problems/view/2265) - Up a Tree
+- [ ] [2266](https://judge.beecrowd.com/pt/problems/view/2266) - Baggage
+- [ ] [2268](https://judge.beecrowd.com/pt/problems/view/2268) - Crane Balancing
+- [ ] [2270](https://judge.beecrowd.com/pt/problems/view/2270) - Maze Reduction
+- [ ] [2272](https://judge.beecrowd.com/pt/problems/view/2272) - Metal Processing Plant
+- [ ] [2275](https://judge.beecrowd.com/pt/problems/view/2275) - Skiing
+- [ ] [2276](https://judge.beecrowd.com/pt/problems/view/2276) - Surveillance
+- [ ] [2278](https://judge.beecrowd.com/pt/problems/view/2278) - Amalgamated Artichokes
+- [ ] [2279](https://judge.beecrowd.com/pt/problems/view/2279) - Asteroids
+- [ ] [2280](https://judge.beecrowd.com/pt/problems/view/2280) - Catering
+- [ ] [2281](https://judge.beecrowd.com/pt/problems/view/2281) - Cutting Cheese
+- [ ] [2282](https://judge.beecrowd.com/pt/problems/view/2282) - Evolution in Parallel
+- [ ] [2283](https://judge.beecrowd.com/pt/problems/view/2283) - Keyboarding
+- [ ] [2284](https://judge.beecrowd.com/pt/problems/view/2284) - Pipe Stream
+- [ ] [2285](https://judge.beecrowd.com/pt/problems/view/2285) - Palíndrome
+- [ ] [2286](https://judge.beecrowd.com/pt/problems/view/2286) - Par ou Ímpar
+- [ ] [2287](https://judge.beecrowd.com/pt/problems/view/2287) - Proteja sua Senha
+- [ ] [2288](https://judge.beecrowd.com/pt/problems/view/2288) - TV da Vovó
+- [ ] [2289](https://judge.beecrowd.com/pt/problems/view/2289) - Distância Hamming
+- [ ] [2293](https://judge.beecrowd.com/pt/problems/view/2293) - Campo de Minhocas
+- [ ] [2294](https://judge.beecrowd.com/pt/problems/view/2294) - Duende Perdido
+- [ ] [2295](https://judge.beecrowd.com/pt/problems/view/2295) - Frota de Táxi
+- [ ] [2296](https://judge.beecrowd.com/pt/problems/view/2296) - Trilhas
+- [ ] [2297](https://judge.beecrowd.com/pt/problems/view/2297) - Bafo
+- [ ] [2298](https://judge.beecrowd.com/pt/problems/view/2298) - Mini-Poker
+- [ ] [2301](https://judge.beecrowd.com/pt/problems/view/2301) - Vivo ou Morto
+- [ ] [2302](https://judge.beecrowd.com/pt/problems/view/2302) - Conversa não tão Secreta
+- [ ] [2303](https://judge.beecrowd.com/pt/problems/view/2303) - Margaridas
+- [ ] [2304](https://judge.beecrowd.com/pt/problems/view/2304) - Banco Imobiliário
+- [ ] [2305](https://judge.beecrowd.com/pt/problems/view/2305) - Colheita de Caju
+- [ ] [2306](https://judge.beecrowd.com/pt/problems/view/2306) - Escada Perfeita
+- [ ] [2307](https://judge.beecrowd.com/pt/problems/view/2307) - Jogo de Cartas
+- [ ] [2308](https://judge.beecrowd.com/pt/problems/view/2308) - Museu
+- [ ] [2309](https://judge.beecrowd.com/pt/problems/view/2309) - Truco
+- [ ] [2312](https://judge.beecrowd.com/pt/problems/view/2312) - Quadro De Medalhas
+- [ ] [2315](https://judge.beecrowd.com/pt/problems/view/2315) - Diferença Fácil Entre Datas
+- [ ] [2316](https://judge.beecrowd.com/pt/problems/view/2316) - Autorama
+- [ ] [2317](https://judge.beecrowd.com/pt/problems/view/2317) - Lobo Mau
+- [ ] [2318](https://judge.beecrowd.com/pt/problems/view/2318) - Quadrado Mágico
+- [ ] [2319](https://judge.beecrowd.com/pt/problems/view/2319) - Penalidade Mínima
+- [ ] [2320](https://judge.beecrowd.com/pt/problems/view/2320) - Subsequência
+- [ ] [2321](https://judge.beecrowd.com/pt/problems/view/2321) - Detectando Colisões
+- [ ] [2322](https://judge.beecrowd.com/pt/problems/view/2322) - Peça Perdida
+- [ ] [2323](https://judge.beecrowd.com/pt/problems/view/2323) - Móbile
+- [ ] [2324](https://judge.beecrowd.com/pt/problems/view/2324) - Pastas
+- [ ] [2325](https://judge.beecrowd.com/pt/problems/view/2325) - Repositórios
+- [ ] [2326](https://judge.beecrowd.com/pt/problems/view/2326) - Sacoleiro
+- [ ] [2327](https://judge.beecrowd.com/pt/problems/view/2327) - Quadrados
+- [ ] [2328](https://judge.beecrowd.com/pt/problems/view/2328) - Chocolate
+- [ ] [2329](https://judge.beecrowd.com/pt/problems/view/2329) - Pão a Metro
+- [ ] [2330](https://judge.beecrowd.com/pt/problems/view/2330) - Telemarketing
+- [ ] [2331](https://judge.beecrowd.com/pt/problems/view/2331) - Uiquipédia
+- [ ] [2332](https://judge.beecrowd.com/pt/problems/view/2332) - Jogo do Labirinto
+- [ ] [2333](https://judge.beecrowd.com/pt/problems/view/2333) - Pizza
+- [ ] [2339](https://judge.beecrowd.com/pt/problems/view/2339) - Aviões de Papel
+- [ ] [2340](https://judge.beecrowd.com/pt/problems/view/2340) - Feira de Bactérias
+- [ ] [2341](https://judge.beecrowd.com/pt/problems/view/2341) - Número de Envelopes
+- [ ] [2342](https://judge.beecrowd.com/pt/problems/view/2342) - Overflow
+- [ ] [2343](https://judge.beecrowd.com/pt/problems/view/2343) - Caçadores de Mitos
+- [ ] [2345](https://judge.beecrowd.com/pt/problems/view/2345) - Assigning Teams
+- [ ] [2346](https://judge.beecrowd.com/pt/problems/view/2346) - Back to the Future
+- [ ] [2347](https://judge.beecrowd.com/pt/problems/view/2347) - Counting Self-Rotating Subsets
+- [ ] [2348](https://judge.beecrowd.com/pt/problems/view/2348) - Dating On-Line
+- [ ] [2349](https://judge.beecrowd.com/pt/problems/view/2349) - Farm Robot
+- [ ] [2350](https://judge.beecrowd.com/pt/problems/view/2350) - Game of Matchings
+- [ ] [2351](https://judge.beecrowd.com/pt/problems/view/2351) - Hotel Rewards
+- [ ] [2352](https://judge.beecrowd.com/pt/problems/view/2352) - Internet Trouble
+- [ ] [2353](https://judge.beecrowd.com/pt/problems/view/2353) - Just in Time
+- [ ] [2354](https://judge.beecrowd.com/pt/problems/view/2354) - Kill the Werewolf
+- [ ] [2355](https://judge.beecrowd.com/pt/problems/view/2355) - Brasil e Alemanha
+- [ ] [2365](https://judge.beecrowd.com/pt/problems/view/2365) - Bolão do Brasileirão
+- [ ] [2366](https://judge.beecrowd.com/pt/problems/view/2366) - Maratona
+- [ ] [2367](https://judge.beecrowd.com/pt/problems/view/2367) - Competição de Chocolate
+- [ ] [2368](https://judge.beecrowd.com/pt/problems/view/2368) - Simulador
+- [ ] [2369](https://judge.beecrowd.com/pt/problems/view/2369) - Conta de Água
+- [ ] [2371](https://judge.beecrowd.com/pt/problems/view/2371) - Batalha Naval
+- [ ] [2373](https://judge.beecrowd.com/pt/problems/view/2373) - Garçom
+- [ ] [2374](https://judge.beecrowd.com/pt/problems/view/2374) - Pneu
+- [ ] [2375](https://judge.beecrowd.com/pt/problems/view/2375) - Sedex
+- [ ] [2376](https://judge.beecrowd.com/pt/problems/view/2376) - Copa do Mundo
+- [ ] [2377](https://judge.beecrowd.com/pt/problems/view/2377) - Pedágio
+- [ ] [2378](https://judge.beecrowd.com/pt/problems/view/2378) - Elevador
+- [ ] [2379](https://judge.beecrowd.com/pt/problems/view/2379) - Dança Indígena
+- [ ] [2381](https://judge.beecrowd.com/pt/problems/view/2381) - Lista de Chamada
+- [ ] [2382](https://judge.beecrowd.com/pt/problems/view/2382) - Sedex Marciano
+- [ ] [2383](https://judge.beecrowd.com/pt/problems/view/2383) - Altas Aventuras
+- [ ] [2384](https://judge.beecrowd.com/pt/problems/view/2384) - Tradutor Alienígena
+- [ ] [2385](https://judge.beecrowd.com/pt/problems/view/2385) - Multiplicação de Matrizes
+- [ ] [2386](https://judge.beecrowd.com/pt/problems/view/2386) - Telescópio
+- [ ] [2387](https://judge.beecrowd.com/pt/problems/view/2387) - Dentista
+- [ ] [2388](https://judge.beecrowd.com/pt/problems/view/2388) - Tacógrafo
+- [ ] [2389](https://judge.beecrowd.com/pt/problems/view/2389) - Floresta
+- [ ] [2390](https://judge.beecrowd.com/pt/problems/view/2390) - Escada Rolante
+- [ ] [2391](https://judge.beecrowd.com/pt/problems/view/2391) - Progressões Aritméticas
+- [ ] [2392](https://judge.beecrowd.com/pt/problems/view/2392) - Pulo do Sapo
+- [ ] [2393](https://judge.beecrowd.com/pt/problems/view/2393) - O Mar não está para Peixe
+- [ ] [2394](https://judge.beecrowd.com/pt/problems/view/2394) - Corrida 1
+- [ ] [2395](https://judge.beecrowd.com/pt/problems/view/2395) - Transporte de Contêineres
+- [ ] [2396](https://judge.beecrowd.com/pt/problems/view/2396) - Corrida
+- [ ] [2397](https://judge.beecrowd.com/pt/problems/view/2397) - Triângulos
+- [ ] [2398](https://judge.beecrowd.com/pt/problems/view/2398) - Caça ao Tesouro
+- [ ] [2399](https://judge.beecrowd.com/pt/problems/view/2399) - Campo Minado
+- [ ] [2400](https://judge.beecrowd.com/pt/problems/view/2400) - Balé
+- [ ] [2401](https://judge.beecrowd.com/pt/problems/view/2401) - Calculadora
+- [ ] [2402](https://judge.beecrowd.com/pt/problems/view/2402) - Selos
+- [ ] [2403](https://judge.beecrowd.com/pt/problems/view/2403) - Escalonamento Ótimo
+- [ ] [2405](https://judge.beecrowd.com/pt/problems/view/2405) - Colorindo
+- [ ] [2406](https://judge.beecrowd.com/pt/problems/view/2406) - Expressões
+- [ ] [2407](https://judge.beecrowd.com/pt/problems/view/2407) - Quadrado Mágico
+- [ ] [2408](https://judge.beecrowd.com/pt/problems/view/2408) - Vice-Campeão
+- [ ] [2409](https://judge.beecrowd.com/pt/problems/view/2409) - Colchão
+- [ ] [2410](https://judge.beecrowd.com/pt/problems/view/2410) - Frequencia na Aula
+- [ ] [2411](https://judge.beecrowd.com/pt/problems/view/2411) - O Tabuleiro Esburacado
+- [ ] [2413](https://judge.beecrowd.com/pt/problems/view/2413) - Busca na Internet
+- [ ] [2414](https://judge.beecrowd.com/pt/problems/view/2414) - Desafio do Maior Número
+- [ ] [2415](https://judge.beecrowd.com/pt/problems/view/2415) - Consecutivos
+- [ ] [2416](https://judge.beecrowd.com/pt/problems/view/2416) - Corrida
+- [ ] [2417](https://judge.beecrowd.com/pt/problems/view/2417) - Campeonato
+- [ ] [2418](https://judge.beecrowd.com/pt/problems/view/2418) - Carnaval
+- [ ] [2420](https://judge.beecrowd.com/pt/problems/view/2420) - Guerra por Território
+- [ ] [2421](https://judge.beecrowd.com/pt/problems/view/2421) - Álbum de Fotos
+- [ ] [2422](https://judge.beecrowd.com/pt/problems/view/2422) - Soma das Casas
+- [ ] [2423](https://judge.beecrowd.com/pt/problems/view/2423) - Receita de Bolo
+- [ ] [2424](https://judge.beecrowd.com/pt/problems/view/2424) - Tira-teima
+- [ ] [2425](https://judge.beecrowd.com/pt/problems/view/2425) - Banco
+- [ ] [2427](https://judge.beecrowd.com/pt/problems/view/2427) - Chocolate
+- [ ] [2430](https://judge.beecrowd.com/pt/problems/view/2430) - Catálogo de Músicas
+- [ ] [2431](https://judge.beecrowd.com/pt/problems/view/2431) - Lençol
+- [ ] [2432](https://judge.beecrowd.com/pt/problems/view/2432) - Tiro ao Alvo
+- [ ] [2433](https://judge.beecrowd.com/pt/problems/view/2433) - Vende-se
+- [ ] [2434](https://judge.beecrowd.com/pt/problems/view/2434) - Saldo do Vovô
+- [ ] [2435](https://judge.beecrowd.com/pt/problems/view/2435) - Corrida
+- [ ] [2436](https://judge.beecrowd.com/pt/problems/view/2436) - Robô
+- [ ] [2437](https://judge.beecrowd.com/pt/problems/view/2437) - Distância de Manhattan
+- [ ] [2438](https://judge.beecrowd.com/pt/problems/view/2438) - Quadradinho de 8
+- [ ] [2439](https://judge.beecrowd.com/pt/problems/view/2439) - Cachecol da Vovó Vitória
+- [ ] [2441](https://judge.beecrowd.com/pt/problems/view/2441) - Janela
+- [ ] [2442](https://judge.beecrowd.com/pt/problems/view/2442) - Plantação
+- [ ] [2443](https://judge.beecrowd.com/pt/problems/view/2443) - Soma de Frações
+- [ ] [2444](https://judge.beecrowd.com/pt/problems/view/2444) - Volume da TV
+- [ ] [2445](https://judge.beecrowd.com/pt/problems/view/2445) - Polígono
+- [ ] [2447](https://judge.beecrowd.com/pt/problems/view/2447) - Torneio
+- [ ] [2448](https://judge.beecrowd.com/pt/problems/view/2448) - Carteiro
+- [ ] [2449](https://judge.beecrowd.com/pt/problems/view/2449) - Fechadura
+- [ ] [2450](https://judge.beecrowd.com/pt/problems/view/2450) - Matriz Escada
+- [ ] [2451](https://judge.beecrowd.com/pt/problems/view/2451) - PacMan
+- [ ] [2452](https://judge.beecrowd.com/pt/problems/view/2452) - Semente
+- [ ] [2453](https://judge.beecrowd.com/pt/problems/view/2453) - Língua do P
+- [ ] [2454](https://judge.beecrowd.com/pt/problems/view/2454) - Flíper
+- [ ] [2455](https://judge.beecrowd.com/pt/problems/view/2455) - Gangorra
+- [ ] [2456](https://judge.beecrowd.com/pt/problems/view/2456) - Cartas
+- [ ] [2457](https://judge.beecrowd.com/pt/problems/view/2457) - Letras
+- [ ] [2458](https://judge.beecrowd.com/pt/problems/view/2458) - Setas
+- [ ] [2459](https://judge.beecrowd.com/pt/problems/view/2459) - Copa do Mundo
+- [ ] [2460](https://judge.beecrowd.com/pt/problems/view/2460) - Fila
+- [ ] [2461](https://judge.beecrowd.com/pt/problems/view/2461) - Blefe
+- [ ] [2462](https://judge.beecrowd.com/pt/problems/view/2462) - Voo
+- [ ] [2463](https://judge.beecrowd.com/pt/problems/view/2463) - Corredor
+- [ ] [2464](https://judge.beecrowd.com/pt/problems/view/2464) - Decifra
+- [ ] [2465](https://judge.beecrowd.com/pt/problems/view/2465) - Passa Bolinha
+- [ ] [2466](https://judge.beecrowd.com/pt/problems/view/2466) - Sinuca
+- [ ] [2467](https://judge.beecrowd.com/pt/problems/view/2467) - Frequência
+- [ ] [2468](https://judge.beecrowd.com/pt/problems/view/2468) - Mapa
+- [ ] [2469](https://judge.beecrowd.com/pt/problems/view/2469) - Notas
+- [ ] [2470](https://judge.beecrowd.com/pt/problems/view/2470) - Jogo da Memória
+- [ ] [2471](https://judge.beecrowd.com/pt/problems/view/2471) - Quadrado
+- [ ] [2472](https://judge.beecrowd.com/pt/problems/view/2472) - Tapetes
+- [ ] [2473](https://judge.beecrowd.com/pt/problems/view/2473) - Loteria
+- [ ] [2478](https://judge.beecrowd.com/pt/problems/view/2478) - Acerte o Presente
+- [ ] [2479](https://judge.beecrowd.com/pt/problems/view/2479) - Ordenando a Lista de Crianças do Papai Noel
+- [ ] [2487](https://judge.beecrowd.com/pt/problems/view/2487) - Do Lado Escuro do Código
+- [ ] [2504](https://judge.beecrowd.com/pt/problems/view/2504) - Biorritmo
+- [ ] [2507](https://judge.beecrowd.com/pt/problems/view/2507) - Código de Hamming
+- [ ] [2508](https://judge.beecrowd.com/pt/problems/view/2508) - Guru da Sorte
+- [ ] [2511](https://judge.beecrowd.com/pt/problems/view/2511) - WWW
+- [ ] [2512](https://judge.beecrowd.com/pt/problems/view/2512) - O Jogo Reverse
+- [ ] [2513](https://judge.beecrowd.com/pt/problems/view/2513) - Xoringan
+- [ ] [2515](https://judge.beecrowd.com/pt/problems/view/2515) - Bolacha
+- [ ] [2530](https://judge.beecrowd.com/pt/problems/view/2530) - Cola
+- [ ] [2536](https://judge.beecrowd.com/pt/problems/view/2536) - FHBZMIPS
+- [ ] [2548](https://judge.beecrowd.com/pt/problems/view/2548) - Museu Virtual 3D
+- [ ] [2556](https://judge.beecrowd.com/pt/problems/view/2556) - Reinauguração do CEI
+- [ ] [2564](https://judge.beecrowd.com/pt/problems/view/2564) - Troca ou Não Troca
+- [ ] [2565](https://judge.beecrowd.com/pt/problems/view/2565) - Tubos de Ensaio
+- [ ] [2567](https://judge.beecrowd.com/pt/problems/view/2567) - Virus
+- [ ] [2568](https://judge.beecrowd.com/pt/problems/view/2568) - Ações
+- [ ] [2569](https://judge.beecrowd.com/pt/problems/view/2569) - A Bruxa do 7 x 1
+- [ ] [2570](https://judge.beecrowd.com/pt/problems/view/2570) - Californication
+- [ ] [2571](https://judge.beecrowd.com/pt/problems/view/2571) - Doador
+- [ ] [2572](https://judge.beecrowd.com/pt/problems/view/2572) - Escalação
+- [ ] [2573](https://judge.beecrowd.com/pt/problems/view/2573) - Caça ao Tesouro
+- [ ] [2574](https://judge.beecrowd.com/pt/problems/view/2574) - Lagoa Das Capivaras
+- [ ] [2575](https://judge.beecrowd.com/pt/problems/view/2575) - Árvore de Natal
+- [ ] [2576](https://judge.beecrowd.com/pt/problems/view/2576) - Invertendo Setas
+- [ ] [2577](https://judge.beecrowd.com/pt/problems/view/2577) - Jogo das Caixas
+- [ ] [2578](https://judge.beecrowd.com/pt/problems/view/2578) - Ontarama Meraini
+- [ ] [2579](https://judge.beecrowd.com/pt/problems/view/2579) - Nagol
+- [ ] [2580](https://judge.beecrowd.com/pt/problems/view/2580) - Mestre Pokémon Ho
+- [ ] [2586](https://judge.beecrowd.com/pt/problems/view/2586) - Cubonacci
+- [ ] [2590](https://judge.beecrowd.com/pt/problems/view/2590) - Sete
+- [ ] [2592](https://judge.beecrowd.com/pt/problems/view/2592) - VaiNaSort
+- [ ] [2595](https://judge.beecrowd.com/pt/problems/view/2595) - Cash Roial
+- [ ] [2600](https://judge.beecrowd.com/pt/problems/view/2600) - Tustin e Seu Dado Novo
+- [ ] [2601](https://judge.beecrowd.com/pt/problems/view/2601) - Tustin e Seu Dado Antigo
+- [ ] [2627](https://judge.beecrowd.com/pt/problems/view/2627) - Bonde de Autômatos
+- [ ] [2628](https://judge.beecrowd.com/pt/problems/view/2628) - Caça ao Tesouro
+- [ ] [2629](https://judge.beecrowd.com/pt/problems/view/2629) - Rodoido
+- [ ] [2634](https://judge.beecrowd.com/pt/problems/view/2634) - Em Prol da Ciência
+- [ ] [2639](https://judge.beecrowd.com/pt/problems/view/2639) - Cluedo
+- [ ] [2641](https://judge.beecrowd.com/pt/problems/view/2641) - Dinheiro por Nada
+- [ ] [2643](https://judge.beecrowd.com/pt/problems/view/2643) - Posterizar
+- [ ] [2644](https://judge.beecrowd.com/pt/problems/view/2644) - Replicate Replicate Rfplicbte
+- [ ] [2645](https://judge.beecrowd.com/pt/problems/view/2645) - Scenery
+- [ ] [2648](https://judge.beecrowd.com/pt/problems/view/2648) - Tarot Sham Boast
+- [ ] [2650](https://judge.beecrowd.com/pt/problems/view/2650) - Construindo Muralhas
+- [ ] [2659](https://judge.beecrowd.com/pt/problems/view/2659) - Brincadeira
+- [ ] [2662](https://judge.beecrowd.com/pt/problems/view/2662) - Escala Musical
+- [ ] [2672](https://judge.beecrowd.com/pt/problems/view/2672) - Máscara de Rede
+- [ ] [2673](https://judge.beecrowd.com/pt/problems/view/2673) - Resistores Série e Paralelo
+- [ ] [2675](https://judge.beecrowd.com/pt/problems/view/2675) - Rouba Monte
+- [ ] [2679](https://judge.beecrowd.com/pt/problems/view/2679) - Sucessor Par
+- [ ] [2682](https://judge.beecrowd.com/pt/problems/view/2682) - Detector de Falhas
+- [ ] [2684](https://judge.beecrowd.com/pt/problems/view/2684) - Ajude o Professor Webscript!!
+- [ ] [2689](https://judge.beecrowd.com/pt/problems/view/2689) - Jogo do Mião
+- [ ] [2701](https://judge.beecrowd.com/pt/problems/view/2701) - Portas da Incerteza
+- [ ] [2704](https://judge.beecrowd.com/pt/problems/view/2704) - Sapo Saltador
+- [ ] [2705](https://judge.beecrowd.com/pt/problems/view/2705) - Mantenha Coberto
+- [ ] [2710](https://judge.beecrowd.com/pt/problems/view/2710) - Jogo da Matriz
+- [ ] [2719](https://judge.beecrowd.com/pt/problems/view/2719) - Quantas Viagens Fará o Noel?
+- [ ] [2730](https://judge.beecrowd.com/pt/problems/view/2730) - Pares Pareados
+- [ ] [2733](https://judge.beecrowd.com/pt/problems/view/2733) - O Armário da Leitora
+- [ ] [2736](https://judge.beecrowd.com/pt/problems/view/2736) - Números de Avalon
+- [ ] [2771](https://judge.beecrowd.com/pt/problems/view/2771) - Média
+- [ ] [2772](https://judge.beecrowd.com/pt/problems/view/2772) - Plantação
+- [ ] [2776](https://judge.beecrowd.com/pt/problems/view/2776) - Promoções
+- [ ] [2788](https://judge.beecrowd.com/pt/problems/view/2788) - Aula
+- [ ] [2789](https://judge.beecrowd.com/pt/problems/view/2789) - Crise Hídrica
+- [ ] [2790](https://judge.beecrowd.com/pt/problems/view/2790) - Dados
+- [ ] [2793](https://judge.beecrowd.com/pt/problems/view/2793) - HM
+- [ ] [2794](https://judge.beecrowd.com/pt/problems/view/2794) - Montes Claros
+- [ ] [2795](https://judge.beecrowd.com/pt/problems/view/2795) - Palíndromo
+- [ ] [2796](https://judge.beecrowd.com/pt/problems/view/2796) - Planta da Casa
+- [ ] [2797](https://judge.beecrowd.com/pt/problems/view/2797) - Aplicando Prova
+- [ ] [2798](https://judge.beecrowd.com/pt/problems/view/2798) - Lero-Lero da Mineira
+- [ ] [2803](https://judge.beecrowd.com/pt/problems/view/2803) - Estados do Norte
+- [ ] [2806](https://judge.beecrowd.com/pt/problems/view/2806) - Ingredientes Típicos
+- [ ] [2814](https://judge.beecrowd.com/pt/problems/view/2814) - Música Alta
+- [ ] [2829](https://judge.beecrowd.com/pt/problems/view/2829) - Maiúsculas, Por Quê?
+- [ ] [2830](https://judge.beecrowd.com/pt/problems/view/2830) - Copa
+- [ ] [2832](https://judge.beecrowd.com/pt/problems/view/2832) - Cápsulas
+- [ ] [2833](https://judge.beecrowd.com/pt/problems/view/2833) - Campeonato
+- [ ] [2834](https://judge.beecrowd.com/pt/problems/view/2834) - Fuga
+- [ ] [2835](https://judge.beecrowd.com/pt/problems/view/2835) - Elevador
+- [ ] [2836](https://judge.beecrowd.com/pt/problems/view/2836) - Wifi
+- [ ] [2837](https://judge.beecrowd.com/pt/problems/view/2837) - Sequência
+- [ ] [2843](https://judge.beecrowd.com/pt/problems/view/2843) - Escrita Rápida, a Competição
+- [ ] [2844](https://judge.beecrowd.com/pt/problems/view/2844) - Escrita Rápida, o Duelo
+- [ ] [2847](https://judge.beecrowd.com/pt/problems/view/2847) - Papel, Tesoura, I Love You!
+- [ ] [2851](https://judge.beecrowd.com/pt/problems/view/2851) - Desafio de Rangel
+- [ ] [2853](https://judge.beecrowd.com/pt/problems/view/2853) - Invenções de Bibika
+- [ ] [2858](https://judge.beecrowd.com/pt/problems/view/2858) - Tabuleiro Infinito
+- [ ] [2865](https://judge.beecrowd.com/pt/problems/view/2865) - Palíndromo Binário
+- [ ] [2868](https://judge.beecrowd.com/pt/problems/view/2868) - Errrou!
+- [ ] [2871](https://judge.beecrowd.com/pt/problems/view/2871) - Colheita de Café
+- [ ] [2874](https://judge.beecrowd.com/pt/problems/view/2874) - Frase Binária
+- [ ] [2875](https://judge.beecrowd.com/pt/problems/view/2875) - Jogo Túnel
+- [ ] [2876](https://judge.beecrowd.com/pt/problems/view/2876) - Aventurando-se no Slackline
+- [ ] [2884](https://judge.beecrowd.com/pt/problems/view/2884) - Interruptores
+- [ ] [2897](https://judge.beecrowd.com/pt/problems/view/2897) - Histórico de Comandos
+- [ ] [2898](https://judge.beecrowd.com/pt/problems/view/2898) - Olimpíadas
+- [ ] [2899](https://judge.beecrowd.com/pt/problems/view/2899) - Série de Tubos
+- [ ] [2900](https://judge.beecrowd.com/pt/problems/view/2900) - Jogo de Varetas
+- [ ] [2901](https://judge.beecrowd.com/pt/problems/view/2901) - Vôlei Marciano
+- [ ] [2902](https://judge.beecrowd.com/pt/problems/view/2902) - Rouba Monte
+- [ ] [2904](https://judge.beecrowd.com/pt/problems/view/2904) - Building a Field
+- [ ] [2905](https://judge.beecrowd.com/pt/problems/view/2905) - Cheap Trips
+- [ ] [2907](https://judge.beecrowd.com/pt/problems/view/2907) - Escape, Polygon!
+- [ ] [2908](https://judge.beecrowd.com/pt/problems/view/2908) - Fantastic Beasts
+- [ ] [2909](https://judge.beecrowd.com/pt/problems/view/2909) - Gathering Red-Black Fruits
+- [ ] [2910](https://judge.beecrowd.com/pt/problems/view/2910) - Highway Decommission
+- [ ] [2911](https://judge.beecrowd.com/pt/problems/view/2911) - Ink Colors
+- [ ] [2912](https://judge.beecrowd.com/pt/problems/view/2912) - Jeopardized Election
+- [ ] [2913](https://judge.beecrowd.com/pt/problems/view/2913) - KryptoLocker Ate my Homework
+- [ ] [2914](https://judge.beecrowd.com/pt/problems/view/2914) - Looking for the Risk Factor
+- [ ] [2915](https://judge.beecrowd.com/pt/problems/view/2915) - Mount Marathon
+- [ ] [2922](https://judge.beecrowd.com/pt/problems/view/2922) - Salas De Aula
+- [ ] [2923](https://judge.beecrowd.com/pt/problems/view/2923) - Birinho
+- [ ] [2924](https://judge.beecrowd.com/pt/problems/view/2924) - BigInt
+- [ ] [2925](https://judge.beecrowd.com/pt/problems/view/2925) - Sequência IccanobiF
+- [ ] [2926](https://judge.beecrowd.com/pt/problems/view/2926) - Então é Natal!
+- [ ] [2927](https://judge.beecrowd.com/pt/problems/view/2927) - Imprevistos Natalinos
+- [ ] [2928](https://judge.beecrowd.com/pt/problems/view/2928) - Cruzando Lagos
+- [ ] [2931](https://judge.beecrowd.com/pt/problems/view/2931) - Presentes Suspeitos
+- [ ] [2935](https://judge.beecrowd.com/pt/problems/view/2935) - DNA Élfico
+- [ ] [2938](https://judge.beecrowd.com/pt/problems/view/2938) - Jaçanã
+- [ ] [2940](https://judge.beecrowd.com/pt/problems/view/2940) - Máquina do Tempo Quebrada
+- [ ] [2942](https://judge.beecrowd.com/pt/problems/view/2942) - Mistura de Bits
+- [ ] [2943](https://judge.beecrowd.com/pt/problems/view/2943) - Smider Pan
+- [ ] [2944](https://judge.beecrowd.com/pt/problems/view/2944) - Emergência em Manaus
+- [ ] [2945](https://judge.beecrowd.com/pt/problems/view/2945) - Monitor
+- [ ] [2946](https://judge.beecrowd.com/pt/problems/view/2946) - Dabriel e a Divisibilidade
+- [ ] [2947](https://judge.beecrowd.com/pt/problems/view/2947) - Gabarito
+- [ ] [2948](https://judge.beecrowd.com/pt/problems/view/2948) - Plantação de Açaí
+- [ ] [2957](https://judge.beecrowd.com/pt/problems/view/2957) - Sir Vô
+- [ ] [2964](https://judge.beecrowd.com/pt/problems/view/2964) - Cruzamento Perigoso
+- [ ] [2966](https://judge.beecrowd.com/pt/problems/view/2966) - Exibição de Peixes
+- [ ] [2971](https://judge.beecrowd.com/pt/problems/view/2971) - Jogo de Baralho
+- [ ] [2972](https://judge.beecrowd.com/pt/problems/view/2972) - Lançando Moedas
+- [ ] [2979](https://judge.beecrowd.com/pt/problems/view/2979) - Torre
+- [ ] [2985](https://judge.beecrowd.com/pt/problems/view/2985) - Tobias Contra o Relógio
+- [ ] [3005](https://judge.beecrowd.com/pt/problems/view/3005) - Pilhas de Paralelepípedos
+- [ ] [3006](https://judge.beecrowd.com/pt/problems/view/3006) - Passeio em Copacabana
+- [ ] [3008](https://judge.beecrowd.com/pt/problems/view/3008) - Numeração com Fósforos
+- [ ] [3009](https://judge.beecrowd.com/pt/problems/view/3009) - Dominós
+- [ ] [3010](https://judge.beecrowd.com/pt/problems/view/3010) - Binários Ambíguos
+- [ ] [3011](https://judge.beecrowd.com/pt/problems/view/3011) - Quebra-Cabeça Algébrico
+- [ ] [3012](https://judge.beecrowd.com/pt/problems/view/3012) - Algorithm Teaching
+- [ ] [3013](https://judge.beecrowd.com/pt/problems/view/3013) - Build the Perfect House
+- [ ] [3014](https://judge.beecrowd.com/pt/problems/view/3014) - Cut Inequality Down
+- [ ] [3015](https://judge.beecrowd.com/pt/problems/view/3015) - Dazzling Stars
+- [ ] [3016](https://judge.beecrowd.com/pt/problems/view/3016) - Eggfruit Cake
+- [ ] [3017](https://judge.beecrowd.com/pt/problems/view/3017) - Fabricating Sculptures
+- [ ] [3018](https://judge.beecrowd.com/pt/problems/view/3018) - Gluing Pictures
+- [ ] [3019](https://judge.beecrowd.com/pt/problems/view/3019) - Hold or Continue?
+- [ ] [3020](https://judge.beecrowd.com/pt/problems/view/3020) - Improve SPAM
+- [ ] [3021](https://judge.beecrowd.com/pt/problems/view/3021) - Jumping Grasshopper
+- [ ] [3022](https://judge.beecrowd.com/pt/problems/view/3022) - Know your Aliens
+- [ ] [3023](https://judge.beecrowd.com/pt/problems/view/3023) - Leverage MDT
+- [ ] [3024](https://judge.beecrowd.com/pt/problems/view/3024) - Mountain Ranges
+- [ ] [3025](https://judge.beecrowd.com/pt/problems/view/3025) - Coletor
+- [ ] [3030](https://judge.beecrowd.com/pt/problems/view/3030) - Transformadores de Salto
+- [ ] [3032](https://judge.beecrowd.com/pt/problems/view/3032) - Tuplas do Produto
+- [ ] [3033](https://judge.beecrowd.com/pt/problems/view/3033) - Ajude Maria
+- [ ] [3034](https://judge.beecrowd.com/pt/problems/view/3034) - O Caso Douglas
+- [ ] [3035](https://judge.beecrowd.com/pt/problems/view/3035) - Fabrica de Peças
+- [ ] [3041](https://judge.beecrowd.com/pt/problems/view/3041) - Distribuição de Artigos
+- [ ] [3048](https://judge.beecrowd.com/pt/problems/view/3048) - Sequência Secreta
+- [ ] [3050](https://judge.beecrowd.com/pt/problems/view/3050) - Distância Entre Amigos
+- [ ] [3052](https://judge.beecrowd.com/pt/problems/view/3052) - Chuva
+- [ ] [3054](https://judge.beecrowd.com/pt/problems/view/3054) - Matriz Super-legal
+- [ ] [3056](https://judge.beecrowd.com/pt/problems/view/3056) - Ponto do Meio
+- [ ] [3057](https://judge.beecrowd.com/pt/problems/view/3057) - Detetive
+- [ ] [3058](https://judge.beecrowd.com/pt/problems/view/3058) - Supermercado
+- [ ] [3059](https://judge.beecrowd.com/pt/problems/view/3059) - Pares de Números
+- [ ] [3060](https://judge.beecrowd.com/pt/problems/view/3060) - Parcelamento Sem Juros
+- [ ] [3062](https://judge.beecrowd.com/pt/problems/view/3062) - Coleção de Upas
+- [ ] [3063](https://judge.beecrowd.com/pt/problems/view/3063) - Linhas de Ônibus
+- [ ] [3071](https://judge.beecrowd.com/pt/problems/view/3071) - Melhor Ranking
+- [ ] [3074](https://judge.beecrowd.com/pt/problems/view/3074) - Consultas em Uma Array
+- [ ] [3077](https://judge.beecrowd.com/pt/problems/view/3077) - Distribuindo Pequis
+- [ ] [3085](https://judge.beecrowd.com/pt/problems/view/3085) - O Grande Dia
+- [ ] [3087](https://judge.beecrowd.com/pt/problems/view/3087) - O Padawan Jorge
+- [ ] [3090](https://judge.beecrowd.com/pt/problems/view/3090) - Campo de Batalha
+- [ ] [3092](https://judge.beecrowd.com/pt/problems/view/3092) - Truco da Galera 2.0
+- [ ] [3093](https://judge.beecrowd.com/pt/problems/view/3093) - Truco da Galera 1.0
+- [ ] [3094](https://judge.beecrowd.com/pt/problems/view/3094) - Truco da Galera 3.0
+- [ ] [3105](https://judge.beecrowd.com/pt/problems/view/3105) - Dobrando Papel
+- [ ] [3106](https://judge.beecrowd.com/pt/problems/view/3106) - Competição de Códigos
+- [ ] [3109](https://judge.beecrowd.com/pt/problems/view/3109) - Trocando de Mesa
+- [ ] [3111](https://judge.beecrowd.com/pt/problems/view/3111) - A Vitória de Jim
+- [ ] [3112](https://judge.beecrowd.com/pt/problems/view/3112) - Decodificação Ambígua
+- [ ] [3113](https://judge.beecrowd.com/pt/problems/view/3113) - Cadeado Insano
+- [ ] [3117](https://judge.beecrowd.com/pt/problems/view/3117) - Atrasadinhos
+- [ ] [3120](https://judge.beecrowd.com/pt/problems/view/3120) - Jogada de Marketing
+- [ ] [3121](https://judge.beecrowd.com/pt/problems/view/3121) - Acionista Por um Dia
+- [ ] [3122](https://judge.beecrowd.com/pt/problems/view/3122) - Festa de Final de Ano
+- [ ] [3123](https://judge.beecrowd.com/pt/problems/view/3123) - Pedras do Gênesis
+- [ ] [3125](https://judge.beecrowd.com/pt/problems/view/3125) - Princesa das Equações
+- [ ] [3126](https://judge.beecrowd.com/pt/problems/view/3126) - Lista de Treinamento
+- [ ] [3127](https://judge.beecrowd.com/pt/problems/view/3127) - Kampeonato de Feijão
+- [ ] [3128](https://judge.beecrowd.com/pt/problems/view/3128) - Regras do Cinema
+- [ ] [3129](https://judge.beecrowd.com/pt/problems/view/3129) - Figurinhas Repetidas
+- [ ] [3130](https://judge.beecrowd.com/pt/problems/view/3130) - Caixas Por Todo Lado
+- [ ] [3131](https://judge.beecrowd.com/pt/problems/view/3131) - Índice de Reputação
+- [ ] [3132](https://judge.beecrowd.com/pt/problems/view/3132) - DNA Alienígena
+- [ ] [3133](https://judge.beecrowd.com/pt/problems/view/3133) - Fila de Navios
+- [ ] [3134](https://judge.beecrowd.com/pt/problems/view/3134) - Balança Equilibrada
+- [ ] [3135](https://judge.beecrowd.com/pt/problems/view/3135) - Lista de Nomes
+- [ ] [3136](https://judge.beecrowd.com/pt/problems/view/3136) - Arquitetura de Pilha
+- [ ] [3137](https://judge.beecrowd.com/pt/problems/view/3137) - Páginas de um Livro
+- [ ] [3168](https://judge.beecrowd.com/pt/problems/view/3168) - Aposta dos Gnomos
+- [ ] [3172](https://judge.beecrowd.com/pt/problems/view/3172) - Dali e Dila
+- [ ] [3175](https://judge.beecrowd.com/pt/problems/view/3175) - Os Presentes Do Noel
+- [ ] [3177](https://judge.beecrowd.com/pt/problems/view/3177) - Fábrica de Brinquedos do Papai Noel
+- [ ] [3188](https://judge.beecrowd.com/pt/problems/view/3188) - Phone List
+- [ ] [3189](https://judge.beecrowd.com/pt/problems/view/3189) - Cuckoo Hashing
+- [ ] [3198](https://judge.beecrowd.com/pt/problems/view/3198) - Tour Guide
+- [ ] [3199](https://judge.beecrowd.com/pt/problems/view/3199) - Jezzball
+- [ ] [3200](https://judge.beecrowd.com/pt/problems/view/3200) - Card Trick
+- [ ] [3202](https://judge.beecrowd.com/pt/problems/view/3202) - Whac-a-Mole
+- [ ] [3203](https://judge.beecrowd.com/pt/problems/view/3203) - Random Walking
+- [ ] [3205](https://judge.beecrowd.com/pt/problems/view/3205) - Nasty Hacks
+- [ ] [3206](https://judge.beecrowd.com/pt/problems/view/3206) - Batida de Robos
+- [ ] [3212](https://judge.beecrowd.com/pt/problems/view/3212) - Decomposição do Colar
+- [ ] [3219](https://judge.beecrowd.com/pt/problems/view/3219) - Gokigen Naname
+- [ ] [3222](https://judge.beecrowd.com/pt/problems/view/3222) - Cifra Playfair
+- [ ] [3225](https://judge.beecrowd.com/pt/problems/view/3225) - Ordenação dos Pães
+- [ ] [3226](https://judge.beecrowd.com/pt/problems/view/3226) - Seleção de Biscoito
+- [ ] [3227](https://judge.beecrowd.com/pt/problems/view/3227) - Doorman
+- [ ] [3228](https://judge.beecrowd.com/pt/problems/view/3228) - Eco-driving
+- [ ] [3240](https://judge.beecrowd.com/pt/problems/view/3240) - Doodling
+- [ ] [3254](https://judge.beecrowd.com/pt/problems/view/3254) - Espaço Privado
+- [ ] [3263](https://judge.beecrowd.com/pt/problems/view/3263) - Apague Com Segurança
+- [ ] [3278](https://judge.beecrowd.com/pt/problems/view/3278) - Passageiros de Trem
+- [ ] [3305](https://judge.beecrowd.com/pt/problems/view/3305) - Bispos Dominantes
+- [ ] [3307](https://judge.beecrowd.com/pt/problems/view/3307) - Decora o Rolê!
+- [ ] [3309](https://judge.beecrowd.com/pt/problems/view/3309) - Felizes são estes Números
+- [ ] [3315](https://judge.beecrowd.com/pt/problems/view/3315) - Língua do Computador
+- [ ] [3351](https://judge.beecrowd.com/pt/problems/view/3351) - Clickbait
+- [ ] [3355](https://judge.beecrowd.com/pt/problems/view/3355) - Pinhões no Xadrez
+- [ ] [3359](https://judge.beecrowd.com/pt/problems/view/3359) - Ancient Towers
+- [ ] [3360](https://judge.beecrowd.com/pt/problems/view/3360) - Because, Art!
+- [ ] [3361](https://judge.beecrowd.com/pt/problems/view/3361) - Cyclists versus Clouds
+- [ ] [3362](https://judge.beecrowd.com/pt/problems/view/3362) - Daily Turnovers
+- [ ] [3363](https://judge.beecrowd.com/pt/problems/view/3363) - Expedition Plans
+- [ ] [3364](https://judge.beecrowd.com/pt/problems/view/3364) - Fields Division
+- [ ] [3365](https://judge.beecrowd.com/pt/problems/view/3365) - Generator Tree
+- [ ] [3366](https://judge.beecrowd.com/pt/problems/view/3366) - Hamilton - The Musical
+- [ ] [3367](https://judge.beecrowd.com/pt/problems/view/3367) - Invested Money
+- [ ] [3368](https://judge.beecrowd.com/pt/problems/view/3368) - Joining Pairs
+- [ ] [3369](https://judge.beecrowd.com/pt/problems/view/3369) - KIARA is a Recursive Acronym
+- [ ] [3370](https://judge.beecrowd.com/pt/problems/view/3370) - Leaving Yharnam
+- [ ] [3371](https://judge.beecrowd.com/pt/problems/view/3371) - Most Ordered Way
+- [ ] [3372](https://judge.beecrowd.com/pt/problems/view/3372) - Sudoku
+- [ ] [3373](https://judge.beecrowd.com/pt/problems/view/3373) - Criptografia Da Vinci’s
+- [ ] [3374](https://judge.beecrowd.com/pt/problems/view/3374) - F de a e b até k
+- [ ] [3375](https://judge.beecrowd.com/pt/problems/view/3375) - Divisão Longa
+- [ ] [3376](https://judge.beecrowd.com/pt/problems/view/3376) - Sobreposição parcial
+- [ ] [3377](https://judge.beecrowd.com/pt/problems/view/3377) - Geometria?! Por que não??
+- [ ] [3378](https://judge.beecrowd.com/pt/problems/view/3378) - Blocos indistinguíveis
+- [ ] [3379](https://judge.beecrowd.com/pt/problems/view/3379) - Chop Ahoy!
+- [ ] [3380](https://judge.beecrowd.com/pt/problems/view/3380) - Dá um tempo!
+- [ ] [3381](https://judge.beecrowd.com/pt/problems/view/3381) - Um por todos. Todos por tudo que existe.
+- [ ] [3382](https://judge.beecrowd.com/pt/problems/view/3382) - Seja esperto!
+- [ ] [3383](https://judge.beecrowd.com/pt/problems/view/3383) - O jogo Tetris
+- [ ] [3384](https://judge.beecrowd.com/pt/problems/view/3384) - Blocos de madeira
+- [ ] [3385](https://judge.beecrowd.com/pt/problems/view/3385) - Caminhe como um egípcio
+- [ ] [3386](https://judge.beecrowd.com/pt/problems/view/3386) - O Excelente Saara
+- [ ] [3387](https://judge.beecrowd.com/pt/problems/view/3387) - Johnny odeia a Teoria dos Números
+- [ ] [3388](https://judge.beecrowd.com/pt/problems/view/3388) - A terra é plana!
+- [ ] [3389](https://judge.beecrowd.com/pt/problems/view/3389) - The Double HeLiX
+- [ ] [3390](https://judge.beecrowd.com/pt/problems/view/3390) - Alpha of Degree k
+- [ ] [3391](https://judge.beecrowd.com/pt/problems/view/3391) - Sort that Queue
+- [ ] [3392](https://judge.beecrowd.com/pt/problems/view/3392) - Still Johnny Can’t Add
+- [ ] [3393](https://judge.beecrowd.com/pt/problems/view/3393) - It’s All About Three
+- [ ] [3394](https://judge.beecrowd.com/pt/problems/view/3394) - Maça de Newton
+- [ ] [3395](https://judge.beecrowd.com/pt/problems/view/3395) - O Relógio Euclidiano
+- [ ] [3396](https://judge.beecrowd.com/pt/problems/view/3396) - Chop Ahoy! Revisited!
+- [ ] [3397](https://judge.beecrowd.com/pt/problems/view/3397) - Melhor do Multiverso
+- [ ] [3398](https://judge.beecrowd.com/pt/problems/view/3398) - Moeda Convertida
+- [ ] [3399](https://judge.beecrowd.com/pt/problems/view/3399) - Meu nome é Enésimo!
+- [ ] [3400](https://judge.beecrowd.com/pt/problems/view/3400) - Amigo não tão secreto assim
+- [ ] [3401](https://judge.beecrowd.com/pt/problems/view/3401) - Bicho da Goiaba Ataca Novamente
+- [ ] [3403](https://judge.beecrowd.com/pt/problems/view/3403) - Dengoso
+- [ ] [3404](https://judge.beecrowd.com/pt/problems/view/3404) - Estranho ou Engraçado
+- [ ] [3405](https://judge.beecrowd.com/pt/problems/view/3405) - Fatorial
+- [ ] [3406](https://judge.beecrowd.com/pt/problems/view/3406) - Gatas do Lincoln
+- [ ] [3407](https://judge.beecrowd.com/pt/problems/view/3407) - Hora do Café
+- [ ] [3408](https://judge.beecrowd.com/pt/problems/view/3408) - Ignore as Letras
+- [ ] [3409](https://judge.beecrowd.com/pt/problems/view/3409) - Júnior, como seu tio come?
+- [ ] [3410](https://judge.beecrowd.com/pt/problems/view/3410) - Kebra Cabeça
+- [ ] [3411](https://judge.beecrowd.com/pt/problems/view/3411) - Lá vai tinta!
+- [ ] [3412](https://judge.beecrowd.com/pt/problems/view/3412) - Avaliações de Algoritmos
+- [ ] [3413](https://judge.beecrowd.com/pt/problems/view/3413) - Baita Desafio Complexo
+- [ ] [3414](https://judge.beecrowd.com/pt/problems/view/3414) - Chimambu
+- [ ] [3415](https://judge.beecrowd.com/pt/problems/view/3415) - Ditados
+- [ ] [3416](https://judge.beecrowd.com/pt/problems/view/3416) - Eu Quero Cafééé
+- [ ] [3417](https://judge.beecrowd.com/pt/problems/view/3417) - Falcatrua
+- [ ] [3418](https://judge.beecrowd.com/pt/problems/view/3418) - La Chaleur
+- [ ] [3419](https://judge.beecrowd.com/pt/problems/view/3419) - Kimi Räikkönen
+- [ ] [3420](https://judge.beecrowd.com/pt/problems/view/3420) - Torre de Cartas
+- [ ] [3421](https://judge.beecrowd.com/pt/problems/view/3421) - Infinita String de Dígitos
+- [ ] [3422](https://judge.beecrowd.com/pt/problems/view/3422) - José e a Súmula
+- [ ] [3423](https://judge.beecrowd.com/pt/problems/view/3423) - Gostos Peculiares
+- [ ] [3424](https://judge.beecrowd.com/pt/problems/view/3424) - Achando os Monótonos Não-Triviais Maximais
+- [ ] [3425](https://judge.beecrowd.com/pt/problems/view/3425) - Brincando com Pedras
+- [ ] [3426](https://judge.beecrowd.com/pt/problems/view/3426) - Cortes a Laser
+- [ ] [3427](https://judge.beecrowd.com/pt/problems/view/3427) - Deslocando Partículas
+- [ ] [3428](https://judge.beecrowd.com/pt/problems/view/3428) - Estourando Balões
+- [ ] [3429](https://judge.beecrowd.com/pt/problems/view/3429) - Forca Multidimensional
+- [ ] [3430](https://judge.beecrowd.com/pt/problems/view/3430) - Geometria Triangular
+- [ ] [3431](https://judge.beecrowd.com/pt/problems/view/3431) - Habilitando a Movimentação
+- [ ] [3432](https://judge.beecrowd.com/pt/problems/view/3432) - Interceptando Informações
+- [ ] [3433](https://judge.beecrowd.com/pt/problems/view/3433) - Jogando 23
+- [ ] [3435](https://judge.beecrowd.com/pt/problems/view/3435) - Listando Caminhos Tediosos
+- [ ] [3436](https://judge.beecrowd.com/pt/problems/view/3436) - Maratona de Amarelinha
+- [ ] [3437](https://judge.beecrowd.com/pt/problems/view/3437) - Números Virados
+- [ ] [3438](https://judge.beecrowd.com/pt/problems/view/3438) - Energia × Tempo
+- [ ] [3439](https://judge.beecrowd.com/pt/problems/view/3439) - Rota Crítica
+- [ ] [3440](https://judge.beecrowd.com/pt/problems/view/3440) - Amigos ou Inimigos?
+- [ ] [3442](https://judge.beecrowd.com/pt/problems/view/3442) - Pedindo dinheiro
+- [ ] [3443](https://judge.beecrowd.com/pt/problems/view/3443) - Jogo de tabuleiro
+- [ ] [3444](https://judge.beecrowd.com/pt/problems/view/3444) - Dobras da Cidade
+- [ ] [3445](https://judge.beecrowd.com/pt/problems/view/3445) - Passeios cotidianos
+- [ ] [3446](https://judge.beecrowd.com/pt/problems/view/3446) - Quadrados Vazios
+- [ ] [3447](https://judge.beecrowd.com/pt/problems/view/3447) - Árvore Preferida
+- [ ] [3448](https://judge.beecrowd.com/pt/problems/view/3448) - Detector de Ondas Gravitacionais
+- [ ] [3449](https://judge.beecrowd.com/pt/problems/view/3449) - Restaurante Italian Calzone & Pasta Corner
+- [ ] [3450](https://judge.beecrowd.com/pt/problems/view/3450) - Participando de uma Maratona
+- [ ] [3451](https://judge.beecrowd.com/pt/problems/view/3451) - Impressão Preguiçosa
+- [ ] [3452](https://judge.beecrowd.com/pt/problems/view/3452) - Labirinto em Parafuso
+- [ ] [3453](https://judge.beecrowd.com/pt/problems/view/3453) - Carlinhos Adora Problemas
+- [ ] [3454](https://judge.beecrowd.com/pt/problems/view/3454) - Alice no País do Jogo da Velha
+- [ ] [3455](https://judge.beecrowd.com/pt/problems/view/3455) - Banco Nacional de Questões
+- [ ] [3456](https://judge.beecrowd.com/pt/problems/view/3456) - Divisibilidade por 7
+- [ ] [3457](https://judge.beecrowd.com/pt/problems/view/3457) - Estimando Pedras no Pote
+- [ ] [3458](https://judge.beecrowd.com/pt/problems/view/3458) - Fabricação de Proteínas
+- [ ] [3459](https://judge.beecrowd.com/pt/problems/view/3459) - GoldMagikarp
+- [ ] [3460](https://judge.beecrowd.com/pt/problems/view/3460) - Hidratação na Ultramaratona
+- [ ] [3461](https://judge.beecrowd.com/pt/problems/view/3461) - Interferência em Luzes Hexagonais
+- [ ] [3462](https://judge.beecrowd.com/pt/problems/view/3462) - Jogando Discos de Hanói
+- [ ] [3463](https://judge.beecrowd.com/pt/problems/view/3463) - Kempner et al. e suas Potências
+- [ ] [3464](https://judge.beecrowd.com/pt/problems/view/3464) - Latência na Rede
+- [ ] [3465](https://judge.beecrowd.com/pt/problems/view/3465) - Cimba
+- [ ] [3466](https://judge.beecrowd.com/pt/problems/view/3466) - Dados do Multiverso
+- [ ] [3467](https://judge.beecrowd.com/pt/problems/view/3467) - Esse é o meu lugar!
+- [ ] [3468](https://judge.beecrowd.com/pt/problems/view/3468) - Faça mais, mas faça melhor!
+- [ ] [3469](https://judge.beecrowd.com/pt/problems/view/3469) - In Site
+- [ ] [3470](https://judge.beecrowd.com/pt/problems/view/3470) - Jogo do 8
+- [ ] [3471](https://judge.beecrowd.com/pt/problems/view/3471) - Kashmir
+- [ ] [3472](https://judge.beecrowd.com/pt/problems/view/3472) - Lá em cima do piano
+- [ ] [3473](https://judge.beecrowd.com/pt/problems/view/3473) - Alerte o próximo!
+- [ ] [3474](https://judge.beecrowd.com/pt/problems/view/3474) - Boa divisão
+- [ ] [3475](https://judge.beecrowd.com/pt/problems/view/3475) - Conversor
+- [ ] [3476](https://judge.beecrowd.com/pt/problems/view/3476) - A união faz a força!
+- [ ] [3477](https://judge.beecrowd.com/pt/problems/view/3477) - Baú Danificado
+- [ ] [3478](https://judge.beecrowd.com/pt/problems/view/3478) - Geiapan
+- [ ] [3479](https://judge.beecrowd.com/pt/problems/view/3479) - Horo e os copos
+- [ ] [3486](https://judge.beecrowd.com/pt/problems/view/3486) - Registro de exibição
+- [ ] [3487](https://judge.beecrowd.com/pt/problems/view/3487) - Firmware - Substring Manipulation
+- [ ] [3488](https://judge.beecrowd.com/pt/problems/view/3488) - Binary/Hexadecimal Number Systems
+- [ ] [3489](https://judge.beecrowd.com/pt/problems/view/3489) - C++ Templates and STL Containers
+
+</details>
+
+### 3️⃣ Strings (0/150)
+
+<details>
+<summary>📋 Ver todos os 150 problemas (Clique para expandir)</summary>
+
+- [ ] [1024](https://judge.beecrowd.com/pt/problems/view/1024) - Criptografia
+- [ ] [1120](https://judge.beecrowd.com/pt/problems/view/1120) - Revisão de Contrato
+- [ ] [1141](https://judge.beecrowd.com/pt/problems/view/1141) - Cultivando Strings
+- [ ] [1168](https://judge.beecrowd.com/pt/problems/view/1168) - LED
+- [ ] [1222](https://judge.beecrowd.com/pt/problems/view/1222) - Concurso de Contos
+- [ ] [1234](https://judge.beecrowd.com/pt/problems/view/1234) - Sentença Dançante
+- [ ] [1235](https://judge.beecrowd.com/pt/problems/view/1235) - De Dentro para Fora
+- [ ] [1237](https://judge.beecrowd.com/pt/problems/view/1237) - Comparação de Substring
+- [ ] [1238](https://judge.beecrowd.com/pt/problems/view/1238) - Combinador
+- [ ] [1239](https://judge.beecrowd.com/pt/problems/view/1239) - Atalhos Bloggo
+- [ ] [1241](https://judge.beecrowd.com/pt/problems/view/1241) - Encaixa ou Não II
+- [ ] [1243](https://judge.beecrowd.com/pt/problems/view/1243) - O Quão Fácil é...
+- [ ] [1248](https://judge.beecrowd.com/pt/problems/view/1248) - Plano de Dieta
+- [ ] [1253](https://judge.beecrowd.com/pt/problems/view/1253) - Cifra de César
+- [ ] [1254](https://judge.beecrowd.com/pt/problems/view/1254) - Substituição de Tag
+- [ ] [1255](https://judge.beecrowd.com/pt/problems/view/1255) - Frequência de Letras
+- [ ] [1257](https://judge.beecrowd.com/pt/problems/view/1257) - Array Hash
+- [ ] [1262](https://judge.beecrowd.com/pt/problems/view/1262) - Leitura Múltipla
+- [ ] [1263](https://judge.beecrowd.com/pt/problems/view/1263) - Aliteração
+- [ ] [1272](https://judge.beecrowd.com/pt/problems/view/1272) - Mensagem Oculta
+- [ ] [1273](https://judge.beecrowd.com/pt/problems/view/1273) - Justificador
+- [ ] [1276](https://judge.beecrowd.com/pt/problems/view/1276) - Faixa de Letras
+- [ ] [1277](https://judge.beecrowd.com/pt/problems/view/1277) - Pouca Frequência
+- [ ] [1278](https://judge.beecrowd.com/pt/problems/view/1278) - Justificador II
+- [ ] [1284](https://judge.beecrowd.com/pt/problems/view/1284) - Digitando no Telefone Celular
+- [ ] [1287](https://judge.beecrowd.com/pt/problems/view/1287) - Processador Amigável de Inteiros
+- [ ] [1305](https://judge.beecrowd.com/pt/problems/view/1305) - Arredondamento por Valor de Corte
+- [ ] [1313](https://judge.beecrowd.com/pt/problems/view/1313) - Dicionário Portuñol
+- [ ] [1332](https://judge.beecrowd.com/pt/problems/view/1332) - Um-Dois-Três
+- [ ] [1335](https://judge.beecrowd.com/pt/problems/view/1335) - Recuperação de Arquivos
+- [ ] [1341](https://judge.beecrowd.com/pt/problems/view/1341) - Crianças em uma Grade
+- [ ] [1355](https://judge.beecrowd.com/pt/problems/view/1355) - Compressor
+- [ ] [1364](https://judge.beecrowd.com/pt/problems/view/1364) - Emoticons :-)
+- [ ] [1367](https://judge.beecrowd.com/pt/problems/view/1367) - Ajude!
+- [ ] [1373](https://judge.beecrowd.com/pt/problems/view/1373) - Sequências de DNA
+- [ ] [1377](https://judge.beecrowd.com/pt/problems/view/1377) - Recuperador de Arquivos
+- [ ] [1385](https://judge.beecrowd.com/pt/problems/view/1385) - Recuperação de Relatório
+- [ ] [1386](https://judge.beecrowd.com/pt/problems/view/1386) - Códigos Ambíguos
+- [ ] [1406](https://judge.beecrowd.com/pt/problems/view/1406) - Jukebox
+- [ ] [1448](https://judge.beecrowd.com/pt/problems/view/1448) - Telefone Sem Fio
+- [ ] [1456](https://judge.beecrowd.com/pt/problems/view/1456) - Brainfuck
+- [ ] [1458](https://judge.beecrowd.com/pt/problems/view/1458) - Campeonato de SMS
+- [ ] [1491](https://judge.beecrowd.com/pt/problems/view/1491) - Linguagem de Blogger
+- [ ] [1503](https://judge.beecrowd.com/pt/problems/view/1503) - Maior Palíndromo Comum Você Deve Encontrar
+- [ ] [1516](https://judge.beecrowd.com/pt/problems/view/1516) - Imagem
+- [ ] [1519](https://judge.beecrowd.com/pt/problems/view/1519) - Abreviações
+- [ ] [1530](https://judge.beecrowd.com/pt/problems/view/1530) - Quantas Substrings?
+- [ ] [1551](https://judge.beecrowd.com/pt/problems/view/1551) - Frase Completa
+- [ ] [1556](https://judge.beecrowd.com/pt/problems/view/1556) - Removendo Letras
+- [ ] [1581](https://judge.beecrowd.com/pt/problems/view/1581) - Conversa Internacional
+- [ ] [1586](https://judge.beecrowd.com/pt/problems/view/1586) - Cabo de Guerra
+- [ ] [1607](https://judge.beecrowd.com/pt/problems/view/1607) - Avance as Letras
+- [ ] [1629](https://judge.beecrowd.com/pt/problems/view/1629) - DescompactaFACE
+- [ ] [1632](https://judge.beecrowd.com/pt/problems/view/1632) - Variações
+- [ ] [1664](https://judge.beecrowd.com/pt/problems/view/1664) - Bullshit Bingo
+- [ ] [1667](https://judge.beecrowd.com/pt/problems/view/1667) - HTML
+- [ ] [1686](https://judge.beecrowd.com/pt/problems/view/1686) - Sequência de Palíndromos
+- [ ] [1726](https://judge.beecrowd.com/pt/problems/view/1726) - Amigos
+- [ ] [1737](https://judge.beecrowd.com/pt/problems/view/1737) - Etaoin Shrdlu
+- [ ] [1768](https://judge.beecrowd.com/pt/problems/view/1768) - Árvore de Natal
+- [ ] [1781](https://judge.beecrowd.com/pt/problems/view/1781) - Guga e a String
+- [ ] [1803](https://judge.beecrowd.com/pt/problems/view/1803) - Matring
+- [ ] [1842](https://judge.beecrowd.com/pt/problems/view/1842) - A Ordem da Fênix
+- [ ] [1846](https://judge.beecrowd.com/pt/problems/view/1846) - Numero Para Nome
+- [ ] [1853](https://judge.beecrowd.com/pt/problems/view/1853) - O Jogo da Confiança de Daenerys
+- [ ] [1859](https://judge.beecrowd.com/pt/problems/view/1859) - Arqueologia Congelante
+- [ ] [1868](https://judge.beecrowd.com/pt/problems/view/1868) - Espiral Quadrada
+- [ ] [1871](https://judge.beecrowd.com/pt/problems/view/1871) - Zero vale Zero
+- [ ] [1873](https://judge.beecrowd.com/pt/problems/view/1873) - Pedra-papel-tesoura-lagarto-Spock
+- [ ] [1898](https://judge.beecrowd.com/pt/problems/view/1898) - Soma de Propina
+- [ ] [1941](https://judge.beecrowd.com/pt/problems/view/1941) - Palíndromo
+- [ ] [2000](https://judge.beecrowd.com/pt/problems/view/2000) - Adeildo da Odonto
+- [ ] [2017](https://judge.beecrowd.com/pt/problems/view/2017) - Seis Strings
+- [ ] [2023](https://judge.beecrowd.com/pt/problems/view/2023) - A Última Criança Boa
+- [ ] [2025](https://judge.beecrowd.com/pt/problems/view/2025) - Joulupukki
+- [ ] [2035](https://judge.beecrowd.com/pt/problems/view/2035) - Projetando Camisetas
+- [ ] [2049](https://judge.beecrowd.com/pt/problems/view/2049) - Números de Ahmoc
+- [ ] [2055](https://judge.beecrowd.com/pt/problems/view/2055) - Lisp é Melhor que Java, C e C++
+- [ ] [2062](https://judge.beecrowd.com/pt/problems/view/2062) - OBI URI
+- [ ] [2087](https://judge.beecrowd.com/pt/problems/view/2087) - Conjuntos Bons e Ruins
+- [ ] [2093](https://judge.beecrowd.com/pt/problems/view/2093) - Fuja para Escapar
+- [ ] [2097](https://judge.beecrowd.com/pt/problems/view/2097) - Nome para Número
+- [ ] [2108](https://judge.beecrowd.com/pt/problems/view/2108) - Contando Caracters
+- [ ] [2132](https://judge.beecrowd.com/pt/problems/view/2132) - Não é Mais Um Joguinho Canadense!
+- [ ] [2137](https://judge.beecrowd.com/pt/problems/view/2137) - A Biblioteca do Senhor Severino
+- [ ] [2150](https://judge.beecrowd.com/pt/problems/view/2150) - Vogais Alienígenas
+- [ ] [2153](https://judge.beecrowd.com/pt/problems/view/2153) - Sanduicheiche
+- [ ] [2157](https://judge.beecrowd.com/pt/problems/view/2157) - Sequência Espelho
+- [ ] [2174](https://judge.beecrowd.com/pt/problems/view/2174) - Coleção de Pomekon
+- [ ] [2242](https://judge.beecrowd.com/pt/problems/view/2242) - Huaauhahhuahau
+- [ ] [2253](https://judge.beecrowd.com/pt/problems/view/2253) - Validador de Senhas
+- [ ] [2292](https://judge.beecrowd.com/pt/problems/view/2292) - Painel LED
+- [ ] [2314](https://judge.beecrowd.com/pt/problems/view/2314) - Indentador
+- [ ] [2336](https://judge.beecrowd.com/pt/problems/view/2336) - ABC
+- [ ] [2356](https://judge.beecrowd.com/pt/problems/view/2356) - Bactéria I
+- [ ] [2358](https://judge.beecrowd.com/pt/problems/view/2358) - Bactéria II
+- [ ] [2484](https://judge.beecrowd.com/pt/problems/view/2484) - Abracadabra
+- [ ] [2509](https://judge.beecrowd.com/pt/problems/view/2509) - Editor Latex
+- [ ] [2535](https://judge.beecrowd.com/pt/problems/view/2535) - Feira de Adoção
+- [ ] [2549](https://judge.beecrowd.com/pt/problems/view/2549) - Nomes de Usuários
+- [ ] [2557](https://judge.beecrowd.com/pt/problems/view/2557) - R+L=J
+- [ ] [2583](https://judge.beecrowd.com/pt/problems/view/2583) - Chirrin Chirrion
+- [ ] [2587](https://judge.beecrowd.com/pt/problems/view/2587) - Jetiqui
+- [ ] [2588](https://judge.beecrowd.com/pt/problems/view/2588) - Jogo dos Palíndromos
+- [ ] [2591](https://judge.beecrowd.com/pt/problems/view/2591) - HameKameKa
+- [ ] [2651](https://judge.beecrowd.com/pt/problems/view/2651) - Link Bolado
+- [ ] [2669](https://judge.beecrowd.com/pt/problems/view/2669) - Laboratório de Biotecnologia
+- [ ] [2678](https://judge.beecrowd.com/pt/problems/view/2678) - Discagem de Voz
+- [ ] [2690](https://judge.beecrowd.com/pt/problems/view/2690) - Nova Senha RA
+- [ ] [2691](https://judge.beecrowd.com/pt/problems/view/2691) - O Matemático
+- [ ] [2692](https://judge.beecrowd.com/pt/problems/view/2692) - Teclado Zoeiro
+- [ ] [2694](https://judge.beecrowd.com/pt/problems/view/2694) - Problema com a Calculadora
+- [ ] [2697](https://judge.beecrowd.com/pt/problems/view/2697) - Sequencia Completa de Naebbirac
+- [ ] [2714](https://judge.beecrowd.com/pt/problems/view/2714) - Minha Senha Provisória
+- [ ] [2722](https://judge.beecrowd.com/pt/problems/view/2722) - Pegadinha de Evergreen
+- [ ] [2728](https://judge.beecrowd.com/pt/problems/view/2728) - Grace Hopper, a Vovó do Cobol
+- [ ] [2815](https://judge.beecrowd.com/pt/problems/view/2815) - Digitador Gago
+- [ ] [2824](https://judge.beecrowd.com/pt/problems/view/2824) - Pudim
+- [ ] [2825](https://judge.beecrowd.com/pt/problems/view/2825) - L de Atreus!?
+- [ ] [2827](https://judge.beecrowd.com/pt/problems/view/2827) - Contador de Tokens
+- [ ] [2866](https://judge.beecrowd.com/pt/problems/view/2866) - Criptotexto
+- [ ] [2880](https://judge.beecrowd.com/pt/problems/view/2880) - Enigma
+- [ ] [2906](https://judge.beecrowd.com/pt/problems/view/2906) - Database of Clients
+- [ ] [2954](https://judge.beecrowd.com/pt/problems/view/2954) - O Jogo
+- [ ] [2960](https://judge.beecrowd.com/pt/problems/view/2960) - Era Uma Vez…
+- [ ] [2974](https://judge.beecrowd.com/pt/problems/view/2974) - Fechadura
+- [ ] [2975](https://judge.beecrowd.com/pt/problems/view/2975) - Anel
+- [ ] [3038](https://judge.beecrowd.com/pt/problems/view/3038) - Carta de Natal Criptografada
+- [ ] [3080](https://judge.beecrowd.com/pt/problems/view/3080) - Proteja os Dados
+- [ ] [3083](https://judge.beecrowd.com/pt/problems/view/3083) - Emreh, Liug E As Strings
+- [ ] [3088](https://judge.beecrowd.com/pt/problems/view/3088) - Correção de Texto
+- [ ] [3100](https://judge.beecrowd.com/pt/problems/view/3100) - Os Dígitos da Sorte
+- [ ] [3103](https://judge.beecrowd.com/pt/problems/view/3103) - Número da Sorte
+- [ ] [3118](https://judge.beecrowd.com/pt/problems/view/3118) - Bactérias, Suas Loucas!
+- [ ] [3141](https://judge.beecrowd.com/pt/problems/view/3141) - Dúvida Etária
+- [ ] [3143](https://judge.beecrowd.com/pt/problems/view/3143) - Fugindo do Celular
+- [ ] [3159](https://judge.beecrowd.com/pt/problems/view/3159) - Tijolão
+- [ ] [3166](https://judge.beecrowd.com/pt/problems/view/3166) - Procurando Palavras na Diagonal Principal
+- [ ] [3167](https://judge.beecrowd.com/pt/problems/view/3167) - Procurando Palavras na Diagonal Secundária
+- [ ] [3180](https://judge.beecrowd.com/pt/problems/view/3180) - Roubo de Código
+- [ ] [3261](https://judge.beecrowd.com/pt/problems/view/3261) - Replicação de Vírus
+- [ ] [3262](https://judge.beecrowd.com/pt/problems/view/3262) - Timebomb
+- [ ] [3275](https://judge.beecrowd.com/pt/problems/view/3275) - Foto de Relógios
+- [ ] [3300](https://judge.beecrowd.com/pt/problems/view/3300) - Números Má Sorte Recarregados
+- [ ] [3310](https://judge.beecrowd.com/pt/problems/view/3310) - Gravity Boy
+- [ ] [3311](https://judge.beecrowd.com/pt/problems/view/3311) - Hudinho e o seu Trabalho
+- [ ] [3313](https://judge.beecrowd.com/pt/problems/view/3313) - Jogo de Palavras
+- [ ] [3347](https://judge.beecrowd.com/pt/problems/view/3347) - Ancestralidade
+- [ ] [3353](https://judge.beecrowd.com/pt/problems/view/3353) - Araucárias e a Gralha Azul de Três Olhos
+- [ ] [3358](https://judge.beecrowd.com/pt/problems/view/3358) - Sobrenome Não é Fácil
+
+</details>
+
+### 4️⃣ Estruturas e Bibliotecas (0/180)
+
+<details>
+<summary>📋 Ver todos os 180 problemas (Clique para expandir)</summary>
+
+- [ ] [1022](https://judge.beecrowd.com/pt/problems/view/1022) - TDA Racional
+- [ ] [1023](https://judge.beecrowd.com/pt/problems/view/1023) - Estiagem
+- [ ] [1025](https://judge.beecrowd.com/pt/problems/view/1025) - Onde está o Mármore?
+- [ ] [1062](https://judge.beecrowd.com/pt/problems/view/1062) - Trilhos
+- [ ] [1063](https://judge.beecrowd.com/pt/problems/view/1063) - Trilhos Novamente... Traçando Movimentos
+- [ ] [1068](https://judge.beecrowd.com/pt/problems/view/1068) - Balanço de Parênteses I
+- [ ] [1069](https://judge.beecrowd.com/pt/problems/view/1069) - Diamantes e Areia
+- [ ] [1077](https://judge.beecrowd.com/pt/problems/view/1077) - Infixa para Posfixa
+- [ ] [1083](https://judge.beecrowd.com/pt/problems/view/1083) - LEXSIM - Avaliador Lexico e Sintático
+- [ ] [1088](https://judge.beecrowd.com/pt/problems/view/1088) - Bolhas e Baldes
+- [ ] [1110](https://judge.beecrowd.com/pt/problems/view/1110) - Jogando Cartas Fora
+- [ ] [1112](https://judge.beecrowd.com/pt/problems/view/1112) - Schweisen
+- [ ] [1119](https://judge.beecrowd.com/pt/problems/view/1119) - A Fila de Desempregados
+- [ ] [1162](https://judge.beecrowd.com/pt/problems/view/1162) - Organizador de Vagões
+- [ ] [1167](https://judge.beecrowd.com/pt/problems/view/1167) - Acampamento de Férias
+- [ ] [1211](https://judge.beecrowd.com/pt/problems/view/1211) - Lista Telefônica Econômica
+- [ ] [1215](https://judge.beecrowd.com/pt/problems/view/1215) - Primeiro Dicionário de Andy
+- [ ] [1236](https://judge.beecrowd.com/pt/problems/view/1236) - Compactação de Nulos e Brancos
+- [ ] [1242](https://judge.beecrowd.com/pt/problems/view/1242) - Ácido Ribonucleico Alienígena
+- [ ] [1244](https://judge.beecrowd.com/pt/problems/view/1244) - Ordenação por Tamanho
+- [ ] [1251](https://judge.beecrowd.com/pt/problems/view/1251) - Diga-me a Frequência
+- [ ] [1252](https://judge.beecrowd.com/pt/problems/view/1252) - Sort! Sort!! e Sort!!!
+- [ ] [1256](https://judge.beecrowd.com/pt/problems/view/1256) - Tabelas Hash
+- [ ] [1258](https://judge.beecrowd.com/pt/problems/view/1258) - Camisetas
+- [ ] [1259](https://judge.beecrowd.com/pt/problems/view/1259) - Pares e Ímpares
+- [ ] [1260](https://judge.beecrowd.com/pt/problems/view/1260) - Espécies de Madeira
+- [ ] [1261](https://judge.beecrowd.com/pt/problems/view/1261) - Pontos de Feno
+- [ ] [1274](https://judge.beecrowd.com/pt/problems/view/1274) - P-Networks
+- [ ] [1281](https://judge.beecrowd.com/pt/problems/view/1281) - Ida à Feira
+- [ ] [1301](https://judge.beecrowd.com/pt/problems/view/1301) - Produto do Intervalo
+- [ ] [1303](https://judge.beecrowd.com/pt/problems/view/1303) - Spurs Rocks
+- [ ] [1326](https://judge.beecrowd.com/pt/problems/view/1326) - Química
+- [ ] [1340](https://judge.beecrowd.com/pt/problems/view/1340) - Eu Posso Adivinhar a Estrutura de Dados!
+- [ ] [1356](https://judge.beecrowd.com/pt/problems/view/1356) - Júpiter Ataca!
+- [ ] [1382](https://judge.beecrowd.com/pt/problems/view/1382) - Elementar, meu Caro Watson!
+- [ ] [1388](https://judge.beecrowd.com/pt/problems/view/1388) - Onde Estão as Bolhas?
+- [ ] [1401](https://judge.beecrowd.com/pt/problems/view/1401) - Gerando Permutações Ordenadas Rapidamente
+- [ ] [1405](https://judge.beecrowd.com/pt/problems/view/1405) - O Problema da Parada
+- [ ] [1424](https://judge.beecrowd.com/pt/problems/view/1424) - Problema Fácil de Rujia Liu?
+- [ ] [1425](https://judge.beecrowd.com/pt/problems/view/1425) - Presente?!
+- [ ] [1430](https://judge.beecrowd.com/pt/problems/view/1430) - Composição de Jingles
+- [ ] [1439](https://judge.beecrowd.com/pt/problems/view/1439) - Bora Bora
+- [ ] [1449](https://judge.beecrowd.com/pt/problems/view/1449) - O Fantástico Jaspion
+- [ ] [1451](https://judge.beecrowd.com/pt/problems/view/1451) - Teclado Quebrado
+- [ ] [1452](https://judge.beecrowd.com/pt/problems/view/1452) - Gloud Computing
+- [ ] [1477](https://judge.beecrowd.com/pt/problems/view/1477) - Homem, Elefante e Rato
+- [ ] [1500](https://judge.beecrowd.com/pt/problems/view/1500) - Consultas Horríveis
+- [ ] [1507](https://judge.beecrowd.com/pt/problems/view/1507) - Subsequências
+- [ ] [1511](https://judge.beecrowd.com/pt/problems/view/1511) - Tabuleiro GCD
+- [ ] [1520](https://judge.beecrowd.com/pt/problems/view/1520) - Parafusos e Porcas
+- [ ] [1523](https://judge.beecrowd.com/pt/problems/view/1523) - Estacionamento Linear
+- [ ] [1527](https://judge.beecrowd.com/pt/problems/view/1527) - Guildas
+- [ ] [1535](https://judge.beecrowd.com/pt/problems/view/1535) - Números Casal-Solteirão-Solteirona
+- [ ] [1538](https://judge.beecrowd.com/pt/problems/view/1538) - Sequência Alienígena
+- [ ] [1548](https://judge.beecrowd.com/pt/problems/view/1548) - Fila do Recreio
+- [ ] [1566](https://judge.beecrowd.com/pt/problems/view/1566) - Altura
+- [ ] [1587](https://judge.beecrowd.com/pt/problems/view/1587) - BIT Park
+- [ ] [1594](https://judge.beecrowd.com/pt/problems/view/1594) - Guloso
+- [ ] [1633](https://judge.beecrowd.com/pt/problems/view/1633) - SBC
+- [ ] [1640](https://judge.beecrowd.com/pt/problems/view/1640) - Reservando Hotéis
+- [ ] [1673](https://judge.beecrowd.com/pt/problems/view/1673) - Codificação Run-length
+- [ ] [1683](https://judge.beecrowd.com/pt/problems/view/1683) - Maior Retângulo em um Histograma
+- [ ] [1696](https://judge.beecrowd.com/pt/problems/view/1696) - Brincando Com Operadores
+- [ ] [1701](https://judge.beecrowd.com/pt/problems/view/1701) - Sequência de Fibo
+- [ ] [1704](https://judge.beecrowd.com/pt/problems/view/1704) - Arrumando as Tarefas
+- [ ] [1709](https://judge.beecrowd.com/pt/problems/view/1709) - Baralho Embaralhado
+- [ ] [1725](https://judge.beecrowd.com/pt/problems/view/1725) - Quadtree II
+- [ ] [1740](https://judge.beecrowd.com/pt/problems/view/1740) - Está Ordenado?
+- [ ] [1746](https://judge.beecrowd.com/pt/problems/view/1746) - Dividindo os Nomes
+- [ ] [1762](https://judge.beecrowd.com/pt/problems/view/1762) - Trenós do Papai Noel
+- [ ] [1763](https://judge.beecrowd.com/pt/problems/view/1763) - Tradutor do Papai Noel
+- [ ] [1766](https://judge.beecrowd.com/pt/problems/view/1766) - O Elfo das Trevas
+- [ ] [1804](https://judge.beecrowd.com/pt/problems/view/1804) - Precisa-se de Matemáticos em Marte
+- [ ] [1851](https://judge.beecrowd.com/pt/problems/view/1851) - Como Treinar Seu Dragão
+- [ ] [1854](https://judge.beecrowd.com/pt/problems/view/1854) - Inverno em Winterfell
+- [ ] [1856](https://judge.beecrowd.com/pt/problems/view/1856) - A Lista da Morte de Arya
+- [ ] [1861](https://judge.beecrowd.com/pt/problems/view/1861) - O Hall dos Assassinos
+- [ ] [1863](https://judge.beecrowd.com/pt/problems/view/1863) - O Contra-ataque de Ramsay
+- [ ] [1874](https://judge.beecrowd.com/pt/problems/view/1874) - Empurrando Blocos
+- [ ] [1897](https://judge.beecrowd.com/pt/problems/view/1897) - Jogo Esperto
+- [ ] [1911](https://judge.beecrowd.com/pt/problems/view/1911) - Ajude Girafales
+- [ ] [1944](https://judge.beecrowd.com/pt/problems/view/1944) - BRINDE FACE 2015
+- [ ] [1975](https://judge.beecrowd.com/pt/problems/view/1975) - Pérolas
+- [ ] [2018](https://judge.beecrowd.com/pt/problems/view/2018) - Olimpíadas de Natal
+- [ ] [2020](https://judge.beecrowd.com/pt/problems/view/2020) - Elfos e seus Códigos
+- [ ] [2022](https://judge.beecrowd.com/pt/problems/view/2022) - Presentes de Natal
+- [ ] [2040](https://judge.beecrowd.com/pt/problems/view/2040) - O Campeão
+- [ ] [2047](https://judge.beecrowd.com/pt/problems/view/2047) - Fly By Night
+- [ ] [2064](https://judge.beecrowd.com/pt/problems/view/2064) - Prant e a Indecisão
+- [ ] [2065](https://judge.beecrowd.com/pt/problems/view/2065) - Fila do Supermercado
+- [ ] [2067](https://judge.beecrowd.com/pt/problems/view/2067) - Jogo do Quadrado
+- [ ] [2071](https://judge.beecrowd.com/pt/problems/view/2071) - Banco do Faraó
+- [ ] [2074](https://judge.beecrowd.com/pt/problems/view/2074) - Variados Pratos da Linda Nefertiti
+- [ ] [2075](https://judge.beecrowd.com/pt/problems/view/2075) - Zé Coquinho
+- [ ] [2077](https://judge.beecrowd.com/pt/problems/view/2077) - Los buses de Cartagena
+- [ ] [2091](https://judge.beecrowd.com/pt/problems/view/2091) - Número Solitário
+- [ ] [2092](https://judge.beecrowd.com/pt/problems/view/2092) - Assistindo o Jogo
+- [ ] [2110](https://judge.beecrowd.com/pt/problems/view/2110) - Banho de Sol no Jardim
+- [ ] [2111](https://judge.beecrowd.com/pt/problems/view/2111) - Entendendo o Sorobov
+- [ ] [2120](https://judge.beecrowd.com/pt/problems/view/2120) - Tutores
+- [ ] [2122](https://judge.beecrowd.com/pt/problems/view/2122) - Votação em Ecaterimburgo
+- [ ] [2136](https://judge.beecrowd.com/pt/problems/view/2136) - Amigos do Habay
+- [ ] [2185](https://judge.beecrowd.com/pt/problems/view/2185) - Brincando com Pomekons
+- [ ] [2186](https://judge.beecrowd.com/pt/problems/view/2186) - Bino, Prant e a Indecisao
+- [ ] [2223](https://judge.beecrowd.com/pt/problems/view/2223) - Inventário de Pomekon
+- [ ] [2239](https://judge.beecrowd.com/pt/problems/view/2239) - Estatística Hexa
+- [ ] [2240](https://judge.beecrowd.com/pt/problems/view/2240) - Fundindo Árvores
+- [ ] [2241](https://judge.beecrowd.com/pt/problems/view/2241) - Go--
+- [ ] [2290](https://judge.beecrowd.com/pt/problems/view/2290) - Números Apaixornados
+- [ ] [2338](https://judge.beecrowd.com/pt/problems/view/2338) - Morse
+- [ ] [2370](https://judge.beecrowd.com/pt/problems/view/2370) - Times
+- [ ] [2380](https://judge.beecrowd.com/pt/problems/view/2380) - Fusões
+- [ ] [2482](https://judge.beecrowd.com/pt/problems/view/2482) - Etiquetas de Noel
+- [ ] [2488](https://judge.beecrowd.com/pt/problems/view/2488) - É Na Batida do Cavalo!
+- [ ] [2492](https://judge.beecrowd.com/pt/problems/view/2492) - Ilhas Isoladas
+- [ ] [2495](https://judge.beecrowd.com/pt/problems/view/2495) - Onde Está Minha Caneta?
+- [ ] [2496](https://judge.beecrowd.com/pt/problems/view/2496) - A Única Chance
+- [ ] [2503](https://judge.beecrowd.com/pt/problems/view/2503) - Corrida de Regularidade
+- [ ] [2506](https://judge.beecrowd.com/pt/problems/view/2506) - Fila do SUS
+- [ ] [2519](https://judge.beecrowd.com/pt/problems/view/2519) - Estratégia Campeã
+- [ ] [2526](https://judge.beecrowd.com/pt/problems/view/2526) - Cardápio
+- [ ] [2531](https://judge.beecrowd.com/pt/problems/view/2531) - Compras em FdI
+- [ ] [2537](https://judge.beecrowd.com/pt/problems/view/2537) - GigaDrive
+- [ ] [2538](https://judge.beecrowd.com/pt/problems/view/2538) - Ginásio
+- [ ] [2539](https://judge.beecrowd.com/pt/problems/view/2539) - High Five
+- [ ] [2546](https://judge.beecrowd.com/pt/problems/view/2546) - Mesada
+- [ ] [2559](https://judge.beecrowd.com/pt/problems/view/2559) - Sexta-Feira 13
+- [ ] [2560](https://judge.beecrowd.com/pt/problems/view/2560) - Surf Aquático
+- [ ] [2593](https://judge.beecrowd.com/pt/problems/view/2593) - Eachianos I
+- [ ] [2594](https://judge.beecrowd.com/pt/problems/view/2594) - Eachianos II
+- [ ] [2633](https://judge.beecrowd.com/pt/problems/view/2633) - Churras no Yuri
+- [ ] [2654](https://judge.beecrowd.com/pt/problems/view/2654) - Godofor
+- [ ] [2655](https://judge.beecrowd.com/pt/problems/view/2655) - Trilha Perigosa
+- [ ] [2656](https://judge.beecrowd.com/pt/problems/view/2656) - Rhombus
+- [ ] [2658](https://judge.beecrowd.com/pt/problems/view/2658) - Acordes Intergaláticos
+- [ ] [2671](https://judge.beecrowd.com/pt/problems/view/2671) - Decodificando o Texto
+- [ ] [2693](https://judge.beecrowd.com/pt/problems/view/2693) - Van
+- [ ] [2698](https://judge.beecrowd.com/pt/problems/view/2698) - Dispositivo Assombrado
+- [ ] [2700](https://judge.beecrowd.com/pt/problems/view/2700) - Angariando Fundos
+- [ ] [2720](https://judge.beecrowd.com/pt/problems/view/2720) - Presentes Grandes
+- [ ] [2729](https://judge.beecrowd.com/pt/problems/view/2729) - Lista de Compras
+- [ ] [2734](https://judge.beecrowd.com/pt/problems/view/2734) - Trocando Presentes
+- [ ] [2792](https://judge.beecrowd.com/pt/problems/view/2792) - Golnaldinho
+- [ ] [2800](https://judge.beecrowd.com/pt/problems/view/2800) - Brincando de Consultas
+- [ ] [2805](https://judge.beecrowd.com/pt/problems/view/2805) - Binarizando a Matriz
+- [ ] [2821](https://judge.beecrowd.com/pt/problems/view/2821) - Distribuição de Cartas
+- [ ] [2848](https://judge.beecrowd.com/pt/problems/view/2848) - Rangel e o Jogo do Vetor I
+- [ ] [2849](https://judge.beecrowd.com/pt/problems/view/2849) - Rangel e o Jogo do Vetor II
+- [ ] [2855](https://judge.beecrowd.com/pt/problems/view/2855) - Números de Sorte
+- [ ] [2857](https://judge.beecrowd.com/pt/problems/view/2857) - Fluxo nos Vagões
+- [ ] [2860](https://judge.beecrowd.com/pt/problems/view/2860) - A Paz em Spar-Ta
+- [ ] [2872](https://judge.beecrowd.com/pt/problems/view/2872) - Protocolo TCP/IP
+- [ ] [2889](https://judge.beecrowd.com/pt/problems/view/2889) - O Tasco é Sempre Vice!
+- [ ] [2893](https://judge.beecrowd.com/pt/problems/view/2893) - Fibonac^{k}i
+- [ ] [2916](https://judge.beecrowd.com/pt/problems/view/2916) - A Nota
+- [ ] [2929](https://judge.beecrowd.com/pt/problems/view/2929) - Menor da Pilha
+- [ ] [2952](https://judge.beecrowd.com/pt/problems/view/2952) - A Vida Sustentável
+- [ ] [2958](https://judge.beecrowd.com/pt/problems/view/2958) - O Rolê Bad Vibes
+- [ ] [2961](https://judge.beecrowd.com/pt/problems/view/2961) - Ô, Que Tanto de Filme!
+- [ ] [2984](https://judge.beecrowd.com/pt/problems/view/2984) - Assuntos Pendentes
+- [ ] [3045](https://judge.beecrowd.com/pt/problems/view/3045) - Parque Jurássico
+- [ ] [3069](https://judge.beecrowd.com/pt/problems/view/3069) - Sorvete
+- [ ] [3097](https://judge.beecrowd.com/pt/problems/view/3097) - Um Desafio Simples
+- [ ] [3139](https://judge.beecrowd.com/pt/problems/view/3139) - Buscando Novos Seguidores
+- [ ] [3148](https://judge.beecrowd.com/pt/problems/view/3148) - O Jardim
+- [ ] [3149](https://judge.beecrowd.com/pt/problems/view/3149) - A Noiva do Trevo
+- [ ] [3155](https://judge.beecrowd.com/pt/problems/view/3155) - Sócrates e suas Perguntas
+- [ ] [3160](https://judge.beecrowd.com/pt/problems/view/3160) - Amigos
+- [ ] [3163](https://judge.beecrowd.com/pt/problems/view/3163) - Controlador de Vôo
+- [ ] [3171](https://judge.beecrowd.com/pt/problems/view/3171) - Cordão de Led
+- [ ] [3176](https://judge.beecrowd.com/pt/problems/view/3176) - Time de Duendes
+- [ ] [3186](https://judge.beecrowd.com/pt/problems/view/3186) - Cache Introspectivo
+- [ ] [3190](https://judge.beecrowd.com/pt/problems/view/3190) - Optimal Parking
+- [ ] [3201](https://judge.beecrowd.com/pt/problems/view/3201) - Traveling Salesman
+- [ ] [3207](https://judge.beecrowd.com/pt/problems/view/3207) - Jogos Divertidos
+- [ ] [3210](https://judge.beecrowd.com/pt/problems/view/3210) - O Pior Clima de Todos
+- [ ] [3239](https://judge.beecrowd.com/pt/problems/view/3239) - Dirty Driving
+- [ ] [3248](https://judge.beecrowd.com/pt/problems/view/3248) - Mega Inversões
+- [ ] [3357](https://judge.beecrowd.com/pt/problems/view/3357) - Rico do Mate
+- [ ] [3484](https://judge.beecrowd.com/pt/problems/view/3484) - Turma Dividida
+
+</details>
+
+### 5️⃣ Matemática (0/269)
+
+<details>
+<summary>📋 Ver todos os 269 problemas (Clique para expandir)</summary>
+
+- [ ] [1028](https://judge.beecrowd.com/pt/problems/view/1028) - Figurinhas
+- [ ] [1093](https://judge.beecrowd.com/pt/problems/view/1093) - Vampiros
+- [ ] [1138](https://judge.beecrowd.com/pt/problems/view/1138) - Contagem de Dígitos
+- [ ] [1161](https://judge.beecrowd.com/pt/problems/view/1161) - Soma de Fatoriais
+- [ ] [1163](https://judge.beecrowd.com/pt/problems/view/1163) - Angry Ducks
+- [ ] [1169](https://judge.beecrowd.com/pt/problems/view/1169) - Trigo no Tabuleiro
+- [ ] [1170](https://judge.beecrowd.com/pt/problems/view/1170) - Blobs
+- [ ] [1193](https://judge.beecrowd.com/pt/problems/view/1193) - Conversão entre Bases
+- [ ] [1197](https://judge.beecrowd.com/pt/problems/view/1197) - Volta à Faculdade de Física
+- [ ] [1198](https://judge.beecrowd.com/pt/problems/view/1198) - O Bravo Guerreiro Hashmat
+- [ ] [1199](https://judge.beecrowd.com/pt/problems/view/1199) - Conversão Simples de Base
+- [ ] [1202](https://judge.beecrowd.com/pt/problems/view/1202) - Festival das Noites Brancas
+- [ ] [1212](https://judge.beecrowd.com/pt/problems/view/1212) - Aritmética Primária
+- [ ] [1213](https://judge.beecrowd.com/pt/problems/view/1213) - Ones
+- [ ] [1214](https://judge.beecrowd.com/pt/problems/view/1214) - Acima da Média
+- [ ] [1219](https://judge.beecrowd.com/pt/problems/view/1219) - Flores Coloridas
+- [ ] [1220](https://judge.beecrowd.com/pt/problems/view/1220) - A Viagem
+- [ ] [1221](https://judge.beecrowd.com/pt/problems/view/1221) - Primo Rápido
+- [ ] [1230](https://judge.beecrowd.com/pt/problems/view/1230) - Integral
+- [ ] [1232](https://judge.beecrowd.com/pt/problems/view/1232) - Ciclo de Rubik
+- [ ] [1233](https://judge.beecrowd.com/pt/problems/view/1233) - Estrela
+- [ ] [1240](https://judge.beecrowd.com/pt/problems/view/1240) - Encaixa ou Não I
+- [ ] [1247](https://judge.beecrowd.com/pt/problems/view/1247) - Guarda Costeira
+- [ ] [1264](https://judge.beecrowd.com/pt/problems/view/1264) - Um Problema Fácil!
+- [ ] [1279](https://judge.beecrowd.com/pt/problems/view/1279) - Ano Bissexto ou Ano não Bissexto
+- [ ] [1280](https://judge.beecrowd.com/pt/problems/view/1280) - Amigos
+- [ ] [1289](https://judge.beecrowd.com/pt/problems/view/1289) - Qual é a Probabilidade?
+- [ ] [1297](https://judge.beecrowd.com/pt/problems/view/1297) - Proteção do Meio Ambiente
+- [ ] [1304](https://judge.beecrowd.com/pt/problems/view/1304) - Velocidade Média
+- [ ] [1306](https://judge.beecrowd.com/pt/problems/view/1306) - Numerando Estradas
+- [ ] [1307](https://judge.beecrowd.com/pt/problems/view/1307) - Tudo o que Você Precisa é Amor
+- [ ] [1308](https://judge.beecrowd.com/pt/problems/view/1308) - Guerreiros Etruscos Nunca Jogam Xadrez
+- [ ] [1309](https://judge.beecrowd.com/pt/problems/view/1309) - Formatação Monetária
+- [ ] [1323](https://judge.beecrowd.com/pt/problems/view/1323) - Feynman
+- [ ] [1324](https://judge.beecrowd.com/pt/problems/view/1324) - Bóson de Higgs
+- [ ] [1338](https://judge.beecrowd.com/pt/problems/view/1338) - It-Miha
+- [ ] [1346](https://judge.beecrowd.com/pt/problems/view/1346) - Brincadeira de Criança
+- [ ] [1347](https://judge.beecrowd.com/pt/problems/view/1347) - Mina Kriptonita
+- [ ] [1352](https://judge.beecrowd.com/pt/problems/view/1352) - Loteria Quadrada
+- [ ] [1353](https://judge.beecrowd.com/pt/problems/view/1353) - Super Poker
+- [ ] [1371](https://judge.beecrowd.com/pt/problems/view/1371) - Fechem as Portas!
+- [ ] [1376](https://judge.beecrowd.com/pt/problems/view/1376) - Irmãos
+- [ ] [1380](https://judge.beecrowd.com/pt/problems/view/1380) - Crescimento das Populações de Bacilos
+- [ ] [1381](https://judge.beecrowd.com/pt/problems/view/1381) - Equações Diofantinas
+- [ ] [1390](https://judge.beecrowd.com/pt/problems/view/1390) - Bases
+- [ ] [1392](https://judge.beecrowd.com/pt/problems/view/1392) - Conta de Luz
+- [ ] [1393](https://judge.beecrowd.com/pt/problems/view/1393) - Lajotas Hexagonais
+- [ ] [1398](https://judge.beecrowd.com/pt/problems/view/1398) - Oceano Profundo! Faça-o Raso!!
+- [ ] [1399](https://judge.beecrowd.com/pt/problems/view/1399) - Transformador de Matriz
+- [ ] [1400](https://judge.beecrowd.com/pt/problems/view/1400) - Jogo - Contando
+- [ ] [1422](https://judge.beecrowd.com/pt/problems/view/1422) - Bactérias
+- [ ] [1429](https://judge.beecrowd.com/pt/problems/view/1429) - Fatorial de Novo!
+- [ ] [1433](https://judge.beecrowd.com/pt/problems/view/1433) - O Clube da Divisão
+- [ ] [1434](https://judge.beecrowd.com/pt/problems/view/1434) - Patrulheiros Romanos
+- [ ] [1436](https://judge.beecrowd.com/pt/problems/view/1436) - Jogo do Tijolo
+- [ ] [1444](https://judge.beecrowd.com/pt/problems/view/1444) - Corrida dos Marrecos
+- [ ] [1450](https://judge.beecrowd.com/pt/problems/view/1450) - Os Joguinhos de Ramsés
+- [ ] [1457](https://judge.beecrowd.com/pt/problems/view/1457) - Oráculo de Alexandria
+- [ ] [1465](https://judge.beecrowd.com/pt/problems/view/1465) - Complexo, Difícil e Complicado
+- [ ] [1481](https://judge.beecrowd.com/pt/problems/view/1481) - A Fazenda de Ostras de Zing Zhu
+- [ ] [1484](https://judge.beecrowd.com/pt/problems/view/1484) - Tecle & Some
+- [ ] [1488](https://judge.beecrowd.com/pt/problems/view/1488) - Números Mágicos?
+- [ ] [1492](https://judge.beecrowd.com/pt/problems/view/1492) - Contando Uns
+- [ ] [1501](https://judge.beecrowd.com/pt/problems/view/1501) - Quantos Zeros e Quantos Dígitos?
+- [ ] [1505](https://judge.beecrowd.com/pt/problems/view/1505) - Curo Factories
+- [ ] [1512](https://judge.beecrowd.com/pt/problems/view/1512) - Azulejos
+- [ ] [1526](https://judge.beecrowd.com/pt/problems/view/1526) - Transportando Lanches
+- [ ] [1531](https://judge.beecrowd.com/pt/problems/view/1531) - Fibonacci de Novo!
+- [ ] [1537](https://judge.beecrowd.com/pt/problems/view/1537) - Fila do Banco
+- [ ] [1544](https://judge.beecrowd.com/pt/problems/view/1544) - O Último Dígito Não-Zero
+- [ ] [1554](https://judge.beecrowd.com/pt/problems/view/1554) - Bilhar N+1
+- [ ] [1555](https://judge.beecrowd.com/pt/problems/view/1555) - Funções
+- [ ] [1563](https://judge.beecrowd.com/pt/problems/view/1563) - O Grande Problema
+- [ ] [1567](https://judge.beecrowd.com/pt/problems/view/1567) - (2/3/4)-D Sqr/Rects/Cubes/Boxes?
+- [ ] [1568](https://judge.beecrowd.com/pt/problems/view/1568) - {soma+=i++} até N
+- [ ] [1570](https://judge.beecrowd.com/pt/problems/view/1570) - Um Dia na Terra da Matemática
+- [ ] [1572](https://judge.beecrowd.com/pt/problems/view/1572) - O Torneio Surreal
+- [ ] [1577](https://judge.beecrowd.com/pt/problems/view/1577) - Polígonos Regulares Construtíveis
+- [ ] [1580](https://judge.beecrowd.com/pt/problems/view/1580) - Quid Est Veritas? Est Vir Qui Adest!
+- [ ] [1582](https://judge.beecrowd.com/pt/problems/view/1582) - O Teorema de Pitágoras
+- [ ] [1585](https://judge.beecrowd.com/pt/problems/view/1585) - Fazendo Pandorgas
+- [ ] [1620](https://judge.beecrowd.com/pt/problems/view/1620) - Triangulação de Delaunay
+- [ ] [1623](https://judge.beecrowd.com/pt/problems/view/1623) - Linguagem
+- [ ] [1624](https://judge.beecrowd.com/pt/problems/view/1624) - Promoção
+- [ ] [1625](https://judge.beecrowd.com/pt/problems/view/1625) - Robocopia
+- [ ] [1626](https://judge.beecrowd.com/pt/problems/view/1626) - Maratona All FACE
+- [ ] [1630](https://judge.beecrowd.com/pt/problems/view/1630) - Estacas
+- [ ] [1634](https://judge.beecrowd.com/pt/problems/view/1634) - Outra Loteria
+- [ ] [1635](https://judge.beecrowd.com/pt/problems/view/1635) - Resultado das Eleições
+- [ ] [1641](https://judge.beecrowd.com/pt/problems/view/1641) - Restaurante e Pizzaria do Alfredo
+- [ ] [1644](https://judge.beecrowd.com/pt/problems/view/1644) - Decifre o Texto
+- [ ] [1647](https://judge.beecrowd.com/pt/problems/view/1647) - Um Jogo com Bolas de Gude
+- [ ] [1650](https://judge.beecrowd.com/pt/problems/view/1650) - Pintura Preto e Branco
+- [ ] [1656](https://judge.beecrowd.com/pt/problems/view/1656) - Doces do Dia das Bruxas
+- [ ] [1658](https://judge.beecrowd.com/pt/problems/view/1658) - Grupos Diedro
+- [ ] [1660](https://judge.beecrowd.com/pt/problems/view/1660) - Flavius Josephus Está de Volta
+- [ ] [1662](https://judge.beecrowd.com/pt/problems/view/1662) - Quadrados Homogêneos
+- [ ] [1674](https://judge.beecrowd.com/pt/problems/view/1674) - Fractran
+- [ ] [1688](https://judge.beecrowd.com/pt/problems/view/1688) - Nim Intergalático
+- [ ] [1694](https://judge.beecrowd.com/pt/problems/view/1694) - Loteria
+- [ ] [1697](https://judge.beecrowd.com/pt/problems/view/1697) - Jaida e o Jogo Multiplicativo
+- [ ] [1703](https://judge.beecrowd.com/pt/problems/view/1703) - Pulando Pedras
+- [ ] [1705](https://judge.beecrowd.com/pt/problems/view/1705) - Apaixonado por Binário
+- [ ] [1722](https://judge.beecrowd.com/pt/problems/view/1722) - Quantos Fibs?
+- [ ] [1729](https://judge.beecrowd.com/pt/problems/view/1729) - Média Não é Rápida o Suficiente!
+- [ ] [1734](https://judge.beecrowd.com/pt/problems/view/1734) - Limite Encontrado
+- [ ] [1735](https://judge.beecrowd.com/pt/problems/view/1735) - Codifique a Árvore
+- [ ] [1736](https://judge.beecrowd.com/pt/problems/view/1736) - Decodifique a Árvore
+- [ ] [1745](https://judge.beecrowd.com/pt/problems/view/1745) - Contando Substhreengs
+- [ ] [1754](https://judge.beecrowd.com/pt/problems/view/1754) - A Sala do Tempo
+- [ ] [1756](https://judge.beecrowd.com/pt/problems/view/1756) - Algoritmo Genético
+- [ ] [1760](https://judge.beecrowd.com/pt/problems/view/1760) - Floco de Neve de Koch
+- [ ] [1761](https://judge.beecrowd.com/pt/problems/view/1761) - Decoração Natalina
+- [ ] [1776](https://judge.beecrowd.com/pt/problems/view/1776) - Baile de Formatura
+- [ ] [1785](https://judge.beecrowd.com/pt/problems/view/1785) - Kaprekar
+- [ ] [1795](https://judge.beecrowd.com/pt/problems/view/1795) - Triângulo Trinomial
+- [ ] [1801](https://judge.beecrowd.com/pt/problems/view/1801) - Brincando com Números
+- [ ] [1805](https://judge.beecrowd.com/pt/problems/view/1805) - Soma Natural
+- [ ] [1807](https://judge.beecrowd.com/pt/problems/view/1807) - Triângulo Trinomial, a Vingança
+- [ ] [1812](https://judge.beecrowd.com/pt/problems/view/1812) - Um Cluster Para Evitar Enchentes
+- [ ] [1815](https://judge.beecrowd.com/pt/problems/view/1815) - Drunk People?
+- [ ] [1819](https://judge.beecrowd.com/pt/problems/view/1819) - Estimando a Produção
+- [ ] [1829](https://judge.beecrowd.com/pt/problems/view/1829) - Jogo do Maior Número
+- [ ] [1830](https://judge.beecrowd.com/pt/problems/view/1830) - Caixas de Bombons
+- [ ] [1831](https://judge.beecrowd.com/pt/problems/view/1831) - Dia Difícil de Trabalho
+- [ ] [1839](https://judge.beecrowd.com/pt/problems/view/1839) - A Câmara Secreta
+- [ ] [1841](https://judge.beecrowd.com/pt/problems/view/1841) - O Cálice de Fogo
+- [ ] [1869](https://judge.beecrowd.com/pt/problems/view/1869) - Base 32
+- [ ] [1872](https://judge.beecrowd.com/pt/problems/view/1872) - Palíndromo Real
+- [ ] [1904](https://judge.beecrowd.com/pt/problems/view/1904) - Par ou Ímpar 2.0
+- [ ] [1909](https://judge.beecrowd.com/pt/problems/view/1909) - Ajude Kiko
+- [ ] [1921](https://judge.beecrowd.com/pt/problems/view/1921) - Guilherme e Suas Pipas
+- [ ] [1926](https://judge.beecrowd.com/pt/problems/view/1926) - Marianne e os Primos Gêmeos
+- [ ] [1946](https://judge.beecrowd.com/pt/problems/view/1946) - Pirâmide da Sorte
+- [ ] [1949](https://judge.beecrowd.com/pt/problems/view/1949) - Registrador de Deslocamento
+- [ ] [1967](https://judge.beecrowd.com/pt/problems/view/1967) - A Fronteira Final
+- [ ] [1968](https://judge.beecrowd.com/pt/problems/view/1968) - A Terra Desconhecida
+- [ ] [1969](https://judge.beecrowd.com/pt/problems/view/1969) - Generations
+- [ ] [1981](https://judge.beecrowd.com/pt/problems/view/1981) - Embaralhando de Novo
+- [ ] [1989](https://judge.beecrowd.com/pt/problems/view/1989) - Fazendo Nada
+- [ ] [1990](https://judge.beecrowd.com/pt/problems/view/1990) - Equilíbrio
+- [ ] [1992](https://judge.beecrowd.com/pt/problems/view/1992) - Ganhando Tempo
+- [ ] [1995](https://judge.beecrowd.com/pt/problems/view/1995) - Game, Set e Match
+- [ ] [1999](https://judge.beecrowd.com/pt/problems/view/1999) - Baile de Reconciliação
+- [ ] [2001](https://judge.beecrowd.com/pt/problems/view/2001) - Bile
+- [ ] [2007](https://judge.beecrowd.com/pt/problems/view/2007) - Falha Ao Cercar Legumes
+- [ ] [2033](https://judge.beecrowd.com/pt/problems/view/2033) - Juros Sobre o Empréstimo
+- [ ] [2034](https://judge.beecrowd.com/pt/problems/view/2034) - Cantor
+- [ ] [2044](https://judge.beecrowd.com/pt/problems/view/2044) - Em Dívida
+- [ ] [2063](https://judge.beecrowd.com/pt/problems/view/2063) - Caçando Digletts
+- [ ] [2066](https://judge.beecrowd.com/pt/problems/view/2066) - amelborP mU
+- [ ] [2068](https://judge.beecrowd.com/pt/problems/view/2068) - Marcando um Encontro
+- [ ] [2069](https://judge.beecrowd.com/pt/problems/view/2069) - A Mesa Quadrada de Inês Venezuela
+- [ ] [2076](https://judge.beecrowd.com/pt/problems/view/2076) - Alocação Ótima de Commodities
+- [ ] [2084](https://judge.beecrowd.com/pt/problems/view/2084) - Eleições
+- [ ] [2096](https://judge.beecrowd.com/pt/problems/view/2096) - Horácio e Seus Primos
+- [ ] [2100](https://judge.beecrowd.com/pt/problems/view/2100) - Cinema de Xing Tzen Zu
+- [ ] [2101](https://judge.beecrowd.com/pt/problems/view/2101) - Combinações de Dias
+- [ ] [2107](https://judge.beecrowd.com/pt/problems/view/2107) - As Pirâmides de Ecaterinburgo
+- [ ] [2114](https://judge.beecrowd.com/pt/problems/view/2114) - Poker
+- [ ] [2129](https://judge.beecrowd.com/pt/problems/view/2129) - Fatorial
+- [ ] [2133](https://judge.beecrowd.com/pt/problems/view/2133) - Números de Dinostratus
+- [ ] [2135](https://judge.beecrowd.com/pt/problems/view/2135) - Recuperação
+- [ ] [2145](https://judge.beecrowd.com/pt/problems/view/2145) - A Vida Amorosa dos Números
+- [ ] [2148](https://judge.beecrowd.com/pt/problems/view/2148) - Banco de Dados
+- [ ] [2149](https://judge.beecrowd.com/pt/problems/view/2149) - Sequência do Tio Phill Bonati
+- [ ] [2154](https://judge.beecrowd.com/pt/problems/view/2154) - Derivada de Polinômios
+- [ ] [2170](https://judge.beecrowd.com/pt/problems/view/2170) - Juros do Projeto
+- [ ] [2177](https://judge.beecrowd.com/pt/problems/view/2177) - Rio 2016
+- [ ] [2180](https://judge.beecrowd.com/pt/problems/view/2180) - Viagem à Marte na Velocidade de Primo
+- [ ] [2204](https://judge.beecrowd.com/pt/problems/view/2204) - Pare A Bomba!
+- [ ] [2218](https://judge.beecrowd.com/pt/problems/view/2218) - O Temível Evil-Son
+- [ ] [2222](https://judge.beecrowd.com/pt/problems/view/2222) - Brincando com Conjuntos
+- [ ] [2232](https://judge.beecrowd.com/pt/problems/view/2232) - Triângulo de Pascal
+- [ ] [2238](https://judge.beecrowd.com/pt/problems/view/2238) - Divisores
+- [ ] [2291](https://judge.beecrowd.com/pt/problems/view/2291) - Números Divinos
+- [ ] [2335](https://judge.beecrowd.com/pt/problems/view/2335) - O Desafio de Arquibaldo
+- [ ] [2337](https://judge.beecrowd.com/pt/problems/view/2337) - Pro Habilidade
+- [ ] [2474](https://judge.beecrowd.com/pt/problems/view/2474) - Burlando o Sistema
+- [ ] [2489](https://judge.beecrowd.com/pt/problems/view/2489) - Flecha no Coelho
+- [ ] [2494](https://judge.beecrowd.com/pt/problems/view/2494) - Canetas
+- [ ] [2497](https://judge.beecrowd.com/pt/problems/view/2497) - Contando Ciclos
+- [ ] [2499](https://judge.beecrowd.com/pt/problems/view/2499) - Triângulo Interno
+- [ ] [2500](https://judge.beecrowd.com/pt/problems/view/2500) - William Xorando
+- [ ] [2505](https://judge.beecrowd.com/pt/problems/view/2505) - Autopotencial
+- [ ] [2514](https://judge.beecrowd.com/pt/problems/view/2514) - Alinhamento Lunar
+- [ ] [2516](https://judge.beecrowd.com/pt/problems/view/2516) - Corrida
+- [ ] [2584](https://judge.beecrowd.com/pt/problems/view/2584) - Pentágono
+- [ ] [2589](https://judge.beecrowd.com/pt/problems/view/2589) - Maior Distância Entre Primos Consecutivos
+- [ ] [2596](https://judge.beecrowd.com/pt/problems/view/2596) - Xenlonguinho
+- [ ] [2597](https://judge.beecrowd.com/pt/problems/view/2597) - Xenlongão
+- [ ] [2598](https://judge.beecrowd.com/pt/problems/view/2598) - Colocando Radares
+- [ ] [2636](https://judge.beecrowd.com/pt/problems/view/2636) - 3-RSA
+- [ ] [2660](https://judge.beecrowd.com/pt/problems/view/2660) - Cigarras Periódicas
+- [ ] [2661](https://judge.beecrowd.com/pt/problems/view/2661) - Despojados
+- [ ] [2667](https://judge.beecrowd.com/pt/problems/view/2667) - Jogo de Boca
+- [ ] [2668](https://judge.beecrowd.com/pt/problems/view/2668) - K-ésimo
+- [ ] [2674](https://judge.beecrowd.com/pt/problems/view/2674) - Super Primos: Ativar!
+- [ ] [2680](https://judge.beecrowd.com/pt/problems/view/2680) - Folha de Pagamentos
+- [ ] [2681](https://judge.beecrowd.com/pt/problems/view/2681) - Macacos da Torre de Hanoi
+- [ ] [2711](https://judge.beecrowd.com/pt/problems/view/2711) - Destravando o Celular
+- [ ] [2726](https://judge.beecrowd.com/pt/problems/view/2726) - Trenó Lotado
+- [ ] [2735](https://judge.beecrowd.com/pt/problems/view/2735) - O Presente de Nina
+- [ ] [2767](https://judge.beecrowd.com/pt/problems/view/2767) - Festa
+- [ ] [2777](https://judge.beecrowd.com/pt/problems/view/2777) - Subsets do Dabriel
+- [ ] [2801](https://judge.beecrowd.com/pt/problems/view/2801) - Cifra Affine
+- [ ] [2817](https://judge.beecrowd.com/pt/problems/view/2817) - Posto do Darlan
+- [ ] [2819](https://judge.beecrowd.com/pt/problems/view/2819) - Cartas Para o Noel
+- [ ] [2820](https://judge.beecrowd.com/pt/problems/view/2820) - Os Dígitos de Bruna
+- [ ] [2822](https://judge.beecrowd.com/pt/problems/view/2822) - Meu Primeiro Grafinho
+- [ ] [2828](https://judge.beecrowd.com/pt/problems/view/2828) - Anagramas
+- [ ] [2839](https://judge.beecrowd.com/pt/problems/view/2839) - As Meias de Rangel
+- [ ] [2859](https://judge.beecrowd.com/pt/problems/view/2859) - Digit Root
+- [ ] [2864](https://judge.beecrowd.com/pt/problems/view/2864) - Qual é a Altura?
+- [ ] [2869](https://judge.beecrowd.com/pt/problems/view/2869) - Falando em Divisor...
+- [ ] [2873](https://judge.beecrowd.com/pt/problems/view/2873) - Pirâmide
+- [ ] [2878](https://judge.beecrowd.com/pt/problems/view/2878) - Cortador de Pizza
+- [ ] [2886](https://judge.beecrowd.com/pt/problems/view/2886) - Kepler
+- [ ] [2890](https://judge.beecrowd.com/pt/problems/view/2890) - Colorindo Tetraedros
+- [ ] [2892](https://judge.beecrowd.com/pt/problems/view/2892) - Treino No Velódromo
+- [ ] [2903](https://judge.beecrowd.com/pt/problems/view/2903) - A Symmetrical Pizza
+- [ ] [2937](https://judge.beecrowd.com/pt/problems/view/2937) - Cobra Norato
+- [ ] [2939](https://judge.beecrowd.com/pt/problems/view/2939) - Casais
+- [ ] [2953](https://judge.beecrowd.com/pt/problems/view/2953) - Mais um Joguinho
+- [ ] [2955](https://judge.beecrowd.com/pt/problems/view/2955) - Truuuuuco!
+- [ ] [2956](https://judge.beecrowd.com/pt/problems/view/2956) - Derivada de 13 Variáveis
+- [ ] [2978](https://judge.beecrowd.com/pt/problems/view/2978) - Cartão
+- [ ] [2981](https://judge.beecrowd.com/pt/problems/view/2981) - Vamos Fechar
+- [ ] [2983](https://judge.beecrowd.com/pt/problems/view/2983) - Nem Tudo é Greve
+- [ ] [2986](https://judge.beecrowd.com/pt/problems/view/2986) - Nem Tudo é Greve Versão Hard
+- [ ] [3002](https://judge.beecrowd.com/pt/problems/view/3002) - Salve a Lilly!
+- [ ] [3004](https://judge.beecrowd.com/pt/problems/view/3004) - Envelopes
+- [ ] [3007](https://judge.beecrowd.com/pt/problems/view/3007) - Lucas e Frobenius
+- [ ] [3026](https://judge.beecrowd.com/pt/problems/view/3026) - Número Inteiro Periódico
+- [ ] [3029](https://judge.beecrowd.com/pt/problems/view/3029) - Função Composição
+- [ ] [3036](https://judge.beecrowd.com/pt/problems/view/3036) - Cor da Camisa
+- [ ] [3049](https://judge.beecrowd.com/pt/problems/view/3049) - Nota Cortada
+- [ ] [3078](https://judge.beecrowd.com/pt/problems/view/3078) - Só o Ouro
+- [ ] [3079](https://judge.beecrowd.com/pt/problems/view/3079) - Rua Iluminada
+- [ ] [3096](https://judge.beecrowd.com/pt/problems/view/3096) - Overflow
+- [ ] [3099](https://judge.beecrowd.com/pt/problems/view/3099) - O Problema do 7 x 1
+- [ ] [3102](https://judge.beecrowd.com/pt/problems/view/3102) - Kikoho
+- [ ] [3104](https://judge.beecrowd.com/pt/problems/view/3104) - Resto 2.0
+- [ ] [3110](https://judge.beecrowd.com/pt/problems/view/3110) - Farcos e o Xorshift
+- [ ] [3138](https://judge.beecrowd.com/pt/problems/view/3138) - Aniversário do Tobias
+- [ ] [3154](https://judge.beecrowd.com/pt/problems/view/3154) - A Grande Festa
+- [ ] [3165](https://judge.beecrowd.com/pt/problems/view/3165) - Primos Gêmeos
+- [ ] [3179](https://judge.beecrowd.com/pt/problems/view/3179) - Melhor Compressão de Todas
+- [ ] [3182](https://judge.beecrowd.com/pt/problems/view/3182) - Planejamento de Evento
+- [ ] [3183](https://judge.beecrowd.com/pt/problems/view/3183) - Corrigindo os Bugs
+- [ ] [3185](https://judge.beecrowd.com/pt/problems/view/3185) - Evidência Difícil
+- [ ] [3187](https://judge.beecrowd.com/pt/problems/view/3187) - Apenas Mais Alguns Triângulos!
+- [ ] [3216](https://judge.beecrowd.com/pt/problems/view/3216) - Teste Alérgico
+- [ ] [3223](https://judge.beecrowd.com/pt/problems/view/3223) - Permutações de Código
+- [ ] [3257](https://judge.beecrowd.com/pt/problems/view/3257) - Plantando Árvores
+- [ ] [3259](https://judge.beecrowd.com/pt/problems/view/3259) - Truque Numérico
+- [ ] [3265](https://judge.beecrowd.com/pt/problems/view/3265) - Reconstrução de Dança
+- [ ] [3266](https://judge.beecrowd.com/pt/problems/view/3266) - Dartboard
+- [ ] [3270](https://judge.beecrowd.com/pt/problems/view/3270) - Praça Catalã
+- [ ] [3271](https://judge.beecrowd.com/pt/problems/view/3271) - Jogo de Dados
+- [ ] [3272](https://judge.beecrowd.com/pt/problems/view/3272) - Cerimônia de Abertura
+- [ ] [3276](https://judge.beecrowd.com/pt/problems/view/3276) - Quantos Quadrados?
+- [ ] [3304](https://judge.beecrowd.com/pt/problems/view/3304) - Alguma Sorte!
+- [ ] [3308](https://judge.beecrowd.com/pt/problems/view/3308) - Elevador
+- [ ] [3312](https://judge.beecrowd.com/pt/problems/view/3312) - Imberbe Matemático
+- [ ] [3339](https://judge.beecrowd.com/pt/problems/view/3339) - Carina
+- [ ] [3341](https://judge.beecrowd.com/pt/problems/view/3341) - Grandmaster do Jogo do Caneco
+- [ ] [3345](https://judge.beecrowd.com/pt/problems/view/3345) - O Passatempo de Ferdinacci
+- [ ] [3354](https://judge.beecrowd.com/pt/problems/view/3354) - Joãozinho Vem Para o Sul
+
+</details>
+
+### 6️⃣ Paradigmas (0/215)
+
+<details>
+<summary>📋 Ver todos os 215 problemas (Clique para expandir)</summary>
+
+- [ ] [1027](https://judge.beecrowd.com/pt/problems/view/1027) - Onda Crítica
+- [ ] [1029](https://judge.beecrowd.com/pt/problems/view/1029) - Fibonacci, Quantas Chamadas?
+- [ ] [1033](https://judge.beecrowd.com/pt/problems/view/1033) - Quantas Chamadas Recursivas?
+- [ ] [1034](https://judge.beecrowd.com/pt/problems/view/1034) - Festival de Estátuas de Gelo
+- [ ] [1054](https://judge.beecrowd.com/pt/problems/view/1054) - Sapo Dinâmico
+- [ ] [1055](https://judge.beecrowd.com/pt/problems/view/1055) - Soma Permutada Elegante
+- [ ] [1058](https://judge.beecrowd.com/pt/problems/view/1058) - Zonas de Ataque Independentes
+- [ ] [1084](https://judge.beecrowd.com/pt/problems/view/1084) - Apagando e Ganhando
+- [ ] [1106](https://judge.beecrowd.com/pt/problems/view/1106) - Dragster
+- [ ] [1166](https://judge.beecrowd.com/pt/problems/view/1166) - Torre de Hanoi, Novamente!
+- [ ] [1203](https://judge.beecrowd.com/pt/problems/view/1203) - Pontes de São Petersburgo
+- [ ] [1210](https://judge.beecrowd.com/pt/problems/view/1210) - Produção Ótima de Ótima Vodka
+- [ ] [1224](https://judge.beecrowd.com/pt/problems/view/1224) - Cartões
+- [ ] [1226](https://judge.beecrowd.com/pt/problems/view/1226) - Elevador Espacial
+- [ ] [1229](https://judge.beecrowd.com/pt/problems/view/1229) - Combate ao Câncer
+- [ ] [1231](https://judge.beecrowd.com/pt/problems/view/1231) - Palavras
+- [ ] [1265](https://judge.beecrowd.com/pt/problems/view/1265) - DJ da Computação
+- [ ] [1269](https://judge.beecrowd.com/pt/problems/view/1269) - ICPC Ataca Novamente
+- [ ] [1282](https://judge.beecrowd.com/pt/problems/view/1282) - Organizando Pacotes
+- [ ] [1283](https://judge.beecrowd.com/pt/problems/view/1283) - Caixas e Pedras
+- [ ] [1286](https://judge.beecrowd.com/pt/problems/view/1286) - Motoboy
+- [ ] [1288](https://judge.beecrowd.com/pt/problems/view/1288) - Canhão de Destruição
+- [ ] [1299](https://judge.beecrowd.com/pt/problems/view/1299) - Jogo de Mosaicos
+- [ ] [1310](https://judge.beecrowd.com/pt/problems/view/1310) - Lucro
+- [ ] [1312](https://judge.beecrowd.com/pt/problems/view/1312) - Empilhamento de Bolas
+- [ ] [1319](https://judge.beecrowd.com/pt/problems/view/1319) - Garota Hiperativa
+- [ ] [1325](https://judge.beecrowd.com/pt/problems/view/1325) - Mapas Bolha
+- [ ] [1350](https://judge.beecrowd.com/pt/problems/view/1350) - Esta Sentença é Falsa
+- [ ] [1354](https://judge.beecrowd.com/pt/problems/view/1354) - Um Quadrado Grande, Por Favor
+- [ ] [1365](https://judge.beecrowd.com/pt/problems/view/1365) - Procurando Assentos
+- [ ] [1372](https://judge.beecrowd.com/pt/problems/view/1372) - Doces
+- [ ] [1395](https://judge.beecrowd.com/pt/problems/view/1395) - Números e Operações
+- [ ] [1396](https://judge.beecrowd.com/pt/problems/view/1396) - Hoje tem Prova da Cris!
+- [ ] [1408](https://judge.beecrowd.com/pt/problems/view/1408) - Mário
+- [ ] [1412](https://judge.beecrowd.com/pt/problems/view/1412) - Cadeado com Segredo
+- [ ] [1416](https://judge.beecrowd.com/pt/problems/view/1416) - Placar do ICPC
+- [ ] [1432](https://judge.beecrowd.com/pt/problems/view/1432) - Strings Binárias Triple-Free
+- [ ] [1473](https://judge.beecrowd.com/pt/problems/view/1473) - Linhas de Contêiners
+- [ ] [1474](https://judge.beecrowd.com/pt/problems/view/1474) - Ônibus
+- [ ] [1475](https://judge.beecrowd.com/pt/problems/view/1475) - Remendo
+- [ ] [1485](https://judge.beecrowd.com/pt/problems/view/1485) - Roleta Turca
+- [ ] [1487](https://judge.beecrowd.com/pt/problems/view/1487) - Six Flags
+- [ ] [1493](https://judge.beecrowd.com/pt/problems/view/1493) - Abastecimento de Água Disjunto
+- [ ] [1494](https://judge.beecrowd.com/pt/problems/view/1494) - Onze
+- [ ] [1509](https://judge.beecrowd.com/pt/problems/view/1509) - Contando Ambiguidades
+- [ ] [1510](https://judge.beecrowd.com/pt/problems/view/1510) - O Passeio Turístico
+- [ ] [1513](https://judge.beecrowd.com/pt/problems/view/1513) - Cavalo
+- [ ] [1517](https://judge.beecrowd.com/pt/problems/view/1517) - Maçãs
+- [ ] [1522](https://judge.beecrowd.com/pt/problems/view/1522) - Jogo das Pilhas
+- [ ] [1524](https://judge.beecrowd.com/pt/problems/view/1524) - Fila do Bandejão
+- [ ] [1543](https://judge.beecrowd.com/pt/problems/view/1543) - Quadro Premiado
+- [ ] [1545](https://judge.beecrowd.com/pt/problems/view/1545) - Cartões II
+- [ ] [1565](https://judge.beecrowd.com/pt/problems/view/1565) - Ligue os Pontos
+- [ ] [1579](https://judge.beecrowd.com/pt/problems/view/1579) - Transporte de Painéis Solares
+- [ ] [1590](https://judge.beecrowd.com/pt/problems/view/1590) - Cuarenta e Dois
+- [ ] [1595](https://judge.beecrowd.com/pt/problems/view/1595) - Humm.. Andar ou Correr.. Eis a Questão
+- [ ] [1596](https://judge.beecrowd.com/pt/problems/view/1596) - Torneio de Yusuf II
+- [ ] [1597](https://judge.beecrowd.com/pt/problems/view/1597) - Desmascarando o Empregado do Sultão
+- [ ] [1598](https://judge.beecrowd.com/pt/problems/view/1598) - O Verdadeiro Valor dos Tapetes
+- [ ] [1599](https://judge.beecrowd.com/pt/problems/view/1599) - Picos do Átlas
+- [ ] [1600](https://judge.beecrowd.com/pt/problems/view/1600) - O Gato do Zelador do Armazém
+- [ ] [1601](https://judge.beecrowd.com/pt/problems/view/1601) - Partição do Rebanho
+- [ ] [1602](https://judge.beecrowd.com/pt/problems/view/1602) - Hiperprimos
+- [ ] [1603](https://judge.beecrowd.com/pt/problems/view/1603) - Canais de Qanat
+- [ ] [1604](https://judge.beecrowd.com/pt/problems/view/1604) - Pair-voting no Conselho de Gueliz
+- [ ] [1605](https://judge.beecrowd.com/pt/problems/view/1605) - Montando Sua Própria Cáfila
+- [ ] [1606](https://judge.beecrowd.com/pt/problems/view/1606) - As Dicas de Ali Babá
+- [ ] [1608](https://judge.beecrowd.com/pt/problems/view/1608) - Bolos da Maria
+- [ ] [1611](https://judge.beecrowd.com/pt/problems/view/1611) - Elevador Lotado
+- [ ] [1614](https://judge.beecrowd.com/pt/problems/view/1614) - Ajude o Turista
+- [ ] [1616](https://judge.beecrowd.com/pt/problems/view/1616) - Baile de Formatura
+- [ ] [1636](https://judge.beecrowd.com/pt/problems/view/1636) - Permutações Antimonotônicas Cíclicas
+- [ ] [1637](https://judge.beecrowd.com/pt/problems/view/1637) - Codificação Gamma de Elias
+- [ ] [1642](https://judge.beecrowd.com/pt/problems/view/1642) - Teclado Quebrado
+- [ ] [1643](https://judge.beecrowd.com/pt/problems/view/1643) - Converter Quilômetros para Milhas
+- [ ] [1645](https://judge.beecrowd.com/pt/problems/view/1645) - El Dorado
+- [ ] [1648](https://judge.beecrowd.com/pt/problems/view/1648) - Ajude Bob
+- [ ] [1649](https://judge.beecrowd.com/pt/problems/view/1649) - Ferramenta Irritante de Pintura
+- [ ] [1654](https://judge.beecrowd.com/pt/problems/view/1654) - Mercearia
+- [ ] [1659](https://judge.beecrowd.com/pt/problems/view/1659) - Chamadas Econômicas
+- [ ] [1661](https://judge.beecrowd.com/pt/problems/view/1661) - Comércio de Vinhos na Gergóvia
+- [ ] [1666](https://judge.beecrowd.com/pt/problems/view/1666) - Qualquer Tolo Consegue
+- [ ] [1672](https://judge.beecrowd.com/pt/problems/view/1672) - Em Perigo
+- [ ] [1681](https://judge.beecrowd.com/pt/problems/view/1681) - Dobra
+- [ ] [1682](https://judge.beecrowd.com/pt/problems/view/1682) - Código Genético
+- [ ] [1685](https://judge.beecrowd.com/pt/problems/view/1685) - Praça de Daniel
+- [ ] [1687](https://judge.beecrowd.com/pt/problems/view/1687) - Destrave o Celular
+- [ ] [1689](https://judge.beecrowd.com/pt/problems/view/1689) - Radares
+- [ ] [1690](https://judge.beecrowd.com/pt/problems/view/1690) - Soma de Sobconjuntos
+- [ ] [1700](https://judge.beecrowd.com/pt/problems/view/1700) - Antenas
+- [ ] [1707](https://judge.beecrowd.com/pt/problems/view/1707) - Jogo com Números
+- [ ] [1720](https://judge.beecrowd.com/pt/problems/view/1720) - Sonho de Mondriaan
+- [ ] [1727](https://judge.beecrowd.com/pt/problems/view/1727) - Copa Européia 2000
+- [ ] [1744](https://judge.beecrowd.com/pt/problems/view/1744) - Pedras Pretas e Brancas
+- [ ] [1767](https://judge.beecrowd.com/pt/problems/view/1767) - Saco do Papai Noel
+- [ ] [1775](https://judge.beecrowd.com/pt/problems/view/1775) - André e os Mentos
+- [ ] [1777](https://judge.beecrowd.com/pt/problems/view/1777) - Calçada da Fama
+- [ ] [1784](https://judge.beecrowd.com/pt/problems/view/1784) - Jacutingas vs Jaburus
+- [ ] [1788](https://judge.beecrowd.com/pt/problems/view/1788) - Brincando com Números
+- [ ] [1798](https://judge.beecrowd.com/pt/problems/view/1798) - Cortando Canos
+- [ ] [1810](https://judge.beecrowd.com/pt/problems/view/1810) - Beverly Hills, Century City
+- [ ] [1822](https://judge.beecrowd.com/pt/problems/view/1822) - Obras da China
+- [ ] [1833](https://judge.beecrowd.com/pt/problems/view/1833) - Decoração Natalina
+- [ ] [1838](https://judge.beecrowd.com/pt/problems/view/1838) - A Pedra Filosofal
+- [ ] [1843](https://judge.beecrowd.com/pt/problems/view/1843) - O Enigma do Príncipe
+- [ ] [1852](https://judge.beecrowd.com/pt/problems/view/1852) - Lobos Stark
+- [ ] [1860](https://judge.beecrowd.com/pt/problems/view/1860) - A Caminhada da Vergonha de Cersei
+- [ ] [1878](https://judge.beecrowd.com/pt/problems/view/1878) - Torneios em Sequência
+- [ ] [1892](https://judge.beecrowd.com/pt/problems/view/1892) - Calouro Vence Veterano?
+- [ ] [1900](https://judge.beecrowd.com/pt/problems/view/1900) - Sequências Nulas
+- [ ] [1912](https://judge.beecrowd.com/pt/problems/view/1912) - Ajude Seu Madruga
+- [ ] [1913](https://judge.beecrowd.com/pt/problems/view/1913) - Ajude o Sr. Barriga
+- [ ] [1922](https://judge.beecrowd.com/pt/problems/view/1922) - Diego e o Jogo do Martelo
+- [ ] [1927](https://judge.beecrowd.com/pt/problems/view/1927) - Tapioca e a Chuva de Trufas
+- [ ] [1932](https://judge.beecrowd.com/pt/problems/view/1932) - Bolsa de Valores
+- [ ] [1970](https://judge.beecrowd.com/pt/problems/view/1970) - Primeiro Contato
+- [ ] [1976](https://judge.beecrowd.com/pt/problems/view/1976) - Matrizes
+- [ ] [1978](https://judge.beecrowd.com/pt/problems/view/1978) - Câmeras
+- [ ] [1996](https://judge.beecrowd.com/pt/problems/view/1996) - Construção de Tendas
+- [ ] [2024](https://judge.beecrowd.com/pt/problems/view/2024) - Empilhando Presentes
+- [ ] [2026](https://judge.beecrowd.com/pt/problems/view/2026) - Árvore de Natal
+- [ ] [2027](https://judge.beecrowd.com/pt/problems/view/2027) - Aposta com Noel
+- [ ] [2036](https://judge.beecrowd.com/pt/problems/view/2036) - Efeito Dominó
+- [ ] [2042](https://judge.beecrowd.com/pt/problems/view/2042) - Fofão da Pérsia
+- [ ] [2050](https://judge.beecrowd.com/pt/problems/view/2050) - Bar do Ramsey
+- [ ] [2052](https://judge.beecrowd.com/pt/problems/view/2052) - Mapas de Karnaugh II
+- [ ] [2053](https://judge.beecrowd.com/pt/problems/view/2053) - ET Phone Home
+- [ ] [2072](https://judge.beecrowd.com/pt/problems/view/2072) - Canhões de Anúbis
+- [ ] [2080](https://judge.beecrowd.com/pt/problems/view/2080) - Seqüências de Röntgen
+- [ ] [2089](https://judge.beecrowd.com/pt/problems/view/2089) - Lanchonete
+- [ ] [2095](https://judge.beecrowd.com/pt/problems/view/2095) - Guerra
+- [ ] [2099](https://judge.beecrowd.com/pt/problems/view/2099) - Jogando Com Pedras
+- [ ] [2105](https://judge.beecrowd.com/pt/problems/view/2105) - Monopólio
+- [ ] [2106](https://judge.beecrowd.com/pt/problems/view/2106) - Montagem
+- [ ] [2109](https://judge.beecrowd.com/pt/problems/view/2109) - Duelo de Espiões
+- [ ] [2113](https://judge.beecrowd.com/pt/problems/view/2113) - O Incidente de Sverdlovsk
+- [ ] [2115](https://judge.beecrowd.com/pt/problems/view/2115) - Produção em Ecaterimburgo
+- [ ] [2119](https://judge.beecrowd.com/pt/problems/view/2119) - Goão e Escadas
+- [ ] [2124](https://judge.beecrowd.com/pt/problems/view/2124) - Cardápio da Sra. Montagny!
+- [ ] [2169](https://judge.beecrowd.com/pt/problems/view/2169) - Ajude o Leonardo!
+- [ ] [2181](https://judge.beecrowd.com/pt/problems/view/2181) - URI - Uireb Rhom uin Iavas
+- [ ] [2183](https://judge.beecrowd.com/pt/problems/view/2183) - Batalha Final
+- [ ] [2220](https://judge.beecrowd.com/pt/problems/view/2220) - Ajudando Gust-Avô
+- [ ] [2224](https://judge.beecrowd.com/pt/problems/view/2224) - Torneio de Pomekon
+- [ ] [2226](https://judge.beecrowd.com/pt/problems/view/2226) - Fabrica de Balões
+- [ ] [2236](https://judge.beecrowd.com/pt/problems/view/2236) - Batata Quente
+- [ ] [2243](https://judge.beecrowd.com/pt/problems/view/2243) - Isósceles
+- [ ] [2299](https://judge.beecrowd.com/pt/problems/view/2299) - Pedido de Desculpas
+- [ ] [2360](https://judge.beecrowd.com/pt/problems/view/2360) - Centrais de Controle
+- [ ] [2361](https://judge.beecrowd.com/pt/problems/view/2361) - Entradas e Saídas
+- [ ] [2363](https://judge.beecrowd.com/pt/problems/view/2363) - Brincando com Transformações
+- [ ] [2364](https://judge.beecrowd.com/pt/problems/view/2364) - Henrique
+- [ ] [2446](https://judge.beecrowd.com/pt/problems/view/2446) - Troco
+- [ ] [2475](https://judge.beecrowd.com/pt/problems/view/2475) - Confecção de Presentes
+- [ ] [2480](https://judge.beecrowd.com/pt/problems/view/2480) - Luzes Vermelhas
+- [ ] [2481](https://judge.beecrowd.com/pt/problems/view/2481) - É Uma Cilada Bino
+- [ ] [2491](https://judge.beecrowd.com/pt/problems/view/2491) - Habay e Robfilho – Os Fujões
+- [ ] [2498](https://judge.beecrowd.com/pt/problems/view/2498) - Ajude Vânia
+- [ ] [2501](https://judge.beecrowd.com/pt/problems/view/2501) - Fatores Permitidos
+- [ ] [2524](https://judge.beecrowd.com/pt/problems/view/2524) - Balas de Morango
+- [ ] [2527](https://judge.beecrowd.com/pt/problems/view/2527) - Cheddar
+- [ ] [2532](https://judge.beecrowd.com/pt/problems/view/2532) - Demogorgon
+- [ ] [2553](https://judge.beecrowd.com/pt/problems/view/2553) - Passeio em FdI
+- [ ] [2555](https://judge.beecrowd.com/pt/problems/view/2555) - Quiz Universitário
+- [ ] [2563](https://judge.beecrowd.com/pt/problems/view/2563) - Transfira Para o Professor
+- [ ] [2599](https://judge.beecrowd.com/pt/problems/view/2599) - Contando Radares
+- [ ] [2664](https://judge.beecrowd.com/pt/problems/view/2664) - Ginástica
+- [ ] [2677](https://judge.beecrowd.com/pt/problems/view/2677) - Par ou Ímpar
+- [ ] [2699](https://judge.beecrowd.com/pt/problems/view/2699) - Enigma
+- [ ] [2713](https://judge.beecrowd.com/pt/problems/view/2713) - O Mago é Implacável!
+- [ ] [2716](https://judge.beecrowd.com/pt/problems/view/2716) - Dividindo os Trabalhos II
+- [ ] [2723](https://judge.beecrowd.com/pt/problems/view/2723) - Equilibrando Presentes
+- [ ] [2778](https://judge.beecrowd.com/pt/problems/view/2778) - Matriz do Dabriel
+- [ ] [2799](https://judge.beecrowd.com/pt/problems/view/2799) - Coral Nortista
+- [ ] [2811](https://judge.beecrowd.com/pt/problems/view/2811) - Sibi-Xor
+- [ ] [2818](https://judge.beecrowd.com/pt/problems/view/2818) - Jogo Divertido
+- [ ] [2841](https://judge.beecrowd.com/pt/problems/view/2841) - Dabriel e Sua Festa
+- [ ] [2842](https://judge.beecrowd.com/pt/problems/view/2842) - Dabriel e Suas Strings
+- [ ] [2856](https://judge.beecrowd.com/pt/problems/view/2856) - Viagem do Pão de Queijo
+- [ ] [2877](https://judge.beecrowd.com/pt/problems/view/2877) - Bolinhas de Gude
+- [ ] [2881](https://judge.beecrowd.com/pt/problems/view/2881) - Festival
+- [ ] [2882](https://judge.beecrowd.com/pt/problems/view/2882) - Gasolina
+- [ ] [2888](https://judge.beecrowd.com/pt/problems/view/2888) - Modificando SAT
+- [ ] [2895](https://judge.beecrowd.com/pt/problems/view/2895) - Velhas Balanças
+- [ ] [2917](https://judge.beecrowd.com/pt/problems/view/2917) - Barbante
+- [ ] [2918](https://judge.beecrowd.com/pt/problems/view/2918) - Dígitos Inteligentes
+- [ ] [2919](https://judge.beecrowd.com/pt/problems/view/2919) - Melhor Ordem
+- [ ] [2920](https://judge.beecrowd.com/pt/problems/view/2920) - Número Pequeno
+- [ ] [2921](https://judge.beecrowd.com/pt/problems/view/2921) - Quadros Alienígenas
+- [ ] [2932](https://judge.beecrowd.com/pt/problems/view/2932) - Renas do Papai Noel
+- [ ] [2934](https://judge.beecrowd.com/pt/problems/view/2934) - Noel e Suas Renas
+- [ ] [2967](https://judge.beecrowd.com/pt/problems/view/2967) - Florestas em Risco
+- [ ] [2970](https://judge.beecrowd.com/pt/problems/view/2970) - Keep Calm e Venda Balões
+- [ ] [2973](https://judge.beecrowd.com/pt/problems/view/2973) - Maratona Brasileira de Comedores de Pipoca
+- [ ] [2976](https://judge.beecrowd.com/pt/problems/view/2976) - Triângulos
+- [ ] [3051](https://judge.beecrowd.com/pt/problems/view/3051) - Soma
+- [ ] [3073](https://judge.beecrowd.com/pt/problems/view/3073) - Vetores
+- [ ] [3086](https://judge.beecrowd.com/pt/problems/view/3086) - O Cavaleiro Jedi Guilherme
+- [ ] [3095](https://judge.beecrowd.com/pt/problems/view/3095) - Pudim dos Guerreiros
+- [ ] [3098](https://judge.beecrowd.com/pt/problems/view/3098) - Plíndromo
+- [ ] [3107](https://judge.beecrowd.com/pt/problems/view/3107) - Pulo do Sapo
+- [ ] [3114](https://judge.beecrowd.com/pt/problems/view/3114) - Parkour
+- [ ] [3116](https://judge.beecrowd.com/pt/problems/view/3116) - Seguidores Impossíveis
+- [ ] [3151](https://judge.beecrowd.com/pt/problems/view/3151) - O Iogurte Divino
+- [ ] [3153](https://judge.beecrowd.com/pt/problems/view/3153) - Fake News
+- [ ] [3178](https://judge.beecrowd.com/pt/problems/view/3178) - Avenida de Álamos
+- [ ] [3191](https://judge.beecrowd.com/pt/problems/view/3191) - Copying DNA
+- [ ] [3192](https://judge.beecrowd.com/pt/problems/view/3192) - Circle of Debt
+- [ ] [3195](https://judge.beecrowd.com/pt/problems/view/3195) - Shopaholic
+- [ ] [3196](https://judge.beecrowd.com/pt/problems/view/3196) - Moogle
+- [ ] [3197](https://judge.beecrowd.com/pt/problems/view/3197) - Shoot-out
+- [ ] [3251](https://judge.beecrowd.com/pt/problems/view/3251) - ls
+- [ ] [3274](https://judge.beecrowd.com/pt/problems/view/3274) - Excursão
+- [ ] [3277](https://judge.beecrowd.com/pt/problems/view/3277) - Trabalho na Estrada
+- [ ] [3349](https://judge.beecrowd.com/pt/problems/view/3349) - Armadura
+
+</details>
+
+### 7️⃣ Grafos (0/277)
+
+<details>
+<summary>📋 Ver todos os 277 problemas (Clique para expandir)</summary>
+
+- [ ] [1053](https://judge.beecrowd.com/pt/problems/view/1053) - Desenho Contínuo
+- [ ] [1056](https://judge.beecrowd.com/pt/problems/view/1056) - Fatores e Múltiplos
+- [ ] [1057](https://judge.beecrowd.com/pt/problems/view/1057) - Chegando Junto
+- [ ] [1076](https://judge.beecrowd.com/pt/problems/view/1076) - Desenhando Labirintos
+- [ ] [1081](https://judge.beecrowd.com/pt/problems/view/1081) - DFSr - Hierarquia de Profundidade
+- [ ] [1082](https://judge.beecrowd.com/pt/problems/view/1082) - Componentes Conexos
+- [ ] [1085](https://judge.beecrowd.com/pt/problems/view/1085) - Babel
+- [ ] [1100](https://judge.beecrowd.com/pt/problems/view/1100) - Movimentos do Cavalo
+- [ ] [1111](https://judge.beecrowd.com/pt/problems/view/1111) - Desrugenstein
+- [ ] [1123](https://judge.beecrowd.com/pt/problems/view/1123) - Desvio de Rota
+- [ ] [1128](https://judge.beecrowd.com/pt/problems/view/1128) - Ir e Vir
+- [ ] [1135](https://judge.beecrowd.com/pt/problems/view/1135) - Colônia de Formigas
+- [ ] [1148](https://judge.beecrowd.com/pt/problems/view/1148) - Países em Guerra
+- [ ] [1152](https://judge.beecrowd.com/pt/problems/view/1152) - Estradas Escuras
+- [ ] [1191](https://judge.beecrowd.com/pt/problems/view/1191) - Recuperação da Árvore
+- [ ] [1194](https://judge.beecrowd.com/pt/problems/view/1194) - Prefixa, Infixa e Posfixa
+- [ ] [1195](https://judge.beecrowd.com/pt/problems/view/1195) - Árvore Binária de Busca
+- [ ] [1200](https://judge.beecrowd.com/pt/problems/view/1200) - Operações em ABP I
+- [ ] [1201](https://judge.beecrowd.com/pt/problems/view/1201) - Operações em ABP II
+- [ ] [1205](https://judge.beecrowd.com/pt/problems/view/1205) - Cerco a Leningrado
+- [ ] [1207](https://judge.beecrowd.com/pt/problems/view/1207) - Os Benefícios da Vodka
+- [ ] [1208](https://judge.beecrowd.com/pt/problems/view/1208) - As dinastias de São Petersburgo
+- [ ] [1227](https://judge.beecrowd.com/pt/problems/view/1227) - Perdido na Noite
+- [ ] [1270](https://judge.beecrowd.com/pt/problems/view/1270) - Fibra Óptica
+- [ ] [1275](https://judge.beecrowd.com/pt/problems/view/1275) - Light Up
+- [ ] [1298](https://judge.beecrowd.com/pt/problems/view/1298) - Corrija o Labirinto
+- [ ] [1302](https://judge.beecrowd.com/pt/problems/view/1302) - Juntando Casais
+- [ ] [1314](https://judge.beecrowd.com/pt/problems/view/1314) - Labirintos de Cerca Viva
+- [ ] [1317](https://judge.beecrowd.com/pt/problems/view/1317) - Eu Odeio SPAM, Mas Algumas Pessoas Amam
+- [ ] [1322](https://judge.beecrowd.com/pt/problems/view/1322) - Desejos das Crianças
+- [ ] [1328](https://judge.beecrowd.com/pt/problems/view/1328) - Vá com Calma
+- [ ] [1330](https://judge.beecrowd.com/pt/problems/view/1330) - A Terra Herdada por Tio Tom
+- [ ] [1334](https://judge.beecrowd.com/pt/problems/view/1334) - Poluição Elétrica
+- [ ] [1344](https://judge.beecrowd.com/pt/problems/view/1344) - Parceiros de Telecomunicação
+- [ ] [1348](https://judge.beecrowd.com/pt/problems/view/1348) - X-Mart
+- [ ] [1362](https://judge.beecrowd.com/pt/problems/view/1362) - Minha Camiseta Me Serve
+- [ ] [1384](https://judge.beecrowd.com/pt/problems/view/1384) - Sapo Preguiçoso
+- [ ] [1389](https://judge.beecrowd.com/pt/problems/view/1389) - O Problema do Sapateiro Viajante
+- [ ] [1391](https://judge.beecrowd.com/pt/problems/view/1391) - Quase Menor Caminho
+- [ ] [1394](https://judge.beecrowd.com/pt/problems/view/1394) - Hooligan
+- [ ] [1402](https://judge.beecrowd.com/pt/problems/view/1402) - Será Que Indiana Jones Chega Lá?
+- [ ] [1409](https://judge.beecrowd.com/pt/problems/view/1409) - Zak Galou
+- [ ] [1413](https://judge.beecrowd.com/pt/problems/view/1413) - Apresse-se!
+- [ ] [1415](https://judge.beecrowd.com/pt/problems/view/1415) - Galou Está de Volta!
+- [ ] [1417](https://judge.beecrowd.com/pt/problems/view/1417) - Liga da Justiça
+- [ ] [1423](https://judge.beecrowd.com/pt/problems/view/1423) - A aventura de Super Mario
+- [ ] [1427](https://judge.beecrowd.com/pt/problems/view/1427) - O Problema da Scrooge Co.
+- [ ] [1442](https://judge.beecrowd.com/pt/problems/view/1442) - Desvio de Rua
+- [ ] [1445](https://judge.beecrowd.com/pt/problems/view/1445) - Quem Vai à Festa?
+- [ ] [1447](https://judge.beecrowd.com/pt/problems/view/1447) - Back to the Future
+- [ ] [1454](https://judge.beecrowd.com/pt/problems/view/1454) - O País das Bicicletas
+- [ ] [1461](https://judge.beecrowd.com/pt/problems/view/1461) - Caminhos Simétricos Ótimos
+- [ ] [1462](https://judge.beecrowd.com/pt/problems/view/1462) - Popularidade no Facebook
+- [ ] [1463](https://judge.beecrowd.com/pt/problems/view/1463) - Árvore Binária de Expressão
+- [ ] [1466](https://judge.beecrowd.com/pt/problems/view/1466) - Percurso em Árvore por Nível
+- [ ] [1469](https://judge.beecrowd.com/pt/problems/view/1469) - Chefe
+- [ ] [1476](https://judge.beecrowd.com/pt/problems/view/1476) - Caminhão
+- [ ] [1479](https://judge.beecrowd.com/pt/problems/view/1479) - Ajude seu General
+- [ ] [1482](https://judge.beecrowd.com/pt/problems/view/1482) - Noite no Museu
+- [ ] [1489](https://judge.beecrowd.com/pt/problems/view/1489) - Engenharia de Software
+- [ ] [1490](https://judge.beecrowd.com/pt/problems/view/1490) - Torres que Atacam
+- [ ] [1498](https://judge.beecrowd.com/pt/problems/view/1498) - Inversão de Huffman
+- [ ] [1499](https://judge.beecrowd.com/pt/problems/view/1499) - Junte Dois Reinos
+- [ ] [1502](https://judge.beecrowd.com/pt/problems/view/1502) - Travessia
+- [ ] [1506](https://judge.beecrowd.com/pt/problems/view/1506) - Rabito e Bones
+- [ ] [1525](https://judge.beecrowd.com/pt/problems/view/1525) - Gruntz
+- [ ] [1529](https://judge.beecrowd.com/pt/problems/view/1529) - Max, o Louco
+- [ ] [1539](https://judge.beecrowd.com/pt/problems/view/1539) - Empresa de Telecom
+- [ ] [1550](https://judge.beecrowd.com/pt/problems/view/1550) - Inversão
+- [ ] [1552](https://judge.beecrowd.com/pt/problems/view/1552) - Resgate em Queda Livre
+- [ ] [1562](https://judge.beecrowd.com/pt/problems/view/1562) - Escolhendo as Duplas
+- [ ] [1583](https://judge.beecrowd.com/pt/problems/view/1583) - Contaminação
+- [ ] [1584](https://judge.beecrowd.com/pt/problems/view/1584) - Espertofone
+- [ ] [1592](https://judge.beecrowd.com/pt/problems/view/1592) - Elias e Golias
+- [ ] [1610](https://judge.beecrowd.com/pt/problems/view/1610) - Dudu Faz Serviço
+- [ ] [1617](https://judge.beecrowd.com/pt/problems/view/1617) - Caminho Seguro
+- [ ] [1621](https://judge.beecrowd.com/pt/problems/view/1621) - Labirinto
+- [ ] [1628](https://judge.beecrowd.com/pt/problems/view/1628) - ChessGuess
+- [ ] [1653](https://judge.beecrowd.com/pt/problems/view/1653) - Expressões
+- [ ] [1655](https://judge.beecrowd.com/pt/problems/view/1655) - 106 Milhas Para Chicago
+- [ ] [1668](https://judge.beecrowd.com/pt/problems/view/1668) - Ajude o Autor do Problema
+- [ ] [1669](https://judge.beecrowd.com/pt/problems/view/1669) - Todos os Discos Considerados
+- [ ] [1671](https://judge.beecrowd.com/pt/problems/view/1671) - Código
+- [ ] [1675](https://judge.beecrowd.com/pt/problems/view/1675) - Construção de Procura Binária de Heap
+- [ ] [1677](https://judge.beecrowd.com/pt/problems/view/1677) - A Base de um Grafo
+- [ ] [1692](https://judge.beecrowd.com/pt/problems/view/1692) - Curo Ataque
+- [ ] [1695](https://judge.beecrowd.com/pt/problems/view/1695) - Ordenando Árvores
+- [ ] [1698](https://judge.beecrowd.com/pt/problems/view/1698) - Metrô Brasileiro
+- [ ] [1702](https://judge.beecrowd.com/pt/problems/view/1702) - Colorindo Grafos
+- [ ] [1706](https://judge.beecrowd.com/pt/problems/view/1706) - Pontes Mágicas
+- [ ] [1711](https://judge.beecrowd.com/pt/problems/view/1711) - Dona Minhoca
+- [ ] [1713](https://judge.beecrowd.com/pt/problems/view/1713) - Teletransporte
+- [ ] [1723](https://judge.beecrowd.com/pt/problems/view/1723) - Árvores Filogenéticas Herdadas
+- [ ] [1724](https://judge.beecrowd.com/pt/problems/view/1724) - Caminhada em um Grafo
+- [ ] [1733](https://judge.beecrowd.com/pt/problems/view/1733) - Vladimir o Vampiro
+- [ ] [1738](https://judge.beecrowd.com/pt/problems/view/1738) - Rede de Fibra
+- [ ] [1742](https://judge.beecrowd.com/pt/problems/view/1742) - Entrando em Confusão
+- [ ] [1747](https://judge.beecrowd.com/pt/problems/view/1747) - Distribuição Igual
+- [ ] [1749](https://judge.beecrowd.com/pt/problems/view/1749) - Colisão Galática
+- [ ] [1751](https://judge.beecrowd.com/pt/problems/view/1751) - Alpinista Intrépido
+- [ ] [1752](https://judge.beecrowd.com/pt/problems/view/1752) - Jornada Pelo Reino
+- [ ] [1757](https://judge.beecrowd.com/pt/problems/view/1757) - Viagem Barril
+- [ ] [1764](https://judge.beecrowd.com/pt/problems/view/1764) - Itinerário do Papai Noel
+- [ ] [1773](https://judge.beecrowd.com/pt/problems/view/1773) - Preso no Castelo
+- [ ] [1774](https://judge.beecrowd.com/pt/problems/view/1774) - Roteadores
+- [ ] [1778](https://judge.beecrowd.com/pt/problems/view/1778) - Defesa ao Grafo
+- [ ] [1782](https://judge.beecrowd.com/pt/problems/view/1782) - Honorável Presente
+- [ ] [1790](https://judge.beecrowd.com/pt/problems/view/1790) - Detectando Pontes
+- [ ] [1792](https://judge.beecrowd.com/pt/problems/view/1792) - Ataque Programado
+- [ ] [1799](https://judge.beecrowd.com/pt/problems/view/1799) - O Rato no Labirinto
+- [ ] [1806](https://judge.beecrowd.com/pt/problems/view/1806) - Agente 004
+- [ ] [1813](https://judge.beecrowd.com/pt/problems/view/1813) - Anacrônico?
+- [ ] [1821](https://judge.beecrowd.com/pt/problems/view/1821) - Miai Chinês
+- [ ] [1823](https://judge.beecrowd.com/pt/problems/view/1823) - O Penúltimo Imperador
+- [ ] [1826](https://judge.beecrowd.com/pt/problems/view/1826) - A Linguagem é Infinita?
+- [ ] [1835](https://judge.beecrowd.com/pt/problems/view/1835) - Promessa de Campanha
+- [ ] [1850](https://judge.beecrowd.com/pt/problems/view/1850) - O Labirinto de Ninguém
+- [ ] [1855](https://judge.beecrowd.com/pt/problems/view/1855) - Mapa do Meistre
+- [ ] [1862](https://judge.beecrowd.com/pt/problems/view/1862) - Casas de Westeros
+- [ ] [1882](https://judge.beecrowd.com/pt/problems/view/1882) - Passeios Aleatórios pela Tailândia
+- [ ] [1883](https://judge.beecrowd.com/pt/problems/view/1883) - Fuga de Ayutthaya
+- [ ] [1894](https://judge.beecrowd.com/pt/problems/view/1894) - Filogenia
+- [ ] [1902](https://judge.beecrowd.com/pt/problems/view/1902) - Sociedade Brasileira Casamenteira
+- [ ] [1903](https://judge.beecrowd.com/pt/problems/view/1903) - Cadeia Alimentar
+- [ ] [1905](https://judge.beecrowd.com/pt/problems/view/1905) - Polícia e Ladrão
+- [ ] [1906](https://judge.beecrowd.com/pt/problems/view/1906) - Senhas de Collatz
+- [ ] [1907](https://judge.beecrowd.com/pt/problems/view/1907) - Coloração de Cenários de Jogos
+- [ ] [1908](https://judge.beecrowd.com/pt/problems/view/1908) - UFFS Multicampi
+- [ ] [1910](https://judge.beecrowd.com/pt/problems/view/1910) - Ajude Clotilde
+- [ ] [1915](https://judge.beecrowd.com/pt/problems/view/1915) - Ajude Chaves
+- [ ] [1923](https://judge.beecrowd.com/pt/problems/view/1923) - Rerisson e o Churrasco
+- [ ] [1925](https://judge.beecrowd.com/pt/problems/view/1925) - Ordan e as Novinhas
+- [ ] [1928](https://judge.beecrowd.com/pt/problems/view/1928) - Jogo da Memória
+- [ ] [1931](https://judge.beecrowd.com/pt/problems/view/1931) - Mania de Par
+- [ ] [1947](https://judge.beecrowd.com/pt/problems/view/1947) - Rota do Taxista
+- [ ] [1948](https://judge.beecrowd.com/pt/problems/view/1948) - Compilador
+- [ ] [1950](https://judge.beecrowd.com/pt/problems/view/1950) - Spöhndriger
+- [ ] [1951](https://judge.beecrowd.com/pt/problems/view/1951) - Validador de Circuitos
+- [ ] [1952](https://judge.beecrowd.com/pt/problems/view/1952) - O Cavalo no Xadrez 3D
+- [ ] [1954](https://judge.beecrowd.com/pt/problems/view/1954) - Caminhos Evolucionários Possíveis
+- [ ] [1955](https://judge.beecrowd.com/pt/problems/view/1955) - See World
+- [ ] [1956](https://judge.beecrowd.com/pt/problems/view/1956) - Acácias
+- [ ] [1972](https://judge.beecrowd.com/pt/problems/view/1972) - Nêmesis
+- [ ] [1974](https://judge.beecrowd.com/pt/problems/view/1974) - Além da Escuridão
+- [ ] [1977](https://judge.beecrowd.com/pt/problems/view/1977) - Não Posso me Atrasar
+- [ ] [1979](https://judge.beecrowd.com/pt/problems/view/1979) - Salas Separadas
+- [ ] [1988](https://judge.beecrowd.com/pt/problems/view/1988) - Circuitos Turísticos
+- [ ] [1993](https://judge.beecrowd.com/pt/problems/view/1993) - Ele é Preguiçoso
+- [ ] [1994](https://judge.beecrowd.com/pt/problems/view/1994) - Imperialismo
+- [ ] [2002](https://judge.beecrowd.com/pt/problems/view/2002) - Casa de Rogério
+- [ ] [2032](https://judge.beecrowd.com/pt/problems/view/2032) - Jogo dos Oito
+- [ ] [2038](https://judge.beecrowd.com/pt/problems/view/2038) - Gerando DNA Alienígena
+- [ ] [2039](https://judge.beecrowd.com/pt/problems/view/2039) - Programadores Devem Aprender Teoria da Computação
+- [ ] [2046](https://judge.beecrowd.com/pt/problems/view/2046) - Entregadores de Steak
+- [ ] [2048](https://judge.beecrowd.com/pt/problems/view/2048) - Houston, Nós Temos Um Problema!
+- [ ] [2056](https://judge.beecrowd.com/pt/problems/view/2056) - O Cubo
+- [ ] [2073](https://judge.beecrowd.com/pt/problems/view/2073) - Mercado do Cairo
+- [ ] [2079](https://judge.beecrowd.com/pt/problems/view/2079) - Produto de Guerra
+- [ ] [2081](https://judge.beecrowd.com/pt/problems/view/2081) - Sonhos, Acredite Neles!
+- [ ] [2082](https://judge.beecrowd.com/pt/problems/view/2082) - Viagens no Tempo
+- [ ] [2085](https://judge.beecrowd.com/pt/problems/view/2085) - Chapeuzinho Vermelho
+- [ ] [2086](https://judge.beecrowd.com/pt/problems/view/2086) - Ciclofaixa
+- [ ] [2088](https://judge.beecrowd.com/pt/problems/view/2088) - Combate à Dengue
+- [ ] [2098](https://judge.beecrowd.com/pt/problems/view/2098) - Ilha do Tesouro
+- [ ] [2103](https://judge.beecrowd.com/pt/problems/view/2103) - Harbin é Muita Grana!
+- [ ] [2112](https://judge.beecrowd.com/pt/problems/view/2112) - Escalonamento de Salas de Aula
+- [ ] [2117](https://judge.beecrowd.com/pt/problems/view/2117) - Mestre Me Ajude
+- [ ] [2118](https://judge.beecrowd.com/pt/problems/view/2118) - Qual a Sede?
+- [ ] [2121](https://judge.beecrowd.com/pt/problems/view/2121) - Turismo em Ecaterimburgo
+- [ ] [2127](https://judge.beecrowd.com/pt/problems/view/2127) - Sistema Cipoviário
+- [ ] [2128](https://judge.beecrowd.com/pt/problems/view/2128) - Demonstração de Honestidade!
+- [ ] [2130](https://judge.beecrowd.com/pt/problems/view/2130) - Final Mundial de 2008
+- [ ] [2131](https://judge.beecrowd.com/pt/problems/view/2131) - Mesa da Sra. Montagny!
+- [ ] [2155](https://judge.beecrowd.com/pt/problems/view/2155) - Os Icosaedros do Lagarto
+- [ ] [2182](https://judge.beecrowd.com/pt/problems/view/2182) - Luciano e a Bicicletinha
+- [ ] [2184](https://judge.beecrowd.com/pt/problems/view/2184) - Pomekons
+- [ ] [2190](https://judge.beecrowd.com/pt/problems/view/2190) - Rede Ótica
+- [ ] [2225](https://judge.beecrowd.com/pt/problems/view/2225) - Penalização
+- [ ] [2246](https://judge.beecrowd.com/pt/problems/view/2246) - Ladrilhos
+- [ ] [2300](https://judge.beecrowd.com/pt/problems/view/2300) - Transmissão de Energia
+- [ ] [2357](https://judge.beecrowd.com/pt/problems/view/2357) - Violência em Sildávia
+- [ ] [2359](https://judge.beecrowd.com/pt/problems/view/2359) - Alocando Ambulâncias
+- [ ] [2372](https://judge.beecrowd.com/pt/problems/view/2372) - Reunião
+- [ ] [2404](https://judge.beecrowd.com/pt/problems/view/2404) - Reduzindo Detalhes em um Mapa
+- [ ] [2412](https://judge.beecrowd.com/pt/problems/view/2412) - Tarzan
+- [ ] [2419](https://judge.beecrowd.com/pt/problems/view/2419) - Costa
+- [ ] [2426](https://judge.beecrowd.com/pt/problems/view/2426) - Bomba
+- [ ] [2428](https://judge.beecrowd.com/pt/problems/view/2428) - Capital
+- [ ] [2429](https://judge.beecrowd.com/pt/problems/view/2429) - Rodovia
+- [ ] [2440](https://judge.beecrowd.com/pt/problems/view/2440) - Famílias de Troia
+- [ ] [2476](https://judge.beecrowd.com/pt/problems/view/2476) - Entregas do Noel
+- [ ] [2477](https://judge.beecrowd.com/pt/problems/view/2477) - Rede de Distribuição
+- [ ] [2485](https://judge.beecrowd.com/pt/problems/view/2485) - Bicho da Goiaba
+- [ ] [2490](https://judge.beecrowd.com/pt/problems/view/2490) - Garoto Ixpertinho
+- [ ] [2522](https://judge.beecrowd.com/pt/problems/view/2522) - Rede do DINF
+- [ ] [2528](https://judge.beecrowd.com/pt/problems/view/2528) - Cidade Proibida
+- [ ] [2529](https://judge.beecrowd.com/pt/problems/view/2529) - Circo das Pulgas
+- [ ] [2545](https://judge.beecrowd.com/pt/problems/view/2545) - Manyfile
+- [ ] [2550](https://judge.beecrowd.com/pt/problems/view/2550) - Novo Campus
+- [ ] [2558](https://judge.beecrowd.com/pt/problems/view/2558) - Robô Aspirador
+- [ ] [2562](https://judge.beecrowd.com/pt/problems/view/2562) - Tipos Analógimôn
+- [ ] [2566](https://judge.beecrowd.com/pt/problems/view/2566) - Viagem Para BH
+- [ ] [2585](https://judge.beecrowd.com/pt/problems/view/2585) - Dominó Incompleto
+- [ ] [2631](https://judge.beecrowd.com/pt/problems/view/2631) - Formando Duplas
+- [ ] [2637](https://judge.beecrowd.com/pt/problems/view/2637) - Casa do Batera
+- [ ] [2646](https://judge.beecrowd.com/pt/problems/view/2646) - Secret Chamber at Mount Rushmore
+- [ ] [2652](https://judge.beecrowd.com/pt/problems/view/2652) - Quantas Árvores?
+- [ ] [2657](https://judge.beecrowd.com/pt/problems/view/2657) - Sensate
+- [ ] [2666](https://judge.beecrowd.com/pt/problems/view/2666) - Imposto Real
+- [ ] [2676](https://judge.beecrowd.com/pt/problems/view/2676) - Cidade no Centro
+- [ ] [2683](https://judge.beecrowd.com/pt/problems/view/2683) - Espaço de Projeto
+- [ ] [2687](https://judge.beecrowd.com/pt/problems/view/2687) - Dominação Bacteriana
+- [ ] [2688](https://judge.beecrowd.com/pt/problems/view/2688) - Escolhendo um Lugar
+- [ ] [2703](https://judge.beecrowd.com/pt/problems/view/2703) - Estradas Imperiais
+- [ ] [2706](https://judge.beecrowd.com/pt/problems/view/2706) - Linearville
+- [ ] [2725](https://judge.beecrowd.com/pt/problems/view/2725) - Vila Natalina
+- [ ] [2731](https://judge.beecrowd.com/pt/problems/view/2731) - Programação de Viagem
+- [ ] [2732](https://judge.beecrowd.com/pt/problems/view/2732) - Reino De Alice
+- [ ] [2768](https://judge.beecrowd.com/pt/problems/view/2768) - Grafo do Dabriel
+- [ ] [2781](https://judge.beecrowd.com/pt/problems/view/2781) - Câmara de Compensação
+- [ ] [2784](https://judge.beecrowd.com/pt/problems/view/2784) - Ilhas
+- [ ] [2804](https://judge.beecrowd.com/pt/problems/view/2804) - Ferrovias
+- [ ] [2809](https://judge.beecrowd.com/pt/problems/view/2809) - K-ésimo Caminho
+- [ ] [2810](https://judge.beecrowd.com/pt/problems/view/2810) - Combate à Dengue 2.0
+- [ ] [2816](https://judge.beecrowd.com/pt/problems/view/2816) - Palíndromo do Dabriel
+- [ ] [2838](https://judge.beecrowd.com/pt/problems/view/2838) - As Jóias do Infinito
+- [ ] [2854](https://judge.beecrowd.com/pt/problems/view/2854) - Árvore Genealógica
+- [ ] [2870](https://judge.beecrowd.com/pt/problems/view/2870) - Jogo do Mapa
+- [ ] [2883](https://judge.beecrowd.com/pt/problems/view/2883) - Hipótese Policial
+- [ ] [2885](https://judge.beecrowd.com/pt/problems/view/2885) - Juntando Capitais
+- [ ] [2887](https://judge.beecrowd.com/pt/problems/view/2887) - Linhas de Metrô
+- [ ] [2894](https://judge.beecrowd.com/pt/problems/view/2894) - Vírus
+- [ ] [2933](https://judge.beecrowd.com/pt/problems/view/2933) - Passeio de Trenó pela Terra
+- [ ] [2941](https://judge.beecrowd.com/pt/problems/view/2941) - Fibra Ótica
+- [ ] [2959](https://judge.beecrowd.com/pt/problems/view/2959) - Credo com ParaTudo!
+- [ ] [2962](https://judge.beecrowd.com/pt/problems/view/2962) - Arte Valiosa
+- [ ] [2965](https://judge.beecrowd.com/pt/problems/view/2965) - Delação Premiada
+- [ ] [2969](https://judge.beecrowd.com/pt/problems/view/2969) - Interplanetário
+- [ ] [2977](https://judge.beecrowd.com/pt/problems/view/2977) - Romeu e Julieta
+- [ ] [2980](https://judge.beecrowd.com/pt/problems/view/2980) - Jogo da Árvore
+- [ ] [3003](https://judge.beecrowd.com/pt/problems/view/3003) - O Grupinho
+- [ ] [3027](https://judge.beecrowd.com/pt/problems/view/3027) - Plano de Treino
+- [ ] [3028](https://judge.beecrowd.com/pt/problems/view/3028) - Bubble Reactor
+- [ ] [3031](https://judge.beecrowd.com/pt/problems/view/3031) - Xor Spanning Tree
+- [ ] [3043](https://judge.beecrowd.com/pt/problems/view/3043) - Festa Junina
+- [ ] [3044](https://judge.beecrowd.com/pt/problems/view/3044) - Manutenção
+- [ ] [3061](https://judge.beecrowd.com/pt/problems/view/3061) - Manchas de Pele
+- [ ] [3067](https://judge.beecrowd.com/pt/problems/view/3067) - Dominó
+- [ ] [3070](https://judge.beecrowd.com/pt/problems/view/3070) - Autoestradas HyperspaceTM
+- [ ] [3072](https://judge.beecrowd.com/pt/problems/view/3072) - Namoro
+- [ ] [3075](https://judge.beecrowd.com/pt/problems/view/3075) - Cassinos e Viagem
+- [ ] [3082](https://judge.beecrowd.com/pt/problems/view/3082) - Matador De Onça Mutante
+- [ ] [3101](https://judge.beecrowd.com/pt/problems/view/3101) - Famílias Poligâmicas
+- [ ] [3115](https://judge.beecrowd.com/pt/problems/view/3115) - Estradas
+- [ ] [3119](https://judge.beecrowd.com/pt/problems/view/3119) - As Aventuras do Calango Atômico
+- [ ] [3124](https://judge.beecrowd.com/pt/problems/view/3124) - Minha Reforma, Minha Vida
+- [ ] [3144](https://judge.beecrowd.com/pt/problems/view/3144) - G de Grafo
+- [ ] [3150](https://judge.beecrowd.com/pt/problems/view/3150) - O Esconderijo do Rambo
+- [ ] [3158](https://judge.beecrowd.com/pt/problems/view/3158) - O Bom Presidente
+- [ ] [3169](https://judge.beecrowd.com/pt/problems/view/3169) - Batendo em Retirada
+- [ ] [3193](https://judge.beecrowd.com/pt/problems/view/3193) - Full Tank?
+- [ ] [3194](https://judge.beecrowd.com/pt/problems/view/3194) - Nested Dolls
+- [ ] [3211](https://judge.beecrowd.com/pt/problems/view/3211) - Reino
+- [ ] [3215](https://judge.beecrowd.com/pt/problems/view/3215) - Dinheiro Importa
+- [ ] [3218](https://judge.beecrowd.com/pt/problems/view/3218) - Fuga Rápida
+- [ ] [3220](https://judge.beecrowd.com/pt/problems/view/3220) - Planejamento de Vôo
+- [ ] [3221](https://judge.beecrowd.com/pt/problems/view/3221) - Faróis
+- [ ] [3236](https://judge.beecrowd.com/pt/problems/view/3236) - Sucessão
+- [ ] [3237](https://judge.beecrowd.com/pt/problems/view/3237) - Conectar
+- [ ] [3247](https://judge.beecrowd.com/pt/problems/view/3247) - Robôs em uma Grade
+- [ ] [3264](https://judge.beecrowd.com/pt/problems/view/3264) - Pinball
+- [ ] [3268](https://judge.beecrowd.com/pt/problems/view/3268) - Lounges da Amanda
+- [ ] [3269](https://judge.beecrowd.com/pt/problems/view/3269) - Vigilância de Basin City
+- [ ] [3314](https://judge.beecrowd.com/pt/problems/view/3314) - Konfusa, a Colmeia!
+- [ ] [3340](https://judge.beecrowd.com/pt/problems/view/3340) - Estudante De Mestrado
+- [ ] [3350](https://judge.beecrowd.com/pt/problems/view/3350) - A Casa das Sete Mulheres
+- [ ] [3356](https://judge.beecrowd.com/pt/problems/view/3356) - Reprodução Controlada
+
+</details>
+
+### 8️⃣ Geometria Computacional (0/83)
+
+<details>
+<summary>📋 Ver todos os 83 problemas (Clique para expandir)</summary>
+
+- [ ] [1039](https://judge.beecrowd.com/pt/problems/view/1039) - Flores de Fogo
+- [ ] [1102](https://judge.beecrowd.com/pt/problems/view/1102) - Ataque Fulminante
+- [ ] [1108](https://judge.beecrowd.com/pt/problems/view/1108) - Torres de Telefonia Celular
+- [ ] [1124](https://judge.beecrowd.com/pt/problems/view/1124) - Elevador
+- [ ] [1126](https://judge.beecrowd.com/pt/problems/view/1126) - Guerra nas Estrelas
+- [ ] [1137](https://judge.beecrowd.com/pt/problems/view/1137) - Pontos Cocirculares
+- [ ] [1204](https://judge.beecrowd.com/pt/problems/view/1204) - Myachowski, o Futebol Russo
+- [ ] [1223](https://judge.beecrowd.com/pt/problems/view/1223) - Tobogan de Bolinhas
+- [ ] [1268](https://judge.beecrowd.com/pt/problems/view/1268) - Missão Impossível
+- [ ] [1291](https://judge.beecrowd.com/pt/problems/view/1291) - Será Isso Integração?
+- [ ] [1292](https://judge.beecrowd.com/pt/problems/view/1292) - Problema com um Pentágono
+- [ ] [1293](https://judge.beecrowd.com/pt/problems/view/1293) - Romeu e Julieta!
+- [ ] [1294](https://judge.beecrowd.com/pt/problems/view/1294) - A Maior e Menor Caixa
+- [ ] [1295](https://judge.beecrowd.com/pt/problems/view/1295) - Problema dos Pares Mais Próximos
+- [ ] [1296](https://judge.beecrowd.com/pt/problems/view/1296) - Medianas
+- [ ] [1315](https://judge.beecrowd.com/pt/problems/view/1315) - Não tão Convexo
+- [ ] [1336](https://judge.beecrowd.com/pt/problems/view/1336) - Cerca do Jardim
+- [ ] [1345](https://judge.beecrowd.com/pt/problems/view/1345) - Região Segura
+- [ ] [1358](https://judge.beecrowd.com/pt/problems/view/1358) - Cortando Extremidades
+- [ ] [1370](https://judge.beecrowd.com/pt/problems/view/1370) - Regata de Cientistas
+- [ ] [1378](https://judge.beecrowd.com/pt/problems/view/1378) - Triângulos Isósceles
+- [ ] [1411](https://judge.beecrowd.com/pt/problems/view/1411) - Encolhendo Polígonos
+- [ ] [1446](https://judge.beecrowd.com/pt/problems/view/1446) - Diagrama de Venn?
+- [ ] [1455](https://judge.beecrowd.com/pt/problems/view/1455) - Final do ICPC
+- [ ] [1464](https://judge.beecrowd.com/pt/problems/view/1464) - Camadas de Cebola
+- [ ] [1468](https://judge.beecrowd.com/pt/problems/view/1468) - Balão
+- [ ] [1497](https://judge.beecrowd.com/pt/problems/view/1497) - Esconde-Esconde
+- [ ] [1504](https://judge.beecrowd.com/pt/problems/view/1504) - Curo Railroad
+- [ ] [1549](https://judge.beecrowd.com/pt/problems/view/1549) - Dividindo a Coca
+- [ ] [1560](https://judge.beecrowd.com/pt/problems/view/1560) - Energia dos Triângulos
+- [ ] [1571](https://judge.beecrowd.com/pt/problems/view/1571) - Um Quadrado & Triângulos Equiláteros
+- [ ] [1613](https://judge.beecrowd.com/pt/problems/view/1613) - Goemon em Apuros
+- [ ] [1631](https://judge.beecrowd.com/pt/problems/view/1631) - O Fantástico Bolo de Bobby
+- [ ] [1646](https://judge.beecrowd.com/pt/problems/view/1646) - Floresta
+- [ ] [1651](https://judge.beecrowd.com/pt/problems/view/1651) - Cilindro
+- [ ] [1665](https://judge.beecrowd.com/pt/problems/view/1665) - Decorando a Parede
+- [ ] [1679](https://judge.beecrowd.com/pt/problems/view/1679) - Bebida, com Gelo
+- [ ] [1693](https://judge.beecrowd.com/pt/problems/view/1693) - Apenas Outro Problema de Física
+- [ ] [1721](https://judge.beecrowd.com/pt/problems/view/1721) - Equidistância
+- [ ] [1730](https://judge.beecrowd.com/pt/problems/view/1730) - Global Roaming
+- [ ] [1748](https://judge.beecrowd.com/pt/problems/view/1748) - Cerque Os Vegetais
+- [ ] [1783](https://judge.beecrowd.com/pt/problems/view/1783) - Ih, Ferrou, um Buraco Negro!
+- [ ] [1797](https://judge.beecrowd.com/pt/problems/view/1797) - Ferozes e Curiosos
+- [ ] [1818](https://judge.beecrowd.com/pt/problems/view/1818) - Centro de Convenções
+- [ ] [1825](https://judge.beecrowd.com/pt/problems/view/1825) - Formigando
+- [ ] [1834](https://judge.beecrowd.com/pt/problems/view/1834) - Vogons!
+- [ ] [1844](https://judge.beecrowd.com/pt/problems/view/1844) - As Relíquias da Morte
+- [ ] [1857](https://judge.beecrowd.com/pt/problems/view/1857) - Prelúdio de um Casamento Vermelho
+- [ ] [1875](https://judge.beecrowd.com/pt/problems/view/1875) - Tribol
+- [ ] [1938](https://judge.beecrowd.com/pt/problems/view/1938) - Praça do Retângulo
+- [ ] [1971](https://judge.beecrowd.com/pt/problems/view/1971) - Insurreição
+- [ ] [1982](https://judge.beecrowd.com/pt/problems/view/1982) - Novos Computadores
+- [ ] [1991](https://judge.beecrowd.com/pt/problems/view/1991) - Fábrica de Pontes
+- [ ] [2043](https://judge.beecrowd.com/pt/problems/view/2043) - Montanha Alta
+- [ ] [2045](https://judge.beecrowd.com/pt/problems/view/2045) - Defendendo Alamo
+- [ ] [2083](https://judge.beecrowd.com/pt/problems/view/2083) - Beira da Estrada
+- [ ] [2094](https://judge.beecrowd.com/pt/problems/view/2094) - Flores
+- [ ] [2104](https://judge.beecrowd.com/pt/problems/view/2104) - Lasers
+- [ ] [2158](https://judge.beecrowd.com/pt/problems/view/2158) - Ajudando o Tio Cláudio
+- [ ] [2193](https://judge.beecrowd.com/pt/problems/view/2193) - Affine Mess
+- [ ] [2245](https://judge.beecrowd.com/pt/problems/view/2245) - Kit de Encolhimento de Polígonos
+- [ ] [2362](https://judge.beecrowd.com/pt/problems/view/2362) - Invasão Alienígena
+- [ ] [2517](https://judge.beecrowd.com/pt/problems/view/2517) - Desafio PoGro
+- [ ] [2518](https://judge.beecrowd.com/pt/problems/view/2518) - Escada do DINF
+- [ ] [2521](https://judge.beecrowd.com/pt/problems/view/2521) - Pergunte à Geógrafa
+- [ ] [2525](https://judge.beecrowd.com/pt/problems/view/2525) - Cacheiro Viajante
+- [ ] [2541](https://judge.beecrowd.com/pt/problems/view/2541) - Ingrest
+- [ ] [2561](https://judge.beecrowd.com/pt/problems/view/2561) - Tesouro
+- [ ] [2640](https://judge.beecrowd.com/pt/problems/view/2640) - Missão Improvável
+- [ ] [2665](https://judge.beecrowd.com/pt/problems/view/2665) - Hipercampo
+- [ ] [2695](https://judge.beecrowd.com/pt/problems/view/2695) - Arrumando Lajotas
+- [ ] [2773](https://judge.beecrowd.com/pt/problems/view/2773) - Menor Caminho
+- [ ] [2840](https://judge.beecrowd.com/pt/problems/view/2840) - Balão++
+- [ ] [2891](https://judge.beecrowd.com/pt/problems/view/2891) - Um Problema com Final Feliz
+- [ ] [3064](https://judge.beecrowd.com/pt/problems/view/3064) - Elástico
+- [ ] [3081](https://judge.beecrowd.com/pt/problems/view/3081) - Órbita
+- [ ] [3108](https://judge.beecrowd.com/pt/problems/view/3108) - Arremesse os BigOs!
+- [ ] [3152](https://judge.beecrowd.com/pt/problems/view/3152) - Samuel, O Cafeicultor
+- [ ] [3156](https://judge.beecrowd.com/pt/problems/view/3156) - Xadrez Galático
+- [ ] [3184](https://judge.beecrowd.com/pt/problems/view/3184) - Obtendo Ouro
+- [ ] [3213](https://judge.beecrowd.com/pt/problems/view/3213) - Parque Infantil
+- [ ] [3260](https://judge.beecrowd.com/pt/problems/view/3260) - Robert Hood
+- [ ] [3352](https://judge.beecrowd.com/pt/problems/view/3352) - Fuja comigo, Galileu!
+
+</details>
+
+### 9️⃣ SQL (0/50)
+
+<details>
+<summary>📋 Ver todos os 50 problemas (Clique para expandir)</summary>
+
+- [0] [2602](https://judge.beecrowd.com/pt/problems/view/2602) - Select Básico
+- [ ] [2603](https://judge.beecrowd.com/pt/problems/view/2603) - Endereço dos Clientes
+- [ ] [2604](https://judge.beecrowd.com/pt/problems/view/2604) - Menores que 10 ou Maiores que 100
+- [ ] [2605](https://judge.beecrowd.com/pt/problems/view/2605) - Representantes Executivos
+- [ ] [2606](https://judge.beecrowd.com/pt/problems/view/2606) - Categorias
+- [ ] [2607](https://judge.beecrowd.com/pt/problems/view/2607) - Cidades em Ordem Alfabética
+- [ ] [2608](https://judge.beecrowd.com/pt/problems/view/2608) - Maior e Menor Preço
+- [ ] [2609](https://judge.beecrowd.com/pt/problems/view/2609) - Produtos por Categorias
+- [ ] [2610](https://judge.beecrowd.com/pt/problems/view/2610) - Valor Médio dos Produtos
+- [ ] [2611](https://judge.beecrowd.com/pt/problems/view/2611) - Filmes de Ação
+- [ ] [2613](https://judge.beecrowd.com/pt/problems/view/2613) - Filmes em Promoção
+- [ ] [2614](https://judge.beecrowd.com/pt/problems/view/2614) - Locações de Setembro
+- [ ] [2615](https://judge.beecrowd.com/pt/problems/view/2615) - Expandindo o Negocio
+- [ ] [2616](https://judge.beecrowd.com/pt/problems/view/2616) - Nenhuma Locação
+- [ ] [2617](https://judge.beecrowd.com/pt/problems/view/2617) - Fornecedor Ajax SA
+- [ ] [2618](https://judge.beecrowd.com/pt/problems/view/2618) - Produtos Importados
+- [ ] [2619](https://judge.beecrowd.com/pt/problems/view/2619) - Super Luxo
+- [ ] [2620](https://judge.beecrowd.com/pt/problems/view/2620) - Pedidos no Primeiro Semestre
+- [ ] [2621](https://judge.beecrowd.com/pt/problems/view/2621) - Quantidades Entre 10 e 20
+- [ ] [2622](https://judge.beecrowd.com/pt/problems/view/2622) - Pessoas Jurídicas
+- [ ] [2623](https://judge.beecrowd.com/pt/problems/view/2623) - Categorias com Vários Produtos
+- [ ] [2624](https://judge.beecrowd.com/pt/problems/view/2624) - Quantidades de Cidades por Clientes
+- [ ] [2625](https://judge.beecrowd.com/pt/problems/view/2625) - Máscara de CPF
+- [ ] [2737](https://judge.beecrowd.com/pt/problems/view/2737) - Advogados
+- [ ] [2738](https://judge.beecrowd.com/pt/problems/view/2738) - Concurso
+- [ ] [2739](https://judge.beecrowd.com/pt/problems/view/2739) - Dia de Pagamento
+- [ ] [2740](https://judge.beecrowd.com/pt/problems/view/2740) - Liga
+- [ ] [2741](https://judge.beecrowd.com/pt/problems/view/2741) - Notas dos Alunos
+- [ ] [2742](https://judge.beecrowd.com/pt/problems/view/2742) - O Multiverso de Richard
+- [ ] [2743](https://judge.beecrowd.com/pt/problems/view/2743) - Quantidade de Caracteres
+- [ ] [2744](https://judge.beecrowd.com/pt/problems/view/2744) - Senhas
+- [ ] [2745](https://judge.beecrowd.com/pt/problems/view/2745) - Taxas
+- [ ] [2746](https://judge.beecrowd.com/pt/problems/view/2746) - Virus
+- [ ] [2988](https://judge.beecrowd.com/pt/problems/view/2988) - Campeonato Cearense
+- [ ] [2989](https://judge.beecrowd.com/pt/problems/view/2989) - Departamentos e Divisões
+- [ ] [2990](https://judge.beecrowd.com/pt/problems/view/2990) - CPF Dos Empregados
+- [ ] [2991](https://judge.beecrowd.com/pt/problems/view/2991) - Estatísticas dos Departamentos
+- [ ] [2992](https://judge.beecrowd.com/pt/problems/view/2992) - Divisões Com Maiores Médias Salariais
+- [ ] [2993](https://judge.beecrowd.com/pt/problems/view/2993) - Mais Frequente
+- [ ] [2994](https://judge.beecrowd.com/pt/problems/view/2994) - Quanto Ganha um Médico?
+- [ ] [2995](https://judge.beecrowd.com/pt/problems/view/2995) - A Mensagem do Sensor
+- [ ] [2996](https://judge.beecrowd.com/pt/problems/view/2996) - Entrega de Pacotes
+- [ ] [2997](https://judge.beecrowd.com/pt/problems/view/2997) - Pagamento dos Empregados
+- [ ] [2998](https://judge.beecrowd.com/pt/problems/view/2998) - The Payback
+- [ ] [2999](https://judge.beecrowd.com/pt/problems/view/2999) - Maior Sálario da Divisão
+- [ ] [3001](https://judge.beecrowd.com/pt/problems/view/3001) - Update sem Where
+- [ ] [3480](https://judge.beecrowd.com/pt/problems/view/3480) - Cadeiras adjacentes
+- [ ] [3481](https://judge.beecrowd.com/pt/problems/view/3481) - Classificando uma Árvore
+- [ ] [3482](https://judge.beecrowd.com/pt/problems/view/3482) - Seguidores
+- [ ] [3483](https://judge.beecrowd.com/pt/problems/view/3483) - Segundo Maior e Menor
+
+</details>
+
+## 🤝 Contribuições
+
+Este é um repositório pessoal de estudos, mas sugestões são sempre bem-vindas!
+
+---
+
+⭐ Se este repositório te ajudou de alguma forma, considere dar uma estrela!
+
+💡 **Dica:** Use `Ctrl+F` ou `Cmd+F` para buscar problemas específicos pelo número ou nome.

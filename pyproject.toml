@@ -1,0 +1,7 @@
+[project]
+name = "beecrowd-python"
+version = "0.1.0"
+description = "Repositório com minhas soluções dos problemas do Beecrowd (antigo URI Online Judge) em Python."
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = []
